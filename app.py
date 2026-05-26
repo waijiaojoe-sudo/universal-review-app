@@ -15,8 +15,15 @@ from supabase import create_client, Client
 
 # ─── Config ───────────────────────────────────────────────────────────────────
 
-SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://rfkivouxupijlddrvhjg.supabase.co")
-SUPABASE_KEY = os.environ.get("SUPABASE_KEY", "")
+def _get_secret(key, default=""):
+    """Get a value from Streamlit secrets, falling back to env vars."""
+    try:
+        return st.secrets[key]
+    except (KeyError, AttributeError):
+        return os.environ.get(key, default)
+
+SUPABASE_URL = _get_secret("SUPABASE_URL", "https://rfkivouxupijlddrvhjg.supabase.co")
+SUPABASE_KEY = _get_secret("SUPABASE_KEY", "")
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 QUESTION_FILES = [
