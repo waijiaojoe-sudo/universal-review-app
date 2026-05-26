@@ -388,6 +388,26 @@ def page_menu():
             """, unsafe_allow_html=True)
             st.markdown("---")
 
+        # Progress overview
+        answered = get_answered_questions(supabase, st.session_state.player_id)
+        total_qs = len(all_questions)
+        tried = len(answered["all"])
+        st.markdown(f"**Overall progress:** {tried}/{total_qs} questions tried")
+        # Per-chapter breakdown table
+        prog_rows = []
+        for chapter in CHAPTERS:
+            ch_qs = [q for q in all_questions if q["chapter"] == chapter]
+            ch_total = len(ch_qs)
+            ch_terms = {q["term"] for q in ch_qs}
+            ch_tried = len(ch_terms & answered["all"])
+            prog_rows.append({"Chapter": chapter, "Tried": f"{ch_tried}/{ch_total}", "Remaining": ch_total - ch_tried})
+        st.table(prog_rows)
+    else:
+        # No DB – just show generic stats if any
+        if st.session_state.player_id:
+            # fallback if stats still available
+            pass
+
     # Quick start - random mix
     st.markdown("### 🎲 Quick Start")
     col1, col2 = st.columns(2)
