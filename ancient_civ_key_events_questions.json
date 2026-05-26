@@ -1,0 +1,828 @@
+[
+  {
+    "id": 1,
+    "chapter": "Ancient Greece",
+    "term": "Trojan War",
+    "question": "What was the Trojan War?",
+    "choices": [
+      "A legendary conflict between the Mycenaeans and the city of Troy, told in Homer's Iliad",
+      "A sea battle between Athens and Sparta for control of the Aegean trade routes",
+      "A war between Persia and Greek city-states over colonies in Asia Minor region",
+      "A rebellion of Greek city-states against Macedonian rule under King Philip II"
+    ],
+    "answer": 0,
+    "explanation": "The Trojan War is a legendary conflict between Mycenaean Greeks and the city of Troy, famously described in Homer's Iliad. Though debated by historians, it remains one of the most important stories in Greek culture."
+  },
+  {
+    "id": 2,
+    "chapter": "Ancient Greece",
+    "term": "Greek Dark Age",
+    "question": "Which of the following best describes the Greek Dark Age?",
+    "choices": [
+      "A period after Mycenaean collapse when writing, trade, and culture largely disappeared",
+      "An era of strict Spartan military rule over all the Greek city-states and colonies",
+      "A time when Persian invaders controlled Greece and banned all Greek traditions",
+      "A century of plague and famine that destroyed the Minoan civilization on Crete"
+    ],
+    "answer": 0,
+    "explanation": "After the Mycenaean civilization collapsed around 1100 B.C., Greece entered a Dark Age lasting until about 800 B.C. During this time, writing, trade, and large buildings nearly disappeared from Greek life."
+  },
+  {
+    "id": 3,
+    "chapter": "Ancient Greece",
+    "term": "Hoplite warfare",
+    "question": "What was hoplite warfare?",
+    "choices": [
+      "Greek foot soldiers in heavy armor who fought together in a phalanx formation",
+      "Naval combat using triremes to ram enemy ships in close Mediterranean waters",
+      "Persian cavalry tactics that overwhelmed Greek forces during the invasion wars",
+      "Macedonian siege warfare using giant towers and catapults against city walls"
+    ],
+    "answer": 0,
+    "explanation": "Hoplites were Greek foot soldiers who wore heavy armor and carried large shields. They fought in a tight formation called a phalanx, where each soldier's shield protected the man beside him, making the group very strong."
+  },
+  {
+    "id": 4,
+    "chapter": "Ancient Greece",
+    "term": "Cultural diffusion in Greece",
+    "question": "Why was cultural diffusion significant in ancient Greece?",
+    "choices": [
+      "Greeks adopted ideas like bronze-making from other Mediterranean cultures through trade",
+      "Greek colonists forced conquered peoples to abandon their local customs entirely",
+      "Persian rulers required Greeks to adopt Zoroastrianism as their official religion",
+      "Spartan warriors refused all foreign ideas to maintain their pure military society"
+    ],
+    "answer": 0,
+    "explanation": "Through trade and contact with other Mediterranean cultures, the ancient Greeks adopted and adapted useful ideas and technologies, such as bronze-making. This cultural diffusion helped Greek civilization grow and develop."
+  },
+  {
+    "id": 5,
+    "chapter": "Golden Age of Greece",
+    "term": "Battle of Marathon",
+    "question": "What was the Battle of Marathon?",
+    "choices": [
+      "A 490 B.C. battle where Greeks defeated Darius I's Persians; origin of the marathon race",
+      "A 480 B.C. sea battle where the Greek navy destroyed the Persian fleet near Athens",
+      "A 479 B.C. land battle that ended all Persian attempts to conquer Greek territories",
+      "A 460 B.C. Spartan victory over Athens that began the Peloponnesian War conflict"
+    ],
+    "answer": 0,
+    "explanation": "In 490 B.C., the Greeks defeated the Persian army of Darius I at Marathon. A runner reportedly raced about 26 miles to Athens to announce the victory, which is the origin of the modern marathon race."
+  },
+  {
+    "id": 6,
+    "chapter": "Golden Age of Greece",
+    "term": "Battle of Thermopylae",
+    "question": "Which of the following best describes the Battle of Thermopylae?",
+    "choices": [
+      "300 Spartans under Leonidas held off a much larger Persian army at a narrow pass in 480 B.C.",
+      "The Athenian navy trapped and destroyed the Persian fleet in a narrow strait in 480 B.C.",
+      "A combined Greek army crushed the last Persian invasion force on land in 479 B.C.",
+      "Spartan warriors defeated the Athenian army in a decisive Peloponnesian War battle"
+    ],
+    "answer": 0,
+    "explanation": "At Thermopylae in 480 B.C., about 300 Spartan soldiers led by King Leonidas held off a massive Persian army at a narrow mountain pass. Though they were eventually defeated, their bravery became legendary."
+  },
+  {
+    "id": 7,
+    "chapter": "Golden Age of Greece",
+    "term": "Battle of Salamis",
+    "question": "What was the Battle of Salamis?",
+    "choices": [
+      "A 480 B.C. naval battle where the Greek fleet defeated Persians in a narrow strait",
+      "A 490 B.C. land battle where Athenians outmaneuvered Darius I's invading Persian army",
+      "A 479 B.C. siege where Spartans recaptured an Athenian ally city from Persian control",
+      "A 415 B.C. naval disaster where Athens lost its entire fleet attacking Sicily's coastline"
+    ],
+    "answer": 0,
+    "explanation": "At the Battle of Salamis in 480 B.C., the Greek navy used the narrow strait to their advantage and defeated the much larger Persian fleet. This naval victory was a turning point in the wars against Persia."
+  },
+  {
+    "id": 8,
+    "chapter": "Golden Age of Greece",
+    "term": "Battle of Plataea",
+    "question": "Why was the Battle of Plataea significant?",
+    "choices": [
+      "It was the final Greek land victory over the Persians in 479 B.C., ending the invasion",
+      "It was the naval battle that destroyed the Persian fleet and saved Athens from capture",
+      "It was the battle where 300 Spartans made their famous last stand at a narrow pass",
+      "It was the decisive battle that gave Athens control over the Delian League allies"
+    ],
+    "answer": 0,
+    "explanation": "The Battle of Plataea in 479 B.C. was the last major land battle of the Persian Wars. The combined Greek forces defeated the Persian army, effectively ending Persia's attempt to conquer Greece."
+  },
+  {
+    "id": 9,
+    "chapter": "Golden Age of Greece",
+    "term": "Athenian Golden Age",
+    "question": "What was the Athenian Golden Age?",
+    "choices": [
+      "A period under Pericles with advances like the Parthenon, drama, and philosophy",
+      "An era of Spartan dominance when military strength was valued above all else",
+      "A time under Alexander when Greek culture spread across the entire known world",
+      "A period after the Persian Wars when Athens and Sparta ruled Greece as partners"
+    ],
+    "answer": 0,
+    "explanation": "Under the leader Pericles in the 460s–429 B.C., Athens experienced a Golden Age of art, architecture, drama, and philosophy. The Parthenon was built, and great thinkers like Socrates flourished during this time."
+  },
+  {
+    "id": 10,
+    "chapter": "Golden Age of Greece",
+    "term": "Parthenon construction",
+    "question": "Which of the following best describes the Parthenon construction?",
+    "choices": [
+      "A temple to Athena built on the Acropolis during Pericles' Golden Age in Athens",
+      "A massive statue of Zeus erected at Olympia to celebrate Greek Olympic victories",
+      "A palace complex built by Alexander the Great in his new capital of Alexandria",
+      "A fortified wall around Sparta constructed to keep out the invading Persian army"
+    ],
+    "answer": 0,
+    "explanation": "The Parthenon was a magnificent temple built to honor the goddess Athena on the Acropolis hill in Athens. It was constructed during the Golden Age under Pericles and remains an icon of ancient Greek architecture."
+  },
+  {
+    "id": 11,
+    "chapter": "Golden Age of Greece",
+    "term": "Peloponnesian War",
+    "question": "What was the Peloponnesian War?",
+    "choices": [
+      "A war between Athens and Sparta and their alliances that greatly weakened Greece",
+      "A series of battles between Greece and Persia over control of the Asia Minor coast",
+      "A conflict between Alexander's army and the Persian Empire across the Middle East",
+      "A civil war within Athens between supporters of democracy and oligarchy factions"
+    ],
+    "answer": 0,
+    "explanation": "The Peloponnesian War pitted Athens and its Delian League allies against Sparta and its Peloponnesian League. The long conflict weakened all of Greece, making the city-states vulnerable to later conquest by Macedonia."
+  },
+  {
+    "id": 12,
+    "chapter": "Golden Age of Greece",
+    "term": "Alexander's conquests",
+    "question": "What were Alexander's conquests?",
+    "choices": [
+      "He conquered Persia, Egypt, Mesopotamia, and parts of India, spreading Greek culture",
+      "He defeated Sparta and unified all Greek city-states under Macedonian military rule",
+      "He drove the Persian army out of Greece and destroyed the city of Troy completely",
+      "He conquered Rome and Carthage, creating a vast empire across the Mediterranean Sea"
+    ],
+    "answer": 0,
+    "explanation": "Alexander the Great conquered a vast empire including Persia, Egypt, Mesopotamia, and parts of India. His conquests spread Greek language and culture far beyond Greece, changing the ancient world forever."
+  },
+  {
+    "id": 13,
+    "chapter": "Golden Age of Greece",
+    "term": "Spread of Hellenistic culture",
+    "question": "Why was the spread of Hellenistic culture significant?",
+    "choices": [
+      "It blended Greek, Persian, Egyptian, and Indian cultures after Alexander's conquests",
+      "It replaced all local religions with Greek gods throughout the conquered territories",
+      "It forced Persian and Egyptian peoples to adopt the Athenian democratic government",
+      "It created a single Greek empire that ruled the Mediterranean for over two centuries"
+    ],
+    "answer": 0,
+    "explanation": "After Alexander's conquests, Greek culture blended with Persian, Egyptian, and Indian traditions to create Hellenistic culture. This blending influenced art, science, and daily life across a huge area for centuries."
+  },
+  {
+    "id": 14,
+    "chapter": "Golden Age of Greece",
+    "term": "Death of Socrates",
+    "question": "What was the death of Socrates?",
+    "choices": [
+      "In 399 B.C., he was sentenced to drink hemlock for corrupting youth and impiety",
+      "He was killed fighting in the Peloponnesian War between Athens and rival Sparta",
+      "He was exiled from Athens after criticizing Pericles and died alone in a foreign land",
+      "He was executed by Alexander the Great for refusing to teach Macedonian students"
+    ],
+    "answer": 0,
+    "explanation": "In 399 B.C., the philosopher Socrates was found guilty of corrupting the youth of Athens and not respecting the city's gods. He was sentenced to death by drinking hemlock poison, and he accepted his fate calmly."
+  },
+  {
+    "id": 15,
+    "chapter": "Ancient India",
+    "term": "Siddhartha's enlightenment",
+    "question": "Which of the following best describes Siddhartha's enlightenment?",
+    "choices": [
+      "He gave up royal life, meditated under a bodhi tree, and became the Buddha",
+      "He conquered neighboring kingdoms and united all of India under Buddhist rule",
+      "He climbed the Himalayas and received sacred teachings from Hindu priests directly",
+      "He founded the Mauryan Empire and made Buddhism the official state religion"
+    ],
+    "answer": 0,
+    "explanation": "Siddhartha Gautama was a prince who gave up his comfortable royal life to seek understanding. After meditating under a bodhi tree, he achieved enlightenment and became known as the Buddha, meaning 'the awakened one.'"
+  },
+  {
+    "id": 16,
+    "chapter": "Ancient India",
+    "term": "Kalinga War",
+    "question": "Why was the Kalinga War significant?",
+    "choices": [
+      "Its brutal suffering led Emperor Ashoka to convert to Buddhism and promote peace",
+      "It unified northern and southern India under one government for the very first time",
+      "It drove foreign invaders out of India and restored Hindu rule across the region",
+      "It established the Gupta Dynasty and started India's first golden age of culture"
+    ],
+    "answer": 0,
+    "explanation": "The Kalinga War was extremely bloody, with huge loss of life. The suffering so deeply affected Emperor Ashoka that he converted to Buddhism and spent the rest of his reign promoting peace, tolerance, and good deeds."
+  },
+  {
+    "id": 17,
+    "chapter": "Ancient India",
+    "term": "Gupta Golden Age",
+    "question": "What was the Gupta Golden Age?",
+    "choices": [
+      "A.D. 320–550 period with advances in math like zero, decimals, astronomy, and medicine",
+      "An era when Emperor Ashoka spread Buddhism across all of India and Asia regions",
+      "A time when the Mauryan Empire conquered Persia and brought Greek culture to India",
+      "A period when the caste system was abolished and all Indians gained equal rights"
+    ],
+    "answer": 0,
+    "explanation": "During the Gupta Golden Age (A.D. 320–550), India made remarkable advances in mathematics, including the concept of zero and decimal numbers, as well as astronomy, medicine, and literature. It was a high point of Indian culture."
+  },
+  {
+    "id": 18,
+    "chapter": "Ancient China",
+    "term": "Shang Dynasty",
+    "question": "What was the Shang Dynasty?",
+    "choices": [
+      "The first known Chinese dynasty that developed writing, bronze work, and silk",
+      "The longest Chinese dynasty that introduced the Mandate of Heaven concept",
+      "The dynasty that unified China and built the first Great Wall against invaders",
+      "The golden age dynasty that invented paper and opened the Silk Road trade routes"
+    ],
+    "answer": 0,
+    "explanation": "The Shang Dynasty (~2000–1027 B.C.) was the first known Chinese dynasty. It produced important cultural advances including a system of writing, skilled bronze work, and the production of silk."
+  },
+  {
+    "id": 19,
+    "chapter": "Ancient China",
+    "term": "Zhou Dynasty",
+    "question": "Which of the following best describes the Zhou Dynasty?",
+    "choices": [
+      "The longest Chinese dynasty that introduced the Mandate of Heaven to justify rule",
+      "The first dynasty to unify all of China under a single emperor and legal code",
+      "The dynasty that built the Great Wall and standardized writing and coinage systems",
+      "The golden age dynasty when paper, the compass, and the Silk Road were created"
+    ],
+    "answer": 0,
+    "explanation": "The Zhou Dynasty (~1027–256 B.C.) was the longest-ruling dynasty in Chinese history. It introduced the important idea of the Mandate of Heaven — the belief that heaven gave rulers the right to govern as long as they ruled justly."
+  },
+  {
+    "id": 20,
+    "chapter": "Ancient China",
+    "term": "Warring States Period",
+    "question": "What was the Warring States Period?",
+    "choices": [
+      "A time of conflict at the end of the Zhou Dynasty when rival states fought for control",
+      "A period when northern nomadic tribes invaded and conquered all of Chinese territory",
+      "An era of civil war during the Han Dynasty between rival family claim factions",
+      "A conflict between Chinese kingdoms and the Mongol Empire along the Great Wall"
+    ],
+    "answer": 0,
+    "explanation": "The Warring States Period came at the end of the Zhou Dynasty when the central government lost power. Rival states fought each other for control of China, and this chaos eventually led to unification under the Qin Dynasty."
+  },
+  {
+    "id": 21,
+    "chapter": "Ancient China",
+    "term": "Qin unification of China",
+    "question": "Why was the Qin unification of China significant?",
+    "choices": [
+      "In 221 B.C., Shi Huangdi unified China, built the Great Wall, and standardized writing",
+      "It ended the Han Dynasty and began the golden age of Chinese arts and literature",
+      "It introduced Buddhism to China and made it the official religion of the empire",
+      "It opened the Silk Road and established permanent trade routes to Mediterranean ports"
+    ],
+    "answer": 0,
+    "explanation": "In 221 B.C., Shi Huangdi of the Qin Dynasty unified China after the Warring States Period. He standardized writing, money, and measurements across the empire and began construction of the Great Wall for defense."
+  },
+  {
+    "id": 22,
+    "chapter": "Ancient China",
+    "term": "Construction of the Great Wall",
+    "question": "Which of the following best describes the construction of the Great Wall?",
+    "choices": [
+      "Built under Shi Huangdi to protect China's northern border from nomadic invaders",
+      "Constructed by the Zhou Dynasty to keep rival Chinese states separated and peaceful",
+      "Built during the Han Dynasty to mark the border of the Silk Road trade network",
+      "Erected by the Shang Dynasty to defend against the first Persian invasion of China"
+    ],
+    "answer": 0,
+    "explanation": "Emperor Shi Huangdi ordered the construction of the Great Wall to protect China's northern border from raids by nomadic peoples. Earlier walls were connected and extended to form a massive defensive barrier."
+  },
+  {
+    "id": 23,
+    "chapter": "Ancient China",
+    "term": "Han Dynasty Golden Age",
+    "question": "What was the Han Dynasty Golden Age?",
+    "choices": [
+      "206 B.C.–A.D. 220 era when paper was invented, the Silk Road opened, and civil service began",
+      "A period under Shi Huangdi when China was unified and writing was first standardized",
+      "A golden age under the Zhou when the Mandate of Heaven guided all Chinese rulers",
+      "An era under the Shang Dynasty when bronze work and silk production were pioneered"
+    ],
+    "answer": 0,
+    "explanation": "The Han Dynasty (206 B.C.–A.D. 220) was a golden age in China. Important advances included the invention of paper, the opening of the Silk Road for trade, and the development of a civil service system for government workers."
+  },
+  {
+    "id": 24,
+    "chapter": "Ancient China",
+    "term": "Invention of paper",
+    "question": "Why was the invention of paper significant?",
+    "choices": [
+      "It revolutionized writing and record-keeping, replacing heavier and costlier materials",
+      "It replaced silk as China's most valuable trade good on the Silk Road routes",
+      "It allowed the Chinese military to send coded messages during the Warring States period",
+      "It made the Mandate of Heaven documents official and gave Zhou rulers legitimacy"
+    ],
+    "answer": 0,
+    "explanation": "Paper was invented during the Han Dynasty and revolutionized how people wrote and kept records. It was far lighter, cheaper, and easier to produce than earlier materials like bamboo strips or silk cloth."
+  },
+  {
+    "id": 25,
+    "chapter": "Ancient China",
+    "term": "Opening of the Silk Road",
+    "question": "What was the opening of the Silk Road?",
+    "choices": [
+      "Emperor Wu Di opened trade routes connecting China to the Mediterranean world",
+      "Shi Huangdi built a network of roads to move troops quickly across unified China",
+      "The Zhou Dynasty established river trade routes linking northern and southern states",
+      "Indian merchants created sea routes to bring Buddhism and spices into China"
+    ],
+    "answer": 0,
+    "explanation": "During the Han Dynasty, Emperor Wu Di opened the Silk Road, a network of trade routes connecting China to the Mediterranean. It allowed the exchange of goods like Chinese silk, ideas, and cultures across vast distances."
+  },
+  {
+    "id": 26,
+    "chapter": "Early Romans",
+    "term": "Founding of Rome",
+    "question": "Which of the following best describes the founding of Rome around 753 B.C.?",
+    "choices": [
+      "Legend says Romulus and Remus founded Rome; Etruscans ruled early Rome",
+      "Julius Caesar led Roman settlers to build the city on the Tiber River",
+      "Greek colonists established Rome as a trading post near the Mediterranean",
+      "Carthaginian merchants founded Rome as a naval base on the Italian coast"
+    ],
+    "answer": 0,
+    "explanation": "According to legend, the twin brothers Romulus and Remus founded Rome around 753 B.C. Early Rome was ruled by the Etruscans, a powerful neighboring people."
+  },
+  {
+    "id": 27,
+    "chapter": "Early Romans",
+    "term": "Overthrow of the Etruscans",
+    "question": "What was the overthrow of the Etruscans around 509 B.C.?",
+    "choices": [
+      "Romans expelled King Tarquinius Superbus and established the Republic",
+      "Roman generals defeated the Etruscan army at the Battle of the Tiber",
+      "Etruscan nobles peacefully handed control of Rome to the Roman Senate",
+      "Greek forces drove the Etruscans out and gave Rome its independence"
+    ],
+    "answer": 0,
+    "explanation": "In 509 B.C., the Romans expelled their Etruscan king, Tarquinius Superbus, and established the Roman Republic, ending the period of monarchy."
+  },
+  {
+    "id": 28,
+    "chapter": "Early Romans",
+    "term": "Creation of the Twelve Tables",
+    "question": "Why was the creation of the Twelve Tables around 450 B.C. significant?",
+    "choices": [
+      "It was Rome's first written laws, displayed publicly in the Roman Forum",
+      "It established the Roman Senate as the supreme governing body of Rome",
+      "It created the first Roman navy to protect trade routes in the Mediterranean",
+      "It ended the class conflict between patricians and plebeians forever"
+    ],
+    "answer": 0,
+    "explanation": "The Twelve Tables were Rome's first written code of laws, publicly displayed in the Forum so all citizens could see and know the law."
+  },
+  {
+    "id": 29,
+    "chapter": "Early Romans",
+    "term": "First Punic War",
+    "question": "Which of the following best describes the First Punic War (264–241 B.C.)?",
+    "choices": [
+      "Rome fought Carthage for control of Sicily and built its first navy",
+      "Rome conquered Carthage and destroyed the city to end the conflict",
+      "Hannibal led Carthaginian forces across the Alps into the Italian peninsula",
+      "Rome and Carthage signed a peace treaty dividing the Mediterranean Sea"
+    ],
+    "answer": 0,
+    "explanation": "The First Punic War was fought between Rome and Carthage over control of Sicily. Rome, primarily a land power, built its first navy to win this war at sea."
+  },
+  {
+    "id": 30,
+    "chapter": "Early Romans",
+    "term": "Second Punic War",
+    "question": "What was the Second Punic War (218–201 B.C.) best known for?",
+    "choices": [
+      "Hannibal crossed the Alps with elephants; Scipio defeated him at Zama",
+      "Rome destroyed Carthage completely and took all of North Africa",
+      "Carthaginian sailors blockaded Rome's ports for nearly twenty years",
+      "Julius Caesar led Roman legions to conquer Carthage and its territories"
+    ],
+    "answer": 0,
+    "explanation": "During the Second Punic War, Hannibal famously crossed the Alps with war elephants to invade Italy. Roman general Scipio eventually defeated Hannibal at the Battle of Zama."
+  },
+  {
+    "id": 31,
+    "chapter": "Early Romans",
+    "term": "Third Punic War",
+    "question": "Why was the Third Punic War (149–146 B.C.) significant?",
+    "choices": [
+      "Rome destroyed Carthage and became the dominant Mediterranean power",
+      "Rome and Carthage signed a treaty making them equal trading partners",
+      "Carthage defeated Rome and took control of Sicily and Sardinia",
+      "Hannibal returned from exile and led Carthage to its greatest victory"
+    ],
+    "answer": 0,
+    "explanation": "In the Third Punic War, Rome completely destroyed Carthage, ending the city's power and making Rome the dominant force in the Mediterranean region."
+  },
+  {
+    "id": 32,
+    "chapter": "Early Romans",
+    "term": "Caesar crosses the Rubicon",
+    "question": "Why was Caesar crossing the Rubicon in 49 B.C. significant?",
+    "choices": [
+      "Caesar marched his army into Italy, starting a civil war against Rome",
+      "Caesar signed a peace treaty with the Senate and ended the civil war",
+      "Caesar fled Rome to escape his political rivals and live in exile",
+      "Caesar led Roman troops to conquer Egypt and defeat Cleopatra's forces"
+    ],
+    "answer": 0,
+    "explanation": "By crossing the Rubicon River with his army, Caesar violated Roman law (generals could not bring armies into Italy), starting a civil war that he eventually won."
+  },
+  {
+    "id": 33,
+    "chapter": "Early Romans",
+    "term": "Assassination of Julius Caesar",
+    "question": "What was the assassination of Julius Caesar on March 15, 44 B.C.?",
+    "choices": [
+      "Senators stabbed Caesar to death on the Ides of March in the Senate",
+      "Caesar was poisoned by his political rival Pompey at a public banquet",
+      "Caesar died in battle fighting against rebellious Roman legions in Gaul",
+      "Roman soldiers mutinied and killed Caesar during his march on Rome"
+    ],
+    "answer": 0,
+    "explanation": "On the Ides of March (March 15), 44 B.C., a group of senators led by Brutus and Cassius stabbed Julius Caesar to death in the Senate, hoping to save the Republic."
+  },
+  {
+    "id": 34,
+    "chapter": "Early Romans",
+    "term": "Gracchus brothers' reforms",
+    "question": "Which of the following best describes the Gracchus brothers' reforms?",
+    "choices": [
+      "Tiberius and Gaius tried to help poor Romans but both were killed",
+      "The brothers successfully redistributed all land to Rome's poorest citizens",
+      "They reformed the Roman army and ended the use of paid soldiers",
+      "Tiberius and Gaius abolished slavery and gave rights to all people"
+    ],
+    "answer": 0,
+    "explanation": "Tiberius and Gaius Gracchus tried to pass reforms to help poor Romans, such as land redistribution. Both brothers were violently killed by opponents of their reforms."
+  },
+  {
+    "id": 35,
+    "chapter": "The Roman Empire",
+    "term": "Battle of Actium",
+    "question": "What was the Battle of Actium in 31 B.C.?",
+    "choices": [
+      "Octavian defeated Mark Antony and Cleopatra to become Rome's ruler",
+      "Julius Caesar defeated Pompey to take control of the Roman Republic",
+      "Mark Antony defeated Octavian and became emperor of the Roman world",
+      "The Roman navy destroyed Carthage's fleet to end the Punic Wars"
+    ],
+    "answer": 0,
+    "explanation": "At the Battle of Actium, Octavian's forces defeated the combined fleets of Mark Antony and Cleopatra, making Octavian the uncontested ruler of Rome."
+  },
+  {
+    "id": 36,
+    "chapter": "The Roman Empire",
+    "term": "Pax Romana",
+    "question": "Why was the Pax Romana significant?",
+    "choices": [
+      "It was about 200 years of peace, trade, and prosperity under Augustus",
+      "It was the period when Rome conquered all of Europe and northern Africa",
+      "It was the treaty that ended the civil war between Caesar and Pompey",
+      "It was the religious peace agreement between Romans and early Christians"
+    ],
+    "answer": 0,
+    "explanation": "The Pax Romana ('Roman Peace') was roughly 200 years of relative peace, stability, trade, and prosperity that began under Emperor Augustus."
+  },
+  {
+    "id": 37,
+    "chapter": "The Roman Empire",
+    "term": "Roman road network",
+    "question": "Which of the following best describes the Roman road network?",
+    "choices": [
+      "Over 50,000 miles of roads built to connect the entire Roman Empire",
+      "A system of canals and rivers that linked Rome to its distant provinces",
+      "Underground tunnels used by Roman soldiers to move armies in secret",
+      "Trade routes across the Mediterranean Sea controlled by Roman ships"
+    ],
+    "answer": 0,
+    "explanation": "The Romans built over 50,000 miles of roads connecting the empire, allowing armies, trade goods, and messages to move quickly across vast distances."
+  },
+  {
+    "id": 38,
+    "chapter": "The Roman Empire",
+    "term": "Roman entertainment",
+    "question": "What was Roman entertainment like during the Empire?",
+    "choices": [
+      "Gladiators fought, chariots raced at Circus Maximus, events at the Colosseum",
+      "Romans watched plays in large outdoor theaters and nothing else",
+      "Athletes competed in Olympic-style games similar to the Greek tradition",
+      "Musicians and poets performed for emperors in private palace concerts"
+    ],
+    "answer": 0,
+    "explanation": "Romans enjoyed public spectacles including gladiatorial combat, chariot races at the Circus Maximus, and various events held at the Colosseum."
+  },
+  {
+    "id": 39,
+    "chapter": "The Roman Empire",
+    "term": "Five Good Emperors",
+    "question": "Why were the Five Good Emperors significant?",
+    "choices": [
+      "Nerva, Trajan, Hadrian, Antoninus Pius, and Marcus Aurelius led Rome at its peak",
+      "They were the five emperors who founded the Roman Republic after the kings",
+      "They were the first five Christian emperors who legalized the religion",
+      "They were the generals who conquered Gaul, Britain, and the Middle East"
+    ],
+    "answer": 0,
+    "explanation": "The Five Good Emperors — Nerva, Trajan, Hadrian, Antoninus Pius, and Marcus Aurelius — ruled during a period when the Roman Empire was at its height of power and stability."
+  },
+  {
+    "id": 40,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Crucifixion of Jesus",
+    "question": "Which of the following best describes the crucifixion of Jesus around A.D. 30?",
+    "choices": [
+      "Jesus was executed by the Romans under Pontius Pilate by crucifixion",
+      "Jesus was exiled from Rome by the emperor for teaching new beliefs",
+      "Jesus was stoned by Jewish leaders for challenging the temple priests",
+      "Jesus was imprisoned for life by the Roman governor of Judea"
+    ],
+    "answer": 0,
+    "explanation": "Around A.D. 30, Jesus was sentenced to death by crucifixion under the Roman governor Pontius Pilate, a common Roman method of execution."
+  },
+  {
+    "id": 41,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Spread of Christianity",
+    "question": "Why was the spread of Christianity throughout the Roman Empire significant?",
+    "choices": [
+      "Apostles, especially Paul, traveled widely spreading Christian teachings",
+      "Roman emperors forced all citizens to convert to the Christian religion",
+      "Christian soldiers converted the Roman army and then the whole empire",
+      "Christian monks built schools that replaced all Roman learning centers"
+    ],
+    "answer": 0,
+    "explanation": "After Jesus's death, his apostles — especially Paul — traveled throughout the Roman Empire spreading Christian teachings, which eventually became a major world religion."
+  },
+  {
+    "id": 42,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Roman persecution of Christians",
+    "question": "Why did the Romans persecute early Christians?",
+    "choices": [
+      "Christians refused to worship Roman gods or honor the Roman emperor",
+      "Christians tried to overthrow the Roman government with armed rebellion",
+      "Christians stole from Roman temples and destroyed Roman religious statues",
+      "Christians refused to pay taxes or serve in the Roman military forces"
+    ],
+    "answer": 0,
+    "explanation": "Romans persecuted Christians because they refused to worship Roman gods or honor the emperor as divine, which Romans saw as disloyal and dangerous."
+  },
+  {
+    "id": 43,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Edict of Milan",
+    "question": "What was the Edict of Milan in A.D. 313?",
+    "choices": [
+      "Emperor Constantine made Christianity legal throughout the Roman Empire",
+      "Emperor Constantine ordered all non-Christians to leave the city of Rome",
+      "The Roman Senate officially replaced all Roman gods with Christian ones",
+      "Emperor Diocletian ended the persecution of Christians in the eastern half"
+    ],
+    "answer": 0,
+    "explanation": "The Edict of Milan, issued by Emperor Constantine in A.D. 313, granted religious tolerance and made Christianity legal in the Roman Empire."
+  },
+  {
+    "id": 44,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Diocletian splits the empire",
+    "question": "Why was Diocletian's decision to split the empire in A.D. 286 significant?",
+    "choices": [
+      "Rome was divided into Eastern and Western halves to govern it better",
+      "Diocletian gave half the empire to Constantine as a peace agreement",
+      "The split ended all wars and created two hundred years of Roman peace",
+      "Diocletian moved the entire Roman government to the city of Alexandria"
+    ],
+    "answer": 0,
+    "explanation": "Emperor Diocletian divided the Roman Empire into Eastern and Western halves in A.D. 286, hoping two rulers could govern the vast empire more effectively."
+  },
+  {
+    "id": 45,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Constantine moves the capital",
+    "question": "What happened when Constantine moved the capital in A.D. 330?",
+    "choices": [
+      "Constantine moved the Roman capital to Constantinople in the east",
+      "Constantine moved the capital to Alexandria to be closer to Egypt",
+      "Constantine returned the capital to Rome after it had been moved away",
+      "Constantine built a new capital in Gaul to protect Rome from invaders"
+    ],
+    "answer": 0,
+    "explanation": "In A.D. 330, Emperor Constantine moved the Roman capital to Constantinople (modern Istanbul), shifting the empire's center of power to the east."
+  },
+  {
+    "id": 46,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Visigoths sack Rome",
+    "question": "What was significant about the Visigoths sacking Rome in A.D. 410?",
+    "choices": [
+      "A Germanic tribe invaded and looted Rome, shocking the Roman world",
+      "The Visigoths became the new rulers of the entire Roman Empire",
+      "Roman legions defeated the Visigoths and ended all barbarian attacks",
+      "The Visigoths destroyed Constantinople and moved into the eastern half"
+    ],
+    "answer": 0,
+    "explanation": "In A.D. 410, the Visigoths, a Germanic tribe, invaded and looted the city of Rome. This event shocked the Roman world and showed the empire's growing weakness."
+  },
+  {
+    "id": 47,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Fall of the Western Roman Empire",
+    "question": "Why was the fall of the Western Roman Empire in A.D. 476 significant?",
+    "choices": [
+      "The last Western Roman emperor was deposed, ending the Western Empire",
+      "The Roman Senate voted to dissolve the empire and form a republic again",
+      "Eastern and Western Rome reunited under a single powerful emperor",
+      "The Western Empire was conquered by the Byzantine Empire completely"
+    ],
+    "answer": 0,
+    "explanation": "In A.D. 476, the last Western Roman emperor was removed from power, traditionally marking the end of the Western Roman Empire."
+  },
+  {
+    "id": 48,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Byzantine Empire continues",
+    "question": "Which of the following best describes the Byzantine Empire after A.D. 476?",
+    "choices": [
+      "The Eastern Roman Empire survived about 1,000 more years until 1453",
+      "The Byzantine Empire collapsed immediately after the Western Empire fell",
+      "The Byzantines reconquered the Western Empire and restored Rome's glory",
+      "The Eastern Empire converted to Islam and joined the Ottoman Empire"
+    ],
+    "answer": 0,
+    "explanation": "After the Western Roman Empire fell, the Eastern Roman (Byzantine) Empire continued for nearly 1,000 more years, finally falling to the Ottoman Turks in 1453."
+  },
+  {
+    "id": 49,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Justinian's Code",
+    "question": "What was Justinian's Code under Emperor Justinian (A.D. 527–565)?",
+    "choices": [
+      "Justinian organized all Roman law into a single unified legal code",
+      "Justinian created the first written constitution for the Roman Republic",
+      "Justinian issued new laws that replaced all earlier Roman legal traditions",
+      "Justinian established a legal system based entirely on Christian teachings"
+    ],
+    "answer": 0,
+    "explanation": "Emperor Justinian organized centuries of Roman laws into a single unified code, known as Justinian's Code, which became the basis for law in many later civilizations."
+  },
+  {
+    "id": 50,
+    "chapter": "Ancient Greece",
+    "term": "Hoplite",
+    "question": "What was a hoplite in ancient Greece?",
+    "choices": [
+      "A heavily armed foot soldier who fought in a phalanx formation alongside other soldiers",
+      "A mounted warrior who led cavalry charges against enemy lines during major battles",
+      "A naval commander who directed the movements of Greek warships in sea battles",
+      "A political leader who commanded the city-state's army during times of conflict"
+    ],
+    "answer": 0,
+    "explanation": "Hoplites were heavily armed Greek foot soldiers who carried large shields and spears. They fought in a phalanx formation, standing shoulder to shoulder in a tight wall, which made them very effective in battle."
+  },
+  {
+    "id": 51,
+    "chapter": "Ancient Greece",
+    "term": "Archipelago",
+    "question": "What is an archipelago?",
+    "choices": [
+      "A chain or group of islands, such as the thousands of islands that make up Greece",
+      "A narrow strip of land connecting two larger landmasses across a body of water",
+      "A large stretch of land that extends into the sea and is nearly surrounded by water",
+      "A deep channel of water separating two continents that ships use for trade routes"
+    ],
+    "answer": 0,
+    "explanation": "An archipelago is a group or chain of islands. Greece is an archipelago with roughly 2,000 islands, which shaped Greek culture as a seafaring people."
+  },
+  {
+    "id": 52,
+    "chapter": "Golden Age of Greece",
+    "term": "Pythagorean theorem",
+    "question": "What was the Pythagorean theorem?",
+    "choices": [
+      "A mathematical rule that shows the relationship between the three sides of a right triangle",
+      "A scientific principle explaining how objects float based on the weight of water displaced",
+      "A philosophical argument that truth can only be found through logical reasoning alone",
+      "A medical guideline for diagnosing illness by observing a patient's visible symptoms"
+    ],
+    "answer": 0,
+    "explanation": "The Pythagorean theorem, discovered by the Greek mathematician Pythagoras, states that in a right triangle, the square of the longest side equals the sum of the squares of the other two sides (a² + b² = c²). It is still used in math today."
+  },
+  {
+    "id": 53,
+    "chapter": "Ancient India",
+    "term": "Indian medical advances",
+    "question": "What was one important medical advance made by ancient Indian doctors?",
+    "choices": [
+      "They developed early surgical techniques such as setting broken bones and removing tumors",
+      "They discovered the circulation of blood through the heart and veins before anyone else",
+      "They created the first vaccines to protect people from infectious diseases like smallpox",
+      "They invented eyeglasses and magnifying lenses to help people with vision problems"
+    ],
+    "answer": 0,
+    "explanation": "Ancient Indian doctors made important medical advances, including early surgical techniques. They could set broken bones, remove tumors, and even perform simple surgeries. Indian medicine also used herbal remedies and emphasized cleanliness, ideas that are still important today."
+  },
+  {
+    "id": 54,
+    "chapter": "Ancient India",
+    "term": "Hindu justification for caste system",
+    "question": "How did the Hindu religion justify separating people into castes?",
+    "choices": [
+      "Hindu teachings said that a person's caste was determined by karma from their past lives",
+      "Hindu priests declared that the gods had permanently fixed each person's social rank at birth",
+      "Hindu scriptures required all people to accept the caste assigned by their local ruler",
+      "Hindu traditions taught that only warriors and priests could hold power in society"
+    ],
+    "answer": 0,
+    "explanation": "Hinduism justified the caste system through the belief in karma and reincarnation. According to Hindu teachings, a person's caste was the result of their actions (karma) in a previous life. Good karma could lead to being born into a higher caste in the next life, while bad karma could mean a lower caste. This gave a religious reason for the social hierarchy."
+  },
+  {
+    "id": 55,
+    "chapter": "Ancient China",
+    "term": "China's geographic isolation",
+    "question": "How did China's geography affect its early development and relations with other civilizations?",
+    "choices": [
+      "Mountains, deserts, and oceans isolated China, making it develop independently with limited outside contact",
+      "Flat open plains made China easy to invade, forcing early Chinese to build alliances with neighbors",
+      "Rivers and coastlines connected China to many trade partners, making it a cosmopolitan culture",
+      "China's lack of natural resources forced its people to depend on trade with India and Persia"
+    ],
+    "answer": 0,
+    "explanation": "China was isolated by major geographic barriers: the Himalaya Mountains to the south, the Gobi Desert to the north, the Pacific Ocean to the east, and more mountains to the west. This isolation meant China developed its own unique culture, writing system, and traditions with little outside influence for much of its early history."
+  },
+  {
+    "id": 56,
+    "chapter": "The Roman Empire",
+    "term": "Bread and circuses",
+    "question": "What did the Roman phrase 'bread and circuses' mean?",
+    "choices": [
+      "A government strategy of providing free food and entertainment to keep the people happy and peaceful",
+      "A religious festival where Romans offered bread to the gods and held chariot races in their honor",
+      "A military tactic where soldiers were fed well before battle and then marched in parades",
+      "An economic plan where wealthy merchants donated grain and funded theaters for the poor"
+    ],
+    "answer": 0,
+    "explanation": "Roman emperors used 'bread and circuses' — providing free grain and spectacular entertainment like gladiator fights and chariot races — to keep the common people happy and prevent unrest. This strategy helped emperors maintain power because well-fed, entertained citizens were less likely to rebel."
+  },
+  {
+    "id": 57,
+    "chapter": "The Roman Empire",
+    "term": "Roman public works",
+    "question": "What were the main public works that the Roman government provided for the people?",
+    "choices": [
+      "Aqueducts for fresh water, roads for travel and trade, public baths, and amphitheaters for entertainment",
+      "Large farming estates that grew grain for the people, and temples where priests distributed food",
+      "Free housing for all citizens and schools where children learned to read and write Latin",
+      "Military forts along the borders and shipyards where citizens could build trading vessels"
+    ],
+    "answer": 0,
+    "explanation": "The Roman government built many public works: aqueducts to bring fresh water to cities, over 50,000 miles of roads for travel and trade, public baths for hygiene and socializing, and amphitheaters like the Colosseum for entertainment. These projects showed Roman engineering skill and helped keep the people loyal."
+  },
+  {
+    "id": 58,
+    "chapter": "Early Romans",
+    "term": "Three forms of Roman government",
+    "question": "What were the three main forms of government that existed in ancient Rome?",
+    "choices": [
+      "Monarchy under the kings, the Republic with elected leaders, and the Empire ruled by emperors",
+      "Oligarchy under the Senate, democracy with citizen voting, and military dictatorship under generals",
+      "Theocracy under the priests, aristocracy under the patricians, and anarchy during civil wars",
+      "Feudalism under local lords, republicanism under consuls, and monarchy under the popes"
+    ],
+    "answer": 0,
+    "explanation": "Rome experienced three main forms of government: first a monarchy ruled by kings (including the Etruscan kings), then a Republic where citizens elected leaders like consuls and senators, and finally an Empire ruled by a single emperor starting with Augustus in 27 B.C."
+  },
+  {
+    "id": 59,
+    "chapter": "Golden Age of Greece",
+    "term": "Development of Athenian democracy",
+    "question": "Which leaders helped create democracy in Athens, and what did each contribute?",
+    "choices": [
+      "Draco wrote harsh laws, Solon canceled debts and expanded participation, and Cleisthenes reorganized government to give citizens more power",
+      "Pericles funded the construction of the Parthenon, Socrates developed the method of questioning, and Plato established the Academy in Athens",
+      "Cyrus the Great freed enslaved Greek populations, Darius I overhauled the legal system of Persia, and Xerxes I opened the citizen assembly to all",
+      "Philip II of Macedonia conquered the rival Greek city-states, Alexander spread Hellenistic culture, and Euclid composed foundational geometry texts"
+    ],
+    "answer": 0,
+    "explanation": "Athenian democracy developed through the work of key leaders: Draco created the first written laws (though they were very harsh), Solon canceled debts and allowed more citizens to participate in government, and Cleisthenes reorganized the government into the Council of 500, giving ordinary citizens real political power for the first time."
+  }
+]

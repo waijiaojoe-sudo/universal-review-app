@@ -1,0 +1,1850 @@
+[
+  {
+    "id": 1,
+    "chapter": "Ancient Greece",
+    "term": "Greece",
+    "question": "What was Greece?",
+    "choices": [
+      "A civilization in southern Europe known for its city-states, democracy, philosophy, and culture",
+      "A large empire in western Asia known for its powerful kings and vast road networks",
+      "A kingdom in northern Africa famous for its pyramids and pharaohs who ruled the Nile",
+      "A republic in central Europe known for its legions and conquests across the Mediterranean"
+    ],
+    "answer": 0,
+    "explanation": "Greece was an ancient civilization on the Balkan peninsula whose independent city-states, democratic ideas, philosophy, and cultural achievements shaped Western civilization."
+  },
+  {
+    "id": 2,
+    "chapter": "Ancient Greece",
+    "term": "city states",
+    "question": "What were city-states?",
+    "choices": [
+      "Independent cities that each had their own government, laws, and army, separate from others",
+      "Large territories ruled by a single emperor who controlled many villages and farmlands",
+      "Groups of neighboring towns that shared one king and voted together on all decisions",
+      "Walled fortresses where soldiers lived and trained but no regular citizens resided"
+    ],
+    "answer": 0,
+    "explanation": "City-states, called polis in Greek, were independent cities with their own government, laws, and military. Athens and Sparta were the most famous Greek city-states."
+  },
+  {
+    "id": 3,
+    "chapter": "Ancient Greece",
+    "term": "Balkan peninsula",
+    "question": "What is the Balkan peninsula?",
+    "choices": [
+      "A peninsula in southeastern Europe where ancient Greece was located, surrounded by several seas",
+      "A large island in the Mediterranean Sea that served as the center of the Roman Empire",
+      "A mountain range in central Asia where the earliest civilizations first built their cities",
+      "A flat grassland in northern Europe where nomadic tribes traveled and hunted for food"
+    ],
+    "answer": 0,
+    "explanation": "The Balkan peninsula is a landmass in southeastern Europe bordered by the Adriatic, Aegean, and Black Seas. Ancient Greece was located on this peninsula."
+  },
+  {
+    "id": 4,
+    "chapter": "Ancient Greece",
+    "term": "Asia Minor",
+    "question": "What was Asia Minor?",
+    "choices": [
+      "A large peninsula in western Asia where Greek colonies and the Persian Empire once existed",
+      "A small island in the Aegean Sea that was home to the earliest Minoan civilization",
+      "A region in northern Africa where Greek traders set up ports and built trading posts",
+      "A mountainous area in central Europe where many independent Greek city-states formed"
+    ],
+    "answer": 0,
+    "explanation": "Asia Minor, also called Anatolia, is a large peninsula in western Asia (modern-day Turkey). It was home to Greek colonies like Ionia and later became part of the Persian Empire."
+  },
+  {
+    "id": 5,
+    "chapter": "Ancient Greece",
+    "term": "Crete",
+    "question": "What was Crete?",
+    "choices": [
+      "A large island in the Aegean Sea where the Minoan civilization developed around 2000 B.C.",
+      "A small peninsula in southern Greece where the city-state of Sparta was located",
+      "A coastal region in Asia Minor that was the site of the famous Trojan War battles",
+      "A mountainous area in northern Greece where the Mycenaean people built their palaces"
+    ],
+    "answer": 0,
+    "explanation": "Crete is a large island in the Aegean Sea where the Minoan civilization flourished. The Minoans built large palaces like Knossos and were a powerful seafaring people."
+  },
+  {
+    "id": 6,
+    "chapter": "Ancient Greece",
+    "term": "Aegean Sea",
+    "question": "What is the Aegean Sea?",
+    "choices": [
+      "A body of water between Greece and Asia Minor that was vital for Greek trade and travel",
+      "A large ocean west of Greece that Greek sailors crossed to reach the Americas",
+      "A narrow river that ran through the center of Athens and supplied its drinking water",
+      "An inland sea between Egypt and Mesopotamia where early civilizations first developed"
+    ],
+    "answer": 0,
+    "explanation": "The Aegean Sea lies between mainland Greece and Asia Minor. It was essential to Greek life for trade, travel, and fishing, and its many islands linked Greek culture across the region."
+  },
+  {
+    "id": 7,
+    "chapter": "Ancient Greece",
+    "term": "Mycenae",
+    "question": "What was Mycenae?",
+    "choices": [
+      "A fortified city on mainland Greece that was the center of the Mycenaean civilization",
+      "A large island near Crete where the Minoan people built their famous palace at Knossos",
+      "A wealthy trading city in Asia Minor that was conquered by the Persians under King Darius",
+      "A colony in southern Italy founded by Greek settlers looking for new farming land"
+    ],
+    "answer": 0,
+    "explanation": "Mycenae was a fortified city in southern Greece that gave its name to the Mycenaean civilization. The Mycenaeans were warrior-merchants who dominated the Aegean around 1600–1100 B.C."
+  },
+  {
+    "id": 8,
+    "chapter": "Ancient Greece",
+    "term": "Homer",
+    "question": "Who was Homer?",
+    "choices": [
+      "A Greek poet who wrote the Iliad and the Odyssey, epic poems about the Trojan War",
+      "A Spartan king who led the Greek army at the Battle of Thermopylae against the Persians",
+      "An Athenian philosopher who taught students by asking them questions about truth",
+      "A Greek historian who wrote about the Persian Wars and early Greek civilizations"
+    ],
+    "answer": 0,
+    "explanation": "Homer was a blind Greek poet who lived around the 700s B.C. and composed the Iliad and the Odyssey, two of the most important works of ancient Greek literature."
+  },
+  {
+    "id": 9,
+    "chapter": "Ancient Greece",
+    "term": "Troy",
+    "question": "What was Troy?",
+    "choices": [
+      "A city in Asia Minor that was the setting of the Trojan War described in Homer's Iliad",
+      "A city-state in southern Greece that was famous for its democracy and great philosophers",
+      "An island in the Aegean Sea where the Minoan civilization built its grand palaces",
+      "A region in northern Greece that was the homeland of Alexander the Great's family"
+    ],
+    "answer": 0,
+    "explanation": "Troy was a city in Asia Minor (modern-day Turkey) that, according to Homer's Iliad, was besieged by the Greeks for ten years. Archaeologists later found ruins confirming Troy was real."
+  },
+  {
+    "id": 10,
+    "chapter": "Ancient Greece",
+    "term": "Mycenaean",
+    "question": "Which of the following best describes the Mycenaean civilization?",
+    "choices": [
+      "A warrior people on mainland Greece who built fortified palaces and dominated around 1600 B.C.",
+      "A seafaring people on the island of Crete who built palaces and painted colorful frescoes",
+      "A group of Persian rulers who conquered Greek city-states and demanded tribute from them",
+      "An alliance of Greek city-states that joined together to fight against the Persian invasions"
+    ],
+    "answer": 0,
+    "explanation": "The Mycenaeans were a warrior civilization that dominated mainland Greece from about 1600 to 1100 B.C. They built fortified palaces and were the first Greek-speaking people we know of."
+  },
+  {
+    "id": 11,
+    "chapter": "Ancient Greece",
+    "term": "Minoan",
+    "question": "Which of the following best describes the Minoan civilization?",
+    "choices": [
+      "A seafaring people on Crete who built palaces and traded widely across the Mediterranean",
+      "A warrior people on mainland Greece who built strong fortresses and fought in the Trojan War",
+      "A group of nomadic tribes from northern Europe who migrated south into the Greek peninsula",
+      "An alliance of Greek city-states formed to protect trade routes across the Aegean Sea"
+    ],
+    "answer": 0,
+    "explanation": "The Minoans were a wealthy, seafaring civilization on the island of Crete that flourished around 2000–1400 B.C. They built the palace at Knossos and traded across the Mediterranean."
+  },
+  {
+    "id": 12,
+    "chapter": "Ancient Greece",
+    "term": "Hesiod (Ch. 8)",
+    "question": "Who was Hesiod (Ch. 8)?",
+    "choices": [
+      "A Greek poet who wrote about Greek gods, myths, and farming in Works and Days and Theogony",
+      "A Spartan general who led troops in major battles and wrote about military strategy",
+      "An Athenian lawmaker who created strict codes to control crime in the city of Athens",
+      "A Greek philosopher who traveled widely and taught students about nature and reasoning"
+    ],
+    "answer": 0,
+    "explanation": "Hesiod was an early Greek poet who lived around 700 B.C. He wrote the Theogony, about the origins of Greek gods, and Works and Days, about farming and daily life."
+  },
+  {
+    "id": 13,
+    "chapter": "Ancient Greece",
+    "term": "Sparta",
+    "question": "What was Sparta?",
+    "choices": [
+      "A Greek city-state known for its powerful army, strict discipline, and military way of life",
+      "A Greek city-state known for its democracy, philosophy, arts, and powerful navy",
+      "A large island in the Aegean Sea where the Minoan civilization built grand palaces",
+      "A region in northern Greece that produced Alexander the Great and his conquering army"
+    ],
+    "answer": 0,
+    "explanation": "Sparta was a Greek city-state in the Peloponnesus famous for its military society. Spartan boys trained as soldiers from age seven, and the city-state valued discipline above all."
+  },
+  {
+    "id": 14,
+    "chapter": "Ancient Greece",
+    "term": "Athens",
+    "question": "What was Athens?",
+    "choices": [
+      "A Greek city-state known for developing democracy, philosophy, the arts, and a strong navy",
+      "A Greek city-state known for its powerful army, strict discipline, and military society",
+      "A wealthy city in Asia Minor that was conquered by the Persians during the Persian Wars",
+      "A coastal region in northern Greece where Philip II built his powerful Macedonian kingdom"
+    ],
+    "answer": 0,
+    "explanation": "Athens was a Greek city-state in Attica that developed the world's first democracy. It became a center of philosophy, the arts, and learning during its Golden Age under Pericles."
+  },
+  {
+    "id": 15,
+    "chapter": "Ancient Greece",
+    "term": "Olympia",
+    "question": "What was Olympia?",
+    "choices": [
+      "A site in southern Greece where the ancient Olympic Games were held every four years",
+      "A large island near Crete where the Minoan civilization built their most famous palace",
+      "A wealthy city in Asia Minor that served as the capital of the Persian Empire's western lands",
+      "A mountain in northern Greece where the earliest Greek city-states were first established"
+    ],
+    "answer": 0,
+    "explanation": "Olympia was a sanctuary in the Peloponnesus where the ancient Olympic Games were held starting in 776 B.C. Athletes from across Greece competed every four years to honor Zeus."
+  },
+  {
+    "id": 16,
+    "chapter": "Ancient Greece",
+    "term": "Draco",
+    "question": "Who was Draco?",
+    "choices": [
+      "An Athenian ruler who created a very harsh written law code for the city of Athens",
+      "A Spartan king who led the Greek army to victory in the famous Battle of Thermopylae",
+      "A Greek philosopher who taught his students by asking them difficult questions about life",
+      "A Persian governor who ruled over the Greek city-states on the coast of Asia Minor"
+    ],
+    "answer": 0,
+    "explanation": "Draco was an Athenian lawmaker around 621 B.C. who created Athens' first written law code. His laws were so harsh that 'draconian' still means extremely severe today."
+  },
+  {
+    "id": 17,
+    "chapter": "Ancient Greece",
+    "term": "Solon",
+    "question": "Who was Solon?",
+    "choices": [
+      "An Athenian leader who reformed laws to make them fairer and gave more citizens a voice",
+      "A Spartan general who conquered neighboring city-states and expanded Sparta's territory",
+      "A Greek poet who wrote epic stories about gods and heroes in the Trojan War cycle",
+      "A Persian king who invaded Greece with a huge army but was defeated at Marathon"
+    ],
+    "answer": 0,
+    "explanation": "Solon was an Athenian statesman around 594 B.C. who reformed harsh laws, canceled debts, and allowed more citizens to participate in government, laying groundwork for democracy."
+  },
+  {
+    "id": 18,
+    "chapter": "Ancient Greece",
+    "term": "Aesop",
+    "question": "Who was Aesop?",
+    "choices": [
+      "A Greek storyteller famous for short fables that teach moral lessons, like 'The Tortoise and the Hare'",
+      "A Greek poet who wrote long epic poems about the Trojan War and the adventures of Odysseus",
+      "An Athenian philosopher who taught young students by asking them questions about truth",
+      "A Spartan king who led his army into battle against the Persians at Thermopylae"
+    ],
+    "answer": 0,
+    "explanation": "Aesop was a Greek storyteller who lived around 600 B.C. and is credited with writing fables — short stories with animal characters that teach moral lessons, like 'The Tortoise and the Hare.'"
+  },
+  {
+    "id": 19,
+    "chapter": "Ancient Greece",
+    "term": "Cyrus II",
+    "question": "Who was Cyrus II?",
+    "choices": [
+      "A Persian king who built the Persian Empire by conquering many lands including Asia Minor",
+      "A Greek general who led the Athenian army to victory at the Battle of Marathon",
+      "A Macedonian ruler who united the Greek city-states and planned to invade Persia",
+      "A Spartan lawgiver who created the strict military system that Sparta became known for"
+    ],
+    "answer": 0,
+    "explanation": "Cyrus II, also called Cyrus the Great, founded the Persian Empire around 550 B.C. He conquered Babylon, Asia Minor, and many other lands, building the largest empire the world had seen."
+  },
+  {
+    "id": 20,
+    "chapter": "Ancient Greece",
+    "term": "Darius I",
+    "question": "Who was Darius I?",
+    "choices": [
+      "A Persian king who expanded the empire and sent armies to invade Greece, losing at Marathon",
+      "A Greek philosopher who taught that everything in the world is made of tiny particles called atoms",
+      "An Athenian statesman who introduced democratic reforms and reorganized the city's tribes",
+      "A Macedonian king who conquered Greece and then planned an invasion of the Persian Empire"
+    ],
+    "answer": 0,
+    "explanation": "Darius I was a Persian king who ruled from 522 to 486 B.C. He expanded the empire, organized it into provinces, and launched the first Persian invasion of Greece, defeated at Marathon in 490 B.C."
+  },
+  {
+    "id": 21,
+    "chapter": "Ancient Greece",
+    "term": "Peloponnesus",
+    "question": "What is the Peloponnesus?",
+    "choices": [
+      "A large peninsula in southern Greece connected to the mainland, home to Sparta and Olympia",
+      "A large island in the eastern Aegean Sea where the Minoan civilization once flourished",
+      "A mountainous region in northern Greece where the Macedonian kingdom was located",
+      "A narrow strip of land connecting the Balkan peninsula to the rest of Europe"
+    ],
+    "answer": 0,
+    "explanation": "The Peloponnesus is a large peninsula in southern Greece connected to the mainland by a narrow strip of land called the Isthmus of Corinth. Sparta and Olympia were located there."
+  },
+  {
+    "id": 22,
+    "chapter": "Ancient Greece",
+    "term": "Attica",
+    "question": "What was Attica?",
+    "choices": [
+      "A peninsula in central Greece where the city-state of Athens was located",
+      "A large island in the Aegean Sea where the Minoan civilization built palaces",
+      "A region in northern Greece where Philip II built his powerful Macedonian kingdom",
+      "A peninsula in southern Greece where the city-state of Sparta was located"
+    ],
+    "answer": 0,
+    "explanation": "Attica is a peninsula in central Greece that was the territory of the city-state of Athens. It included the city of Athens itself and the surrounding farmland and villages."
+  },
+  {
+    "id": 23,
+    "chapter": "Golden Age of Greece",
+    "term": "Xerxes",
+    "question": "Who was Xerxes?",
+    "choices": [
+      "A Persian king who launched a massive invasion of Greece but was defeated at Salamis",
+      "A Greek general who led the Spartan army at the Battle of Thermopylae against the Persians",
+      "An Athenian statesman who rebuilt the Parthenon and led Athens during its Golden Age",
+      "A Macedonian king who conquered the Persian Empire and spread Greek culture widely"
+    ],
+    "answer": 0,
+    "explanation": "Xerxes was a Persian king who invaded Greece in 480 B.C. with a huge army and navy. He won at Thermopylae but was defeated by the Greek navy at the Battle of Salamis."
+  },
+  {
+    "id": 24,
+    "chapter": "Golden Age of Greece",
+    "term": "Cleisthenes",
+    "question": "Who was Cleisthenes?",
+    "choices": [
+      "An Athenian leader who reorganized government to create a stronger democracy for citizens",
+      "A Spartan king who led the Greek forces at the famous Battle of Thermopylae",
+      "A Persian governor who collected taxes from Greek city-states under Persian control",
+      "A Greek philosopher who taught that everything is made of tiny particles called atoms"
+    ],
+    "answer": 0,
+    "explanation": "Cleisthenes was an Athenian leader around 508 B.C. who reorganized the government by reorganizing tribes and giving citizens more power, often called the founder of Athenian democracy."
+  },
+  {
+    "id": 25,
+    "chapter": "Golden Age of Greece",
+    "term": "Pericles",
+    "question": "Who was Pericles?",
+    "choices": [
+      "An Athenian leader during the Golden Age who rebuilt the city and expanded democracy",
+      "A Spartan general who defeated Athens in the Peloponnesian War and took over the city",
+      "A Persian king who invaded Greece with a massive army and fought at Thermopylae",
+      "A Greek philosopher who taught young students by asking them questions about the truth"
+    ],
+    "answer": 0,
+    "explanation": "Pericles was an Athenian statesman who led Athens during its Golden Age (460s–430s B.C.). He rebuilt the Acropolis, including the Parthenon, and strengthened Athenian democracy."
+  },
+  {
+    "id": 26,
+    "chapter": "Golden Age of Greece",
+    "term": "Marathon",
+    "question": "What was Marathon?",
+    "choices": [
+      "A place in Greece where the Athenians defeated the Persian army in a famous 490 B.C. battle",
+      "A city in Asia Minor that was the capital of the Persian Empire's western provinces",
+      "A region in northern Greece where the Macedonian army trained for its invasions",
+      "An island in the Aegean Sea where a major naval battle took place against the Persians"
+    ],
+    "answer": 0,
+    "explanation": "Marathon was a plain about 26 miles from Athens where, in 490 B.C., a smaller Athenian army defeated a much larger Persian force. A runner carried the news back to Athens."
+  },
+  {
+    "id": 27,
+    "chapter": "Golden Age of Greece",
+    "term": "Persia",
+    "question": "What was Persia?",
+    "choices": [
+      "A large empire in western Asia that invaded Greece and fought the Persian Wars",
+      "A Greek city-state on the Peloponnesus that was known for its powerful military army",
+      "A group of islands in the Aegean Sea that formed a league for mutual defense and trade",
+      "A region in northern Africa where Greek colonies were established along the coast"
+    ],
+    "answer": 0,
+    "explanation": "Persia was a vast empire in western Asia that, at its height, stretched from Egypt to India. It fought the Persian Wars against the Greek city-states in the early 400s B.C."
+  },
+  {
+    "id": 28,
+    "chapter": "Golden Age of Greece",
+    "term": "Sardis",
+    "question": "What was Sardis?",
+    "choices": [
+      "A wealthy city in Asia Minor that served as a capital of Persian territory in the region",
+      "A Greek city-state on the Peloponnesus that was famous for its military training system",
+      "An island in the Aegean Sea where a major naval battle against the Persians was fought",
+      "A region in northern Greece where the Macedonian kingdom built its powerful army"
+    ],
+    "answer": 0,
+    "explanation": "Sardis was an important city in Asia Minor (modern Turkey) that served as the capital of the Persian province of Lydia. It was a center of wealth and administration."
+  },
+  {
+    "id": 29,
+    "chapter": "Golden Age of Greece",
+    "term": "Thermopylae",
+    "question": "What was Thermopylae?",
+    "choices": [
+      "A narrow mountain pass where Spartans and Greeks held off the Persian army in 480 B.C.",
+      "A broad open plain where the Athenian army defeated the Persians at the Battle of Marathon",
+      "A coastal city in Asia Minor where the Persian fleet gathered before invading Greece",
+      "A large island near Athens where the Greek navy defeated the Persians in a sea battle"
+    ],
+    "answer": 0,
+    "explanation": "Thermopylae was a narrow mountain pass in central Greece where, in 480 B.C., a small force led by 300 Spartans held off the massive Persian army for several days before being defeated."
+  },
+  {
+    "id": 30,
+    "chapter": "Golden Age of Greece",
+    "term": "Salamis",
+    "question": "What was Salamis?",
+    "choices": [
+      "An island near Athens where the Greek navy defeated the Persian fleet in a sea battle",
+      "A narrow mountain pass where Spartan soldiers held off the Persian army for days",
+      "A plain near Athens where the Greeks won a famous land battle against the Persians",
+      "A city in Asia Minor that served as the capital of the Persian Empire's western lands"
+    ],
+    "answer": 0,
+    "explanation": "Salamis was an island near Athens where, in 480 B.C., the Greek navy defeated the much larger Persian fleet. This victory was the turning point of the Persian Wars."
+  },
+  {
+    "id": 31,
+    "chapter": "Golden Age of Greece",
+    "term": "Socrates",
+    "question": "Who was Socrates?",
+    "choices": [
+      "An Athenian philosopher who taught by asking questions and was sentenced to death in 399 B.C.",
+      "A Greek historian who wrote about the Peloponnesian War and recorded events as they happened",
+      "A Macedonian king who conquered the Persian Empire and spread Greek culture across Asia",
+      "A Greek playwright who wrote tragedies about kings and heroes performed in Athens' theaters"
+    ],
+    "answer": 0,
+    "explanation": "Socrates was an Athenian philosopher who taught by asking probing questions to help people think deeply. He was sentenced to drink hemlock in 399 B.C. for 'corrupting the youth.'"
+  },
+  {
+    "id": 32,
+    "chapter": "Golden Age of Greece",
+    "term": "Hesiod (Ch. 9)",
+    "question": "Who was Hesiod (Ch. 9)?",
+    "choices": [
+      "An early Greek poet who described the Ages of Man, including a golden age of peace and plenty",
+      "An Athenian philosopher who argued that the golden age was a time of perfect democracy",
+      "A Spartan king who ruled during a peaceful era when Greece had no wars or conflicts",
+      "A Persian ruler who governed Greek city-states during a time of wealth and prosperity"
+    ],
+    "answer": 0,
+    "explanation": "In the Golden Age context, Hesiod's Works and Days describes the Ages of Man, starting with a Golden Age when people lived in peace and plenty. This idea influenced Greek thinking about history."
+  },
+  {
+    "id": 33,
+    "chapter": "Golden Age of Greece",
+    "term": "Sophocles",
+    "question": "Who was Sophocles?",
+    "choices": [
+      "An Athenian playwright who wrote tragedies like Oedipus the King performed in Greek theaters",
+      "A Greek philosopher who taught that everything in the world is made of tiny particles",
+      "A Spartan general who led the Greek forces during the early years of the Peloponnesian War",
+      "A Greek historian who traveled widely and wrote about the customs of many ancient peoples"
+    ],
+    "answer": 0,
+    "explanation": "Sophocles was one of the greatest Athenian tragedians. He wrote over 120 plays, including Oedipus the King and Antigone, and won many drama competitions in Athens."
+  },
+  {
+    "id": 34,
+    "chapter": "Golden Age of Greece",
+    "term": "Aristophanes",
+    "question": "Who was Aristophanes?",
+    "choices": [
+      "An Athenian playwright famous for comedies that made fun of politicians and society",
+      "A Greek philosopher who taught students by walking and talking in the streets of Athens",
+      "A Greek historian who wrote a detailed account of the Peloponnesian War as it happened",
+      "A Macedonian king who united Greece and began planning an invasion of the Persian Empire"
+    ],
+    "answer": 0,
+    "explanation": "Aristophanes was the greatest writer of Greek Old Comedy. His plays, like Lysistrata and The Clouds, used humor and satire to criticize Athenian politicians and society."
+  },
+  {
+    "id": 35,
+    "chapter": "Golden Age of Greece",
+    "term": "Pythagoras",
+    "question": "Who was Pythagoras?",
+    "choices": [
+      "A Greek mathematician who discovered important rules about triangles and taught that numbers matter",
+      "A Greek physician who is called the father of medicine and taught doctors to observe patients",
+      "An Athenian philosopher who founded a famous school called the Academy in Athens",
+      "A Greek historian who wrote about the Persian Wars and the cultures of many peoples"
+    ],
+    "answer": 0,
+    "explanation": "Pythagoras was a Greek mathematician and philosopher who discovered the Pythagorean theorem about right triangles. He believed that numbers and mathematical relationships ruled the universe."
+  },
+  {
+    "id": 36,
+    "chapter": "Golden Age of Greece",
+    "term": "Hippocrates",
+    "question": "Who was Hippocrates?",
+    "choices": [
+      "A Greek physician called the father of medicine who taught doctors to observe symptoms carefully",
+      "A Greek mathematician who discovered important rules about triangles and geometric shapes",
+      "An Athenian philosopher who walked around the city asking people questions about truth",
+      "A Greek historian who wrote detailed accounts of the wars between Athens and Sparta"
+    ],
+    "answer": 0,
+    "explanation": "Hippocrates was a Greek physician around 400 B.C. who is called the father of medicine. He taught that diseases have natural causes, not supernatural ones, and doctors must observe carefully."
+  },
+  {
+    "id": 37,
+    "chapter": "Golden Age of Greece",
+    "term": "Democritus",
+    "question": "Who was Democritus?",
+    "choices": [
+      "A Greek philosopher who proposed that everything is made of tiny particles called atoms",
+      "A Greek mathematician who proved important rules about right triangles and circles",
+      "An Athenian playwright who wrote tragedies about kings and heroes for the theater",
+      "A Greek historian who wrote about the Peloponnesian War between Athens and Sparta"
+    ],
+    "answer": 0,
+    "explanation": "Democritus was a Greek philosopher who theorized that everything in the universe is made of tiny, indivisible particles he called atoms. This idea was remarkably close to modern science."
+  },
+  {
+    "id": 38,
+    "chapter": "Golden Age of Greece",
+    "term": "Herodotus",
+    "question": "Who was Herodotus?",
+    "choices": [
+      "A Greek historian called the father of history who wrote about the Persian Wars and cultures",
+      "A Greek philosopher who taught that everything in the world is made of tiny particles",
+      "An Athenian playwright who wrote comedies that made fun of leaders and society's flaws",
+      "A Greek physician who taught doctors to observe patients and look for natural causes of disease"
+    ],
+    "answer": 0,
+    "explanation": "Herodotus is called the father of history. He wrote The Histories about the Persian Wars, describing not just battles but the cultures and customs of the peoples involved."
+  },
+  {
+    "id": 39,
+    "chapter": "Golden Age of Greece",
+    "term": "Thucydides",
+    "question": "Who was Thucydides?",
+    "choices": [
+      "A Greek historian who wrote a detailed, factual account of the Peloponnesian War",
+      "A Greek philosopher who taught young students by asking them questions about justice",
+      "An Athenian playwright who wrote tragedies about heroes and kings performed in Athens",
+      "A Greek physician who believed diseases have natural causes and should be studied carefully"
+    ],
+    "answer": 0,
+    "explanation": "Thucydides was an Athenian who wrote a careful, factual history of the Peloponnesian War between Athens and Sparta. He focused on accurate reporting rather than myths or legends."
+  },
+  {
+    "id": 40,
+    "chapter": "Golden Age of Greece",
+    "term": "Plato",
+    "question": "Who was Plato?",
+    "choices": [
+      "A Greek philosopher and student of Socrates who founded a school called the Academy",
+      "A Greek mathematician who calculated the size of the Earth using geometry and shadows",
+      "An Athenian general who led the city during the Peloponnesian War against Sparta",
+      "A Greek playwright who wrote tragedies about ancient myths and heroes for the stage"
+    ],
+    "answer": 0,
+    "explanation": "Plato was a Greek philosopher and Socrates' most famous student. He founded the Academy in Athens and wrote dialogues like The Republic about justice, government, and the ideal state."
+  },
+  {
+    "id": 41,
+    "chapter": "Golden Age of Greece",
+    "term": "Aristotle",
+    "question": "Who was Aristotle?",
+    "choices": [
+      "A Greek philosopher who studied many subjects and taught Alexander the Great as a youth",
+      "A Greek playwright who wrote comedies poking fun at Athenian leaders and society",
+      "A Persian king who invaded Greece with a huge army and fought at the Battle of Salamis",
+      "A Greek mathematician who proved geometric rules and wrote the book called The Elements"
+    ],
+    "answer": 0,
+    "explanation": "Aristotle was a Greek philosopher who studied logic, science, politics, and many other subjects. He was Plato's student and later became the tutor of young Alexander the Great."
+  },
+  {
+    "id": 42,
+    "chapter": "Golden Age of Greece",
+    "term": "Delian League",
+    "question": "What was the Delian League?",
+    "choices": [
+      "An alliance of Greek city-states led by Athens formed to defend against Persian attacks",
+      "A group of Greek city-states led by Sparta formed to counter the growing power of Athens",
+      "A council of Persian governors who managed the empire's provinces in Asia Minor",
+      "A league of Greek islands in the Aegean Sea that joined together to control sea trade"
+    ],
+    "answer": 0,
+    "explanation": "The Delian League was an alliance of Greek city-states formed in 478 B.C. after the Persian Wars, led by Athens. Member cities contributed money or ships for mutual defense."
+  },
+  {
+    "id": 43,
+    "chapter": "Golden Age of Greece",
+    "term": "Peloponnesian League",
+    "question": "What was the Peloponnesian League?",
+    "choices": [
+      "An alliance of Greek city-states led by Sparta formed to counter the power of Athens",
+      "A group of Greek city-states led by Athens created to defend against Persian invasions",
+      "A council of Persian satraps who governed the western provinces of the Persian Empire",
+      "A league of Greek islands that joined together to control trade routes in the Aegean Sea"
+    ],
+    "answer": 0,
+    "explanation": "The Peloponnesian League was an alliance of city-states led by Sparta, mostly on the Peloponnesus. It opposed Athens and the Delian League, leading to the Peloponnesian War."
+  },
+  {
+    "id": 44,
+    "chapter": "Golden Age of Greece",
+    "term": "Thirty Tyrants",
+    "question": "Who were the Thirty Tyrants?",
+    "choices": [
+      "A group appointed by Sparta to rule Athens harshly after the Peloponnesian War ended",
+      "A council of Persian governors who controlled the Greek city-states during the Persian Wars",
+      "A group of Athenian generals who seized power and ruled as dictators during the Golden Age",
+      "A band of Macedonian nobles who helped Philip II conquer the Greek city-states one by one"
+    ],
+    "answer": 0,
+    "explanation": "The Thirty Tyrants were pro-Spartan rulers imposed on Athens after Sparta won the Peloponnesian War in 404 B.C. They ruled harshly, killing opponents, before democracy was restored."
+  },
+  {
+    "id": 45,
+    "chapter": "Golden Age of Greece",
+    "term": "Philip II",
+    "question": "Who was Philip II?",
+    "choices": [
+      "A Macedonian king who conquered the Greek city-states and planned to invade Persia",
+      "A Persian king who launched a massive invasion of Greece but was defeated at Salamis",
+      "An Athenian statesman who led the city during its Golden Age and rebuilt the Parthenon",
+      "A Spartan general who won the Peloponnesian War and forced Athens to surrender"
+    ],
+    "answer": 0,
+    "explanation": "Philip II was the king of Macedonia who, by 338 B.C., had conquered the Greek city-states. He planned to invade Persia but was assassinated before he could carry out the campaign."
+  },
+  {
+    "id": 46,
+    "chapter": "Golden Age of Greece",
+    "term": "Alexander the Great",
+    "question": "Who was Alexander the Great?",
+    "choices": [
+      "A Macedonian king who conquered a huge empire stretching from Greece to India",
+      "A Persian king who invaded Greece with a massive army and fought at Thermopylae",
+      "An Athenian philosopher who founded a famous school and taught many Greek students",
+      "A Spartan king who led 300 soldiers against the Persian army at a narrow mountain pass"
+    ],
+    "answer": 0,
+    "explanation": "Alexander the Great was the king of Macedonia who, in the 330s and 320s B.C., conquered the Persian Empire, Egypt, and lands as far east as India, spreading Greek culture widely."
+  },
+  {
+    "id": 47,
+    "chapter": "Golden Age of Greece",
+    "term": "Euclid",
+    "question": "Who was Euclid?",
+    "choices": [
+      "A Greek mathematician who organized geometry into a system of rules in the book Elements",
+      "A Greek philosopher who taught that everything in the universe is made of tiny atoms",
+      "An Athenian playwright who wrote tragedies about Greek myths and heroes for the theater",
+      "A Greek astronomer who estimated the size of the Earth using geometry and observations"
+    ],
+    "answer": 0,
+    "explanation": "Euclid was a Greek mathematician who lived in Alexandria and wrote The Elements, a book that organized geometry into a logical system of rules and proofs still studied today."
+  },
+  {
+    "id": 48,
+    "chapter": "Golden Age of Greece",
+    "term": "Eratosthenes",
+    "question": "Who was Eratosthenes?",
+    "choices": [
+      "A Greek scholar who calculated the size of the Earth using geometry and careful measurements",
+      "A Greek mathematician who proved rules about triangles and wrote a famous book called Elements",
+      "A Greek physician who taught that diseases have natural causes and doctors must observe well",
+      "A Greek philosopher who proposed that all matter is made of tiny indivisible particles"
+    ],
+    "answer": 0,
+    "explanation": "Eratosthenes was a Greek scholar who, around 240 B.C., calculated the circumference of the Earth by measuring shadows at different locations. His estimate was remarkably accurate."
+  },
+  {
+    "id": 49,
+    "chapter": "Golden Age of Greece",
+    "term": "Hypatia",
+    "question": "Who was Hypatia?",
+    "choices": [
+      "A Greek mathematician and philosopher in Alexandria who was one of the few known female scholars",
+      "A Greek poet who wrote epic stories about gods and heroes like the Iliad and the Odyssey",
+      "An Athenian ruler who reformed laws to make them fairer for all citizens in the city",
+      "A Persian queen who governed the empire's western provinces including the Greek city-states"
+    ],
+    "answer": 0,
+    "explanation": "Hypatia was a mathematician, astronomer, and philosopher who lived and taught in Alexandria, Egypt. She was one of the few well-known female scholars of the ancient world."
+  },
+  {
+    "id": 50,
+    "chapter": "Golden Age of Greece",
+    "term": "Archimedes",
+    "question": "Who was Archimedes?",
+    "choices": [
+      "A Greek inventor and mathematician who discovered principles of levers and buoyancy",
+      "A Greek historian who wrote a detailed account of the Peloponnesian War between city-states",
+      "An Athenian philosopher who founded a school and taught students about justice and truth",
+      "A Greek playwright who wrote comedies making fun of politicians and life in Athens"
+    ],
+    "answer": 0,
+    "explanation": "Archimedes was a Greek mathematician and inventor famous for discovering the principles of levers and buoyancy. He reportedly said, 'Give me a lever and a place to stand, and I will move the Earth.'"
+  },
+  {
+    "id": 51,
+    "chapter": "Golden Age of Greece",
+    "term": "Aristarchus",
+    "question": "Who was Aristarchus?",
+    "choices": [
+      "A Greek astronomer who proposed that the Earth orbits around the sun, not the other way around",
+      "A Greek mathematician who organized geometry into a system of rules in his book The Elements",
+      "A Greek physician who taught that diseases have natural causes and should be studied carefully",
+      "A Greek philosopher who believed that everything in the world is made of tiny particles"
+    ],
+    "answer": 0,
+    "explanation": "Aristarchus was a Greek astronomer who proposed a heliocentric model — that the Earth moves around the sun. This idea was mostly ignored until Copernicus revived it nearly 1,800 years later."
+  },
+  {
+    "id": 52,
+    "chapter": "Golden Age of Greece",
+    "term": "Alexandria",
+    "question": "What was Alexandria?",
+    "choices": [
+      "A city in Egypt with a famous library that became a center of Greek learning and scholarship",
+      "A city in Asia Minor that was the capital of the Persian Empire's western territories",
+      "A Greek city-state on the Peloponnesus that was known for its military training system",
+      "A region in northern Greece where the Macedonian kingdom built its powerful army"
+    ],
+    "answer": 0,
+    "explanation": "Alexandria was a city in Egypt founded by Alexander the Great. Its famous library and museum made it the greatest center of learning in the Hellenistic world."
+  },
+  {
+    "id": 53,
+    "chapter": "Golden Age of Greece",
+    "term": "Macedonia",
+    "question": "What was Macedonia?",
+    "choices": [
+      "A kingdom north of Greece whose kings, Philip II and Alexander, conquered the Greek city-states",
+      "A large island in the Aegean Sea where the Minoan civilization built palaces and traded",
+      "A region in Asia Minor that was the center of the Persian Empire's government and rule",
+      "A peninsula in southern Greece where the city-states of Sparta and Olympia were located"
+    ],
+    "answer": 0,
+    "explanation": "Macedonia was a kingdom north of Greece. Under Philip II, it conquered the Greek city-states, and under Alexander the Great, it built an empire stretching to India."
+  },
+  {
+    "id": 54,
+    "chapter": "Ancient India",
+    "term": "Indus Valley",
+    "question": "What was the Indus Valley?",
+    "choices": [
+      "A fertile river valley in South Asia where one of the world's earliest civilizations developed",
+      "A mountain pass connecting Central Asia to the Indian subcontinent used by invaders",
+      "A vast plateau in southern India separated from the north by mountain ranges",
+      "A dry desert region west of the Himalayas that blocked travel into India"
+    ],
+    "answer": 0,
+    "explanation": "The Indus Valley was home to one of the world's earliest civilizations, flourishing around 2600–1900 BCE along the Indus River in what is now Pakistan and western India."
+  },
+  {
+    "id": 55,
+    "chapter": "Ancient India",
+    "term": "Harappa",
+    "question": "What was Harappa?",
+    "choices": [
+      "A major city of the Indus Valley civilization known for its planned layout and brick buildings",
+      "A powerful empire that united most of India under one ruler in the 300s BCE",
+      "A sacred river in northern India where Hindu pilgrims traveled for rituals",
+      "A mountain range that protected northern India from invaders from Central Asia"
+    ],
+    "answer": 0,
+    "explanation": "Harappa was one of the two largest cities of the Indus Valley civilization, noted for its well-planned streets, drainage systems, and standardized brick construction."
+  },
+  {
+    "id": 56,
+    "chapter": "Ancient India",
+    "term": "Deccan",
+    "question": "What is the Deccan?",
+    "choices": [
+      "A large plateau in southern India bordered by mountain ranges on two sides",
+      "An ancient river valley in northern India where early cities were built",
+      "A mountain pass through the Hindu Kush used by invaders to enter India",
+      "A powerful empire that ruled most of India during the 200s BCE"
+    ],
+    "answer": 0,
+    "explanation": "The Deccan is a large triangular plateau in southern India, separated from the northern plains by the Satpura and Vindhya mountain ranges."
+  },
+  {
+    "id": 57,
+    "chapter": "Ancient India",
+    "term": "Mohenjo-Daro",
+    "question": "What was Mohenjo-Daro?",
+    "choices": [
+      "A major city of the Indus Valley civilization with advanced plumbing and grid streets",
+      "A mountain pass linking Central Asia to the Indian subcontinent for trade",
+      "A powerful dynasty that ruled northern India during the 300s CE",
+      "A sacred Hindu temple complex built along the Ganges River valley"
+    ],
+    "answer": 0,
+    "explanation": "Mohenjo-Daro was one of the largest Indus Valley cities, famous for its grid-like street plan, public baths, and sophisticated drainage and plumbing systems."
+  },
+  {
+    "id": 58,
+    "chapter": "Ancient India",
+    "term": "Hindu Kush",
+    "question": "What is the Hindu Kush?",
+    "choices": [
+      "A mountain range northwest of India that formed a barrier and pass for invaders",
+      "A large plateau in southern India bordered by coastal mountain ranges",
+      "A sacred river valley where the earliest Indian civilization developed",
+      "An ancient empire that controlled trade routes across Central Asia"
+    ],
+    "answer": 0,
+    "explanation": "The Hindu Kush is a mountain range northwest of the Indian subcontinent. Its passes, especially the Khyber Pass, allowed invaders and traders to enter India from Central Asia."
+  },
+  {
+    "id": 59,
+    "chapter": "Ancient India",
+    "term": "Indus River",
+    "question": "What is the Indus River?",
+    "choices": [
+      "A major river in South Asia that supported one of the world's earliest civilizations",
+      "A sacred river in northern India where Hindu rituals and pilgrimages took place",
+      "A wide mountain pass through the Hindu Kush used by armies entering India",
+      "A large dry plateau in southern India separated from the north by mountains"
+    ],
+    "answer": 0,
+    "explanation": "The Indus River flows through what is now Pakistan and gave its name to the Indus Valley civilization, one of the world's earliest urban societies."
+  },
+  {
+    "id": 60,
+    "chapter": "Ancient India",
+    "term": "Buddha",
+    "question": "Who was the Buddha?",
+    "choices": [
+      "An Indian spiritual teacher who founded Buddhism after seeking enlightenment",
+      "A powerful Indian emperor who spread Buddhism across Asia in the 200s BCE",
+      "A Hindu priest who created the caste system in ancient Indian society",
+      "A Chinese philosopher who taught about respect and proper behavior"
+    ],
+    "answer": 0,
+    "explanation": "The Buddha, meaning 'the Enlightened One,' was Siddhartha Gautama, who gave up a life of luxury to seek understanding of suffering and founded Buddhism."
+  },
+  {
+    "id": 61,
+    "chapter": "Ancient India",
+    "term": "Siddhartha Gautama",
+    "question": "Who was Siddhartha Gautama?",
+    "choices": [
+      "An Indian prince who gave up his wealth to seek enlightenment and founded Buddhism",
+      "A Maurya emperor who conquered most of India and later promoted Buddhism",
+      "A Gupta ruler who expanded India's empire and supported art and learning",
+      "A Hindu priest who developed the Brahmanism religion in ancient India"
+    ],
+    "answer": 0,
+    "explanation": "Siddhartha Gautama was a prince who renounced his privileged life, meditated under the Bodhi tree, attained enlightenment, and became known as the Buddha."
+  },
+  {
+    "id": 62,
+    "chapter": "Ancient India",
+    "term": "Brahmanism",
+    "question": "What was Brahmanism?",
+    "choices": [
+      "An early Indian religion led by Brahmans that focused on rituals and sacred texts",
+      "A philosophy founded by Siddhartha Gautama emphasizing the Four Noble Truths",
+      "A political system created by the Maurya Empire to govern conquered peoples",
+      "A teaching from China that emphasized proper behavior and respect for elders"
+    ],
+    "answer": 0,
+    "explanation": "Brahmanism was an early Indian religion practiced by the Brahmans, centered on rituals, sacrifices, and sacred texts called the Vedas, and later evolved into Hinduism."
+  },
+  {
+    "id": 63,
+    "chapter": "Ancient India",
+    "term": "Brahmans",
+    "question": "Who were the Brahmans?",
+    "choices": [
+      "Priests in ancient Indian society who performed rituals and held top social status",
+      "Warriors and kings who ruled the Maurya and Gupta empires of India",
+      "Merchants and traders who controlled the Silk Road between India and China",
+      "Buddhist monks who traveled across Asia spreading teachings of the Buddha"
+    ],
+    "answer": 0,
+    "explanation": "The Brahmans were the priestly class in ancient Indian society, occupying the highest position in the caste system and responsible for performing religious rituals."
+  },
+  {
+    "id": 64,
+    "chapter": "Ancient India",
+    "term": "Ashoka",
+    "question": "Who was Ashoka?",
+    "choices": [
+      "A Maurya emperor who conquered India then spread Buddhism and peaceful policies",
+      "A Gupta ruler who expanded India's territory and supported arts and science",
+      "An Indian prince who gave up wealth to seek enlightenment and founded Buddhism",
+      "A Hindu priest who created the caste system and wrote the sacred Vedas"
+    ],
+    "answer": 0,
+    "explanation": "Ashoka was the most famous Maurya emperor. After a bloody battle, he converted to Buddhism, gave up war, and spread Buddhist teachings through edicts across his empire."
+  },
+  {
+    "id": 65,
+    "chapter": "Ancient India",
+    "term": "Chandragupta Maurya",
+    "question": "Who was Chandragupta Maurya?",
+    "choices": [
+      "The founder of the Maurya Empire who united much of India under one government",
+      "A Gupta emperor who expanded trade and supported arts in the 300s CE",
+      "An Indian prince who became the Buddha and started the Buddhist religion",
+      "A powerful king who built the Great Wall to protect his northern borders"
+    ],
+    "answer": 0,
+    "explanation": "Chandragupta Maurya founded the Maurya Empire around 321 BCE, becoming the first ruler to unite most of northern India under a single government."
+  },
+  {
+    "id": 66,
+    "chapter": "Ancient India",
+    "term": "Chandragupta I",
+    "question": "Who was Chandragupta I?",
+    "choices": [
+      "The founder of the Gupta Empire who began its expansion in northern India",
+      "The founder of the Maurya Empire who first united most of India under one ruler",
+      "A Buddhist emperor who spread peaceful policies across South Asia",
+      "A Chinese emperor who built the Great Wall and standardized Chinese writing"
+    ],
+    "answer": 0,
+    "explanation": "Chandragupta I founded the Gupta Empire around 320 CE and began the expansion that would make it one of India's greatest civilizations."
+  },
+  {
+    "id": 67,
+    "chapter": "Ancient India",
+    "term": "Samudragupta",
+    "question": "Who was Samudragupta?",
+    "choices": [
+      "A Gupta emperor who expanded the empire through conquest across northern India",
+      "A Maurya ruler who gave up war after battle and promoted Buddhist teachings",
+      "An Indian spiritual teacher who founded Buddhism after seeking enlightenment",
+      "A Chinese philosopher who taught about living in harmony with the Dao"
+    ],
+    "answer": 0,
+    "explanation": "Samudragupta was the son of Chandragupta I and a powerful Gupta emperor known for his military campaigns that greatly expanded the Gupta Empire across India."
+  },
+  {
+    "id": 68,
+    "chapter": "Ancient India",
+    "term": "Chandragupta II",
+    "question": "Who was Chandragupta II?",
+    "choices": [
+      "A Gupta ruler whose reign was a golden age of art, learning, and trade in India",
+      "The founder of the Maurya Empire who united northern India under one government",
+      "An Indian prince who renounced his wealth and became the Buddha",
+      "A Maurya emperor who spread Buddhism across Asia through rock edicts"
+    ],
+    "answer": 0,
+    "explanation": "Chandragupta II ruled during the Gupta Empire's peak, a period considered a golden age of Indian culture, science, mathematics, and literature."
+  },
+  {
+    "id": 69,
+    "chapter": "Ancient India",
+    "term": "Maurya Empire",
+    "question": "What was the Maurya Empire?",
+    "choices": [
+      "The first empire to unite most of India, founded by Chandragupta Maurya in 321 BCE",
+      "A golden age empire in India known for its achievements in art and mathematics",
+      "A Chinese dynasty that built the Great Wall and standardized laws and writing",
+      "A religious movement in India that taught the Four Noble Truths and the Eightfold Path"
+    ],
+    "answer": 0,
+    "explanation": "The Maurya Empire, founded by Chandragupta Maurya around 321 BCE, was the first empire to bring most of India under one government, reaching its peak under Ashoka."
+  },
+  {
+    "id": 70,
+    "chapter": "Ancient India",
+    "term": "Gupta Empire",
+    "question": "What was the Gupta Empire?",
+    "choices": [
+      "An Indian empire known as a golden age of art, science, math, and literature",
+      "The first empire to unite most of India under Chandragupta Maurya in 321 BCE",
+      "A Chinese dynasty that created a strong central government and civil service exams",
+      "A Buddhist religious order that spread teachings across South and East Asia"
+    ],
+    "answer": 0,
+    "explanation": "The Gupta Empire (c. 320–550 CE) is considered India's golden age, marked by achievements in mathematics (including the concept of zero), astronomy, literature, and art."
+  },
+  {
+    "id": 71,
+    "chapter": "Ancient China",
+    "term": "Huang He Valley",
+    "question": "What was the Huang He Valley?",
+    "choices": [
+      "A river valley in northern China where early Chinese civilization first developed",
+      "A mountain pass through the Hindu Kush used by invaders to enter India",
+      "A large plateau in southern India bordered by two coastal mountain ranges",
+      "An ancient trade route connecting China to the Mediterranean Sea"
+    ],
+    "answer": 0,
+    "explanation": "The Huang He (Yellow River) Valley in northern China was the birthplace of Chinese civilization, where farming settlements grew into China's first dynasties."
+  },
+  {
+    "id": 72,
+    "chapter": "Ancient China",
+    "term": "Confucius",
+    "question": "Who was Confucius?",
+    "choices": [
+      "A Chinese teacher who stressed moral character, respect, and proper social behavior",
+      "An Indian spiritual leader who founded Buddhism and taught the Four Noble Truths",
+      "A Chinese emperor who built the Great Wall and created a strong central government",
+      "A Chinese philosopher who taught people to live simply in harmony with the Dao"
+    ],
+    "answer": 0,
+    "explanation": "Confucius (551–479 BCE) was a Chinese philosopher whose teachings on morality, respect for elders, and proper behavior deeply influenced Chinese culture and government."
+  },
+  {
+    "id": 73,
+    "chapter": "Ancient China",
+    "term": "Laozi",
+    "question": "Who was Laozi?",
+    "choices": [
+      "A Chinese thinker who founded Daoism and taught living simply in harmony with the Dao",
+      "A Chinese philosopher who stressed respect, morality, and proper social relationships",
+      "A Legalist scholar who believed strict laws and harsh punishments created order",
+      "The first emperor of China who unified the country and standardized its systems"
+    ],
+    "answer": 0,
+    "explanation": "Laozi was the legendary founder of Daoism, traditionally said to have written the Dao De Jing, teaching that people should live simply and follow the natural way (the Dao)."
+  },
+  {
+    "id": 74,
+    "chapter": "Ancient China",
+    "term": "Hanfeizi",
+    "question": "Who was Hanfeizi?",
+    "choices": [
+      "A Legalist philosopher who taught that strict laws and harsh punishments kept order",
+      "A Chinese teacher who emphasized moral character and respect for elders",
+      "A Daoist thinker who urged people to live simply and follow the natural Dao",
+      "A Chinese emperor who unified China and built roads and the Great Wall"
+    ],
+    "answer": 0,
+    "explanation": "Hanfeizi was the most important Legalist philosopher. He believed that only strict laws, harsh punishments, and a strong ruler could maintain order in society."
+  },
+  {
+    "id": 75,
+    "chapter": "Ancient China",
+    "term": "Shi Huangdi",
+    "question": "Who was Shi Huangdi?",
+    "choices": [
+      "The first emperor of a unified China who built the Great Wall and standardized laws",
+      "A Chinese philosopher who taught that strict laws and punishments created social order",
+      "A Han dynasty emperor who opened the Silk Road and expanded China's trade",
+      "An Indian emperor who gave up war and spread Buddhist teachings across Asia"
+    ],
+    "answer": 0,
+    "explanation": "Shi Huangdi became the first emperor of a unified China in 221 BCE. He standardized weights, measures, and writing, and began building the Great Wall for defense."
+  },
+  {
+    "id": 76,
+    "chapter": "Ancient China",
+    "term": "Li Si",
+    "question": "Who was Li Si?",
+    "choices": [
+      "A Legalist advisor who helped Shi Huangdi unify China and standardize its systems",
+      "A Daoist philosopher who taught that people should live simply and follow the Dao",
+      "A Confucian scholar who emphasized moral character and respect for authority",
+      "A Han emperor who created civil service exams for government positions"
+    ],
+    "answer": 0,
+    "explanation": "Li Si was the chief advisor to Shi Huangdi and a key Legalist thinker who helped implement the policies of unification, standardization, and strict government control."
+  },
+  {
+    "id": 77,
+    "chapter": "Ancient China",
+    "term": "Liu Bang",
+    "question": "Who was Liu Bang?",
+    "choices": [
+      "A peasant leader who founded the Han dynasty and became its first emperor",
+      "A Legalist philosopher who helped Shi Huangdi create a strong central government",
+      "A Chinese teacher who stressed moral behavior and respect for social hierarchy",
+      "A Daoist sage who wrote about living in harmony with the natural world"
+    ],
+    "answer": 0,
+    "explanation": "Liu Bang was a peasant who rebelled against the Qin dynasty and founded the Han dynasty in 202 BCE, becoming its first emperor under the name Gaozu."
+  },
+  {
+    "id": 78,
+    "chapter": "Ancient China",
+    "term": "Gaozu",
+    "question": "Who was Gaozu?",
+    "choices": [
+      "The first emperor of the Han dynasty, originally known as the peasant leader Liu Bang",
+      "The first emperor of unified China who built the Great Wall and burned books",
+      "A powerful Gupta emperor who expanded India's territory and supported the arts",
+      "A Maurya emperor who gave up war after battle and promoted Buddhist teachings"
+    ],
+    "answer": 0,
+    "explanation": "Gaozu, born Liu Bang, was the founder and first emperor of the Han dynasty. He was one of the few Chinese emperors to come from a peasant background."
+  },
+  {
+    "id": 79,
+    "chapter": "Ancient China",
+    "term": "Wu Di",
+    "question": "Who was Wu Di?",
+    "choices": [
+      "A Han emperor who expanded China's borders and opened the Silk Road for trade",
+      "The founder of the Han dynasty who rose from being a peasant to emperor",
+      "A Legalist advisor who helped Shi Huangdi create strict laws and punishments",
+      "A Confucian teacher who stressed moral behavior and respect for family"
+    ],
+    "answer": 0,
+    "explanation": "Wu Di (141–87 BCE) was one of the greatest Han emperors. He expanded China's territory, opened trade along the Silk Road, and made Confucianism the official state philosophy."
+  },
+  {
+    "id": 80,
+    "chapter": "Ancient China",
+    "term": "Sima Qian",
+    "question": "Who was Sima Qian?",
+    "choices": [
+      "A Han dynasty historian who wrote one of the earliest complete histories of China",
+      "A Legalist philosopher who advised Shi Huangdi on strict laws and government",
+      "A Daoist teacher who wrote about living in harmony with the natural world",
+      "A Confucian scholar who became the first emperor of the Han dynasty"
+    ],
+    "answer": 0,
+    "explanation": "Sima Qian (c. 145–86 BCE) was a Han dynasty historian who wrote the 'Records of the Grand Historian,' covering over 2,000 years of Chinese history."
+  },
+  {
+    "id": 81,
+    "chapter": "Early Romans",
+    "term": "Romulus and Remus",
+    "question": "Who were Romulus and Remus?",
+    "choices": [
+      "Twin brothers who founded the city of Rome according to legend",
+      "Two Roman generals who conquered the Italian peninsula",
+      "Twin consuls who reformed the Roman Republic's laws",
+      "Brothers who led the Latin revolt against Etruscan kings"
+    ],
+    "answer": 0,
+    "explanation": "Romulus and Remus are the legendary twin brothers raised by a she-wolf. Romulus later founded Rome and became its first king."
+  },
+  {
+    "id": 82,
+    "chapter": "Early Romans",
+    "term": "Aeneas",
+    "question": "Who was Aeneas?",
+    "choices": [
+      "A Trojan hero who traveled to Italy and became an ancestor of the Romans",
+      "A Greek warrior who sailed to Italy after the Trojan War ended",
+      "An Etruscan king who built the first walls around the city of Rome",
+      "A Roman senator who wrote the epic story of Rome's founding"
+    ],
+    "answer": 0,
+    "explanation": "Aeneas was a Trojan hero from Virgil's Aeneid. After Troy fell, he journeyed to Italy, and his descendants eventually founded Rome."
+  },
+  {
+    "id": 83,
+    "chapter": "Early Romans",
+    "term": "Ancus Marcius",
+    "question": "Who was Ancus Marcius?",
+    "choices": [
+      "The fourth king of Rome who built the first bridge and prison",
+      "The first Etruscan king who drained the Roman swamp lands",
+      "A Roman consul who defeated the Carthaginian navy at sea",
+      "The last king of Rome who was overthrown by angry citizens"
+    ],
+    "answer": 0,
+    "explanation": "Ancus Marcius was Rome's fourth king, a grandson of Numa Pompilius. He built Rome's first prison and the Pons Sublicius, its first bridge."
+  },
+  {
+    "id": 84,
+    "chapter": "Early Romans",
+    "term": "Tarquinius Priscus",
+    "question": "Who was Tarquinius Priscus?",
+    "choices": [
+      "The fifth king of Rome, an Etruscan who started the Circus Maximus",
+      "The Roman general who drove the last king out of the city",
+      "A Latin leader who signed the first peace treaty with Carthage",
+      "The first Roman dictator who defended the city from invasion"
+    ],
+    "answer": 0,
+    "explanation": "Tarquinius Priscus was Rome's fifth king. He was of Etruscan origin and began major building projects including the Circus Maximus."
+  },
+  {
+    "id": 85,
+    "chapter": "Early Romans",
+    "term": "Tarquinius Superbus",
+    "question": "Who was Tarquinius Superbus?",
+    "choices": [
+      "The last king of Rome, known for his cruelty and arrogance",
+      "The first emperor who expanded Rome across the Mediterranean",
+      "A Roman consul who negotiated peace with the Latin tribes",
+      "An Etruscan king who built the Roman Forum and Senate house"
+    ],
+    "answer": 0,
+    "explanation": "Tarquinius Superbus ('the Proud') was Rome's seventh and last king. His harsh rule led to a rebellion that ended the monarchy and created the Republic."
+  },
+  {
+    "id": 86,
+    "chapter": "Early Romans",
+    "term": "Latins",
+    "question": "Which of the following best describes the Latins?",
+    "choices": [
+      "An early people who settled the region around Rome and spoke Latin",
+      "A group of Greek colonists who founded cities in southern Italy",
+      "The mountain tribes who lived north of the Tiber River valley",
+      "The Celtic peoples who migrated across the Alps into Italy"
+    ],
+    "answer": 0,
+    "explanation": "The Latins were an Italic people who lived in the region of Latium around Rome. Their language, Latin, became the basis for Roman language and culture."
+  },
+  {
+    "id": 87,
+    "chapter": "Early Romans",
+    "term": "Etruscans",
+    "question": "Which of the following best describes the Etruscans?",
+    "choices": [
+      "A civilization north of Rome that influenced Roman culture and ruled as kings",
+      "A sea-faring people from Carthage who fought Rome for control of Sicily",
+      "A group of Greek settlers who built colonies on the coast of Italy",
+      "The mountain warriors who defended the Alpine passes from invaders"
+    ],
+    "answer": 0,
+    "explanation": "The Etruscans were a powerful civilization to the north of Rome. They ruled Rome through a series of kings and influenced Roman religion, architecture, and government."
+  },
+  {
+    "id": 88,
+    "chapter": "Early Romans",
+    "term": "Cincinnatus",
+    "question": "Who was Cincinnatus?",
+    "choices": [
+      "A Roman dictator who saved Rome and then gave up his power voluntarily",
+      "A Roman general who conquered Gaul and marched on the city of Rome",
+      "The first consul of the Roman Republic after kings were expelled",
+      "A Roman senator who wrote the first code of laws for citizens"
+    ],
+    "answer": 0,
+    "explanation": "Cincinnatus was appointed dictator during a crisis, defeated Rome's enemies, and then famously returned to his farm instead of keeping power. He became a model of Roman virtue."
+  },
+  {
+    "id": 89,
+    "chapter": "Early Romans",
+    "term": "Carthage",
+    "question": "What was Carthage?",
+    "choices": [
+      "A powerful North African city that fought Rome in the Punic Wars",
+      "A wealthy Greek city-state that allied with Rome against Persia",
+      "A Roman colony built on the coast after defeating Hannibal",
+      "An Etruscan port city that controlled trade across the Mediterranean"
+    ],
+    "answer": 0,
+    "explanation": "Carthage was a wealthy and powerful city in North Africa (modern Tunisia). It fought three Punic Wars with Rome for control of the western Mediterranean."
+  },
+  {
+    "id": 90,
+    "chapter": "Early Romans",
+    "term": "Hannibal",
+    "question": "Who was Hannibal?",
+    "choices": [
+      "A Carthaginian general who crossed the Alps with elephants to attack Rome",
+      "A Roman consul who defended Italy against the Carthaginian invasion",
+      "The king of Carthage who signed the treaty ending the First Punic War",
+      "A Greek commander who helped Carthage fight Rome at sea"
+    ],
+    "answer": 0,
+    "explanation": "Hannibal was Carthage's greatest general. During the Second Punic War, he famously crossed the Alps with war elephants and won several battles against Rome on Italian soil."
+  },
+  {
+    "id": 91,
+    "chapter": "Early Romans",
+    "term": "Scipio",
+    "question": "Who was Scipio?",
+    "choices": [
+      "A Roman general who defeated Hannibal and won the Second Punic War",
+      "A Carthaginian admiral who commanded the fleet in the First Punic War",
+      "A Roman consul who negotiated the peace after the Third Punic War",
+      "A Greek ally who helped Rome build its first navy for battle"
+    ],
+    "answer": 0,
+    "explanation": "Scipio Africanus was the Roman general who finally defeated Hannibal at the Battle of Zama in 202 BC, ending the Second Punic War and making Rome the dominant power."
+  },
+  {
+    "id": 92,
+    "chapter": "Early Romans",
+    "term": "Tiberius and Gaius Gracchus",
+    "question": "Who were Tiberius and Gaius Gracchus?",
+    "choices": [
+      "Roman brothers who tried to reform land laws and were both killed",
+      "Two Roman consuls who expanded the Republic into Gaul and Spain",
+      "Twin generals who led Roman armies in the Second Punic War",
+      "Brothers who served as kings of Rome during the early Republic"
+    ],
+    "answer": 0,
+    "explanation": "Tiberius and Gaius Gracchus were brothers who served as tribunes. They tried to pass land reforms to help the poor, but both were violently killed by opposing senators."
+  },
+  {
+    "id": 93,
+    "chapter": "Early Romans",
+    "term": "Gaius Marius",
+    "question": "Who was Gaius Marius?",
+    "choices": [
+      "A Roman general who reformed the army and served as consul seven times",
+      "A Roman senator who opposed Julius Caesar and supported the Republic",
+      "A Carthaginian commander who fought in the First Punic War",
+      "The first Roman emperor who created the system of the Praetorian Guard"
+    ],
+    "answer": 0,
+    "explanation": "Gaius Marius was a military leader who reformed the Roman army by allowing poor citizens to enlist. He held the office of consul an unprecedented seven times."
+  },
+  {
+    "id": 94,
+    "chapter": "Early Romans",
+    "term": "Sulla",
+    "question": "Who was Sulla?",
+    "choices": [
+      "A Roman general who marched on Rome and became a harsh dictator",
+      "A Roman senator who supported the Gracchi brothers' land reforms",
+      "The consul who negotiated peace with Mithridates in the East",
+      "A Roman emperor who divided the empire into eastern and western halves"
+    ],
+    "answer": 0,
+    "explanation": "Sulla was the first Roman general to march his army on Rome itself. He became dictator and carried out bloody purges of his political enemies, weakening the Republic."
+  },
+  {
+    "id": 95,
+    "chapter": "Early Romans",
+    "term": "Pompey",
+    "question": "Who was Pompey?",
+    "choices": [
+      "A Roman general who formed a political alliance with Caesar and Crassus",
+      "The Roman emperor who built a wall across the north of Britain",
+      "A Carthaginian leader who signed the treaty ending the Punic Wars",
+      "A Roman senator who wrote the famous histories of the Republic"
+    ],
+    "answer": 0,
+    "explanation": "Pompey was a brilliant general who joined Caesar and Crassus in the First Triumvirate. He later became Caesar's rival and was defeated in a civil war."
+  },
+  {
+    "id": 96,
+    "chapter": "Early Romans",
+    "term": "Crassus",
+    "question": "Who was Crassus?",
+    "choices": [
+      "A wealthy Roman who joined the First Triumvirate with Caesar and Pompey",
+      "A Roman general who defeated Hannibal at the Battle of Zama",
+      "The senator who gave the famous speeches against Catiline's conspiracy",
+      "A Roman emperor who built the Colosseum for gladiatorial games"
+    ],
+    "answer": 0,
+    "explanation": "Crassus was one of the richest men in Rome. He formed the First Triumvirate with Caesar and Pompey but was killed fighting the Parthians in the East."
+  },
+  {
+    "id": 97,
+    "chapter": "Early Romans",
+    "term": "Julius Caesar",
+    "question": "Who was Julius Caesar?",
+    "choices": [
+      "A Roman leader who conquered Gaul, seized power, and was assassinated",
+      "The first Roman emperor who ruled after defeating Mark Antony",
+      "A Roman senator who defended the Republic against the Gracchi",
+      "The general who built the Roman road system across all of Europe"
+    ],
+    "answer": 0,
+    "explanation": "Julius Caesar conquered Gaul, crossed the Rubicon to seize power, and became dictator for life. He was assassinated by senators on the Ides of March in 44 BC."
+  },
+  {
+    "id": 98,
+    "chapter": "Early Romans",
+    "term": "Cato",
+    "question": "Who was Cato?",
+    "choices": [
+      "A Roman senator who fiercely defended the Republic and opposed Caesar",
+      "A Roman general who led the army in the conquest of Gaul",
+      "The last king of Rome who was overthrown and exiled from the city",
+      "A Roman poet who wrote about the founding myths of the city"
+    ],
+    "answer": 0,
+    "explanation": "Cato the Younger was a staunch defender of the Roman Republic. He opposed Caesar's rise to power and chose to take his own life rather than live under Caesar's rule."
+  },
+  {
+    "id": 99,
+    "chapter": "Early Romans",
+    "term": "Cicero (Republic)",
+    "question": "Which of the following best describes Cicero in the Republic context?",
+    "choices": [
+      "A Roman orator and senator who defended the Republic against conspiracies",
+      "A Roman general who led armies in the war against Carthage",
+      "A Roman emperor who reformed the legal system of the Empire",
+      "A Roman historian who wrote about the early kings of Rome"
+    ],
+    "answer": 0,
+    "explanation": "Cicero was one of Rome's greatest speakers and writers. In the Republic era, he famously exposed Catiline's conspiracy and defended republican government against growing tyranny."
+  },
+  {
+    "id": 100,
+    "chapter": "The Roman Empire",
+    "term": "Octavian/Augustus",
+    "question": "Who was Octavian/Augustus?",
+    "choices": [
+      "Caesar's adopted heir who became the first emperor of the Roman Empire",
+      "A Roman general who led the army against Hannibal in the Punic Wars",
+      "The last king of Rome before the Republic was established",
+      "A Roman senator who opposed Julius Caesar and supported the Republic"
+    ],
+    "answer": 0,
+    "explanation": "Octavian, later called Augustus, was Julius Caesar's adopted heir. He defeated Mark Antony, became Rome's first emperor, and started the Pax Romana, a long era of peace."
+  },
+  {
+    "id": 101,
+    "chapter": "The Roman Empire",
+    "term": "Mark Antony",
+    "question": "Who was Mark Antony?",
+    "choices": [
+      "A Roman general who allied with Cleopatra and fought against Octavian",
+      "The first emperor of Rome who established the Pax Romana",
+      "A Roman senator who helped assassinate Julius Caesar in the Senate",
+      "The general who led Roman forces to conquer Gaul and Britain"
+    ],
+    "answer": 0,
+    "explanation": "Mark Antony was a loyal general of Julius Caesar. After Caesar's death, he allied with Cleopatra of Egypt but was defeated by Octavian at the Battle of Actium."
+  },
+  {
+    "id": 102,
+    "chapter": "The Roman Empire",
+    "term": "Lepidus",
+    "question": "Who was Lepidus?",
+    "choices": [
+      "A Roman general who briefly shared power in the Second Triumvirate",
+      "A Roman emperor who built the famous wall across northern Britain",
+      "A Carthaginian commander who fought in the Second Punic War",
+      "A Roman senator who gave speeches against Julius Caesar's rule"
+    ],
+    "answer": 0,
+    "explanation": "Lepidus was the third member of the Second Triumvirate with Octavian and Antony. He was soon pushed out of power and lived the rest of his life in exile."
+  },
+  {
+    "id": 103,
+    "chapter": "The Roman Empire",
+    "term": "Brutus",
+    "question": "Who was Brutus?",
+    "choices": [
+      "A Roman senator who helped assassinate Julius Caesar to save the Republic",
+      "A Roman general who led the army in the war against Cleopatra",
+      "The first emperor who ruled Rome after the Republic fell apart",
+      "A Roman poet who wrote epic stories about Rome's early history"
+    ],
+    "answer": 0,
+    "explanation": "Brutus was one of the lead conspirators who assassinated Julius Caesar on the Ides of March. He believed killing Caesar would save the Roman Republic from tyranny."
+  },
+  {
+    "id": 104,
+    "chapter": "The Roman Empire",
+    "term": "Cassius",
+    "question": "Who was Cassius?",
+    "choices": [
+      "A Roman senator who co-led the conspiracy to assassinate Julius Caesar",
+      "A Roman emperor who reformed the tax system across the Empire",
+      "The general who defeated Hannibal at the Battle of Zama in Africa",
+      "A Roman philosopher who wrote about the laws of the Republic"
+    ],
+    "answer": 0,
+    "explanation": "Cassius was a Roman senator who, along with Brutus, organized and carried out the assassination of Julius Caesar in 44 BC, hoping to restore the Republic."
+  },
+  {
+    "id": 105,
+    "chapter": "The Roman Empire",
+    "term": "Cleopatra VII",
+    "question": "Who was Cleopatra VII?",
+    "choices": [
+      "The last pharaoh of Egypt who allied with Mark Antony against Rome",
+      "A Roman empress who ruled alongside Augustus during the Pax Romana",
+      "The queen of Carthage who led her navy in the Punic Wars",
+      "A Greek philosopher who tutored the young Julius Caesar"
+    ],
+    "answer": 0,
+    "explanation": "Cleopatra VII was the last ruler of the Ptolemaic Kingdom of Egypt. She formed alliances with Julius Caesar and later Mark Antony before her defeat by Octavian."
+  },
+  {
+    "id": 106,
+    "chapter": "The Roman Empire",
+    "term": "Tacitus (Empire)",
+    "question": "Which of the following best describes Tacitus in the Empire context?",
+    "choices": [
+      "A Roman historian who wrote about the early emperors and their cruelty",
+      "A Roman general who led the conquest of Britain under Claudius",
+      "A Roman philosopher who served as advisor to Emperor Nero",
+      "A Roman senator who opposed Augustus and supported the Republic"
+    ],
+    "answer": 0,
+    "explanation": "Tacitus was a Roman historian during the Empire era. His works describe the reigns of early emperors like Tiberius and Nero, exposing their corruption and cruelty."
+  },
+  {
+    "id": 107,
+    "chapter": "The Roman Empire",
+    "term": "Tiberius",
+    "question": "Who was Tiberius?",
+    "choices": [
+      "The second Roman emperor who ruled after Augustus and became reclusive",
+      "A Roman tribune who tried to pass land reforms for poor citizens",
+      "The general who led the Roman army in the conquest of Gaul",
+      "A Roman senator who wrote the first history of the Punic Wars"
+    ],
+    "answer": 0,
+    "explanation": "Tiberius was Rome's second emperor, succeeding Augustus. He was a capable military leader but later became distrustful and withdrew from public life."
+  },
+  {
+    "id": 108,
+    "chapter": "The Roman Empire",
+    "term": "Caligula",
+    "question": "Who was Caligula?",
+    "choices": [
+      "A Roman emperor known for his cruel and erratic behavior",
+      "A Roman general who conquered Britain and expanded the Empire",
+      "The Roman senator who exposed Catiline's conspiracy to the public",
+      "A Roman poet who wrote about the gods and the founding of Rome"
+    ],
+    "answer": 0,
+    "explanation": "Caligula was the third Roman emperor. He started well but became infamous for cruelty, extravagance, and strange behavior. He was assassinated by his own guards."
+  },
+  {
+    "id": 109,
+    "chapter": "The Roman Empire",
+    "term": "Claudius",
+    "question": "Who was Claudius?",
+    "choices": [
+      "A Roman emperor who conquered Britain and expanded the Empire's borders",
+      "The Roman general who defeated Hannibal and ended the Punic Wars",
+      "A Roman senator who wrote famous speeches defending the Republic",
+      "The last king of Rome who was overthrown by angry citizens"
+    ],
+    "answer": 0,
+    "explanation": "Claudius was the fourth Roman emperor. Despite physical disabilities, he was an effective ruler who oversaw the conquest of Britain and improved Roman administration."
+  },
+  {
+    "id": 110,
+    "chapter": "The Roman Empire",
+    "term": "Nero",
+    "question": "Who was Nero?",
+    "choices": [
+      "A Roman emperor blamed for a great fire and known for persecuting Christians",
+      "A Roman general who led the campaign against the Carthaginians",
+      "The first emperor of Rome who started the Pax Romana period",
+      "A Roman senator who tried to reform the laws of the Republic"
+    ],
+    "answer": 0,
+    "explanation": "Nero was the fifth Roman emperor. He is infamous for the Great Fire of Rome and for cruelly persecuting Christians. He was the last emperor of the Julio-Claudian dynasty."
+  },
+  {
+    "id": 111,
+    "chapter": "The Roman Empire",
+    "term": "Nerva",
+    "question": "Who was Nerva?",
+    "choices": [
+      "The first of the Five Good Emperors who adopted the next leader as his son",
+      "The last Roman emperor who watched the western Empire collapse",
+      "A Roman general who fought in the Dacian Wars alongside Trajan",
+      "The senator who replaced Augustus as ruler of the Roman Empire"
+    ],
+    "answer": 0,
+    "explanation": "Nerva was the first of the Five Good Emperors. He began the practice of adopting a capable successor, which brought stability and good government to Rome."
+  },
+  {
+    "id": 112,
+    "chapter": "The Roman Empire",
+    "term": "Trajan",
+    "question": "Who was Trajan?",
+    "choices": [
+      "A Roman emperor who conquered Dacia and expanded the Empire to its largest size",
+      "The Roman general who crossed the Rubicon and seized power as dictator",
+      "A Roman senator who opposed Julius Caesar and defended the old Republic",
+      "The first emperor of Rome who established the system of the Praetorian Guard"
+    ],
+    "answer": 0,
+    "explanation": "Trajan was the second of the Five Good Emperors. Under his rule, Rome reached its greatest territorial extent, including the conquest of Dacia (modern Romania)."
+  },
+  {
+    "id": 113,
+    "chapter": "The Roman Empire",
+    "term": "Hadrian",
+    "question": "Who was Hadrian?",
+    "choices": [
+      "A Roman emperor who built a famous wall in Britain and traveled widely",
+      "The Roman general who defeated the Gauls and expanded into France",
+      "A Roman poet who wrote about the gods and the myths of early Rome",
+      "The first emperor who started the tradition of the Praetorian Guard"
+    ],
+    "answer": 0,
+    "explanation": "Hadrian was the third of the Five Good Emperors. He traveled throughout the Empire, strengthened its defenses, and built Hadrian's Wall across northern Britain."
+  },
+  {
+    "id": 114,
+    "chapter": "The Roman Empire",
+    "term": "Antoninus Pius",
+    "question": "Who was Antoninus Pius?",
+    "choices": [
+      "A Roman emperor who ruled during a long and peaceful period of the Empire",
+      "The Roman general who led the conquest of Dacia under Emperor Trajan",
+      "A Roman senator who helped write the laws of the early Republic",
+      "The emperor who built the Colosseum for gladiatorial games in Rome"
+    ],
+    "answer": 0,
+    "explanation": "Antoninus Pius was the fourth of the Five Good Emperors. His reign was one of the most peaceful in Roman history, with very few military conflicts."
+  },
+  {
+    "id": 115,
+    "chapter": "The Roman Empire",
+    "term": "Marcus Aurelius",
+    "question": "Who was Marcus Aurelius?",
+    "choices": [
+      "A Roman emperor and philosopher who was the last of the Good Emperors",
+      "A Roman general who conquered Gaul and wrote about his campaigns",
+      "The first emperor of Rome who established peace across the Empire",
+      "A Roman senator who wrote the famous speeches against Catiline"
+    ],
+    "answer": 0,
+    "explanation": "Marcus Aurelius was the last of the Five Good Emperors. He was also a Stoic philosopher who wrote 'Meditations,' a famous book about duty and self-discipline."
+  },
+  {
+    "id": 116,
+    "chapter": "The Roman Empire",
+    "term": "Coliseum",
+    "question": "What was the Coliseum?",
+    "choices": [
+      "A huge arena in Rome where gladiators fought and spectacles were held",
+      "A large temple where Romans went to worship their many gods",
+      "A massive market where traders sold goods from across the Empire",
+      "A government building where the Roman Senate met to make laws"
+    ],
+    "answer": 0,
+    "explanation": "The Coliseum (or Colosseum) was a massive amphitheater in Rome completed under Emperor Titus. It could hold about 50,000 spectators who watched gladiatorial combat and other events."
+  },
+  {
+    "id": 117,
+    "chapter": "The Roman Empire",
+    "term": "Circus Maximus",
+    "question": "What was the Circus Maximus?",
+    "choices": [
+      "A large stadium in Rome used for chariot races and public events",
+      "A famous gladiatorial arena where fighters battled wild animals",
+      "A grand marketplace where merchants sold goods from all over the Empire",
+      "A military training ground where Roman soldiers practiced combat"
+    ],
+    "answer": 0,
+    "explanation": "The Circus Maximus was Rome's largest entertainment venue, used mainly for chariot racing. It could hold over 150,000 spectators, making it bigger than the Colosseum."
+  },
+  {
+    "id": 118,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Herod the Great",
+    "question": "Who was Herod the Great?",
+    "choices": [
+      "A king who ruled Judaea under Roman authority and rebuilt the Temple",
+      "A Roman emperor who persecuted early Christians across the Empire",
+      "The Roman governor who sentenced Jesus to death by crucifixion",
+      "A Jewish priest who led the rebellion against Roman occupation"
+    ],
+    "answer": 0,
+    "explanation": "Herod the Great was the king of Judaea appointed by Rome. He was known for massive building projects, including expanding the Jewish Temple in Jerusalem."
+  },
+  {
+    "id": 119,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Judaea",
+    "question": "What was Judaea?",
+    "choices": [
+      "A region in the Middle East ruled by Rome where Jesus lived and taught",
+      "A wealthy Roman province in North Africa known for its grain supply",
+      "A Greek city-state that allied with Rome against the Persian Empire",
+      "A territory in Gaul that Julius Caesar conquered during his campaigns"
+    ],
+    "answer": 0,
+    "explanation": "Judaea was a Roman province in the eastern Mediterranean. It was the homeland of the Jewish people and the region where Jesus lived and where Christianity began."
+  },
+  {
+    "id": 120,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Jesus",
+    "question": "Who was Jesus?",
+    "choices": [
+      "A Jewish teacher whose life and teachings became the foundation of Christianity",
+      "A Roman emperor who made Christianity the official religion of the Empire",
+      "A Jewish rebel who led the fight against Roman rule in Judaea",
+      "A Roman governor who oversaw the province of Judaea for the Empire"
+    ],
+    "answer": 0,
+    "explanation": "Jesus of Nazareth was a Jewish teacher and preacher in Judaea. His teachings about love and forgiveness became the basis of Christianity, one of the world's major religions."
+  },
+  {
+    "id": 121,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Pontius Pilate",
+    "question": "Who was Pontius Pilate?",
+    "choices": [
+      "The Roman governor of Judaea who sentenced Jesus to be crucified",
+      "A Roman emperor who made Christianity legal throughout the Empire",
+      "A Jewish high priest who opposed Jesus and his growing group of followers",
+      "The Roman general who destroyed the Temple in Jerusalem in 70 AD"
+    ],
+    "answer": 0,
+    "explanation": "Pontius Pilate was the Roman prefect (governor) of Judaea. According to the Gospels, he sentenced Jesus to crucifixion despite finding no real guilt in him."
+  },
+  {
+    "id": 122,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Saul/Paul",
+    "question": "Who was Saul/Paul?",
+    "choices": [
+      "A Christian apostle who spread Jesus's teachings across the Roman Empire",
+      "A Roman emperor who persecuted Christians before converting to the faith",
+      "A Jewish priest who led the opposition to early Christian missionaries",
+      "The Roman governor who sentenced Peter and Paul to death in Rome"
+    ],
+    "answer": 0,
+    "explanation": "Saul was a Jew who persecuted Christians but converted after a vision of Jesus. As Paul, he traveled widely across the Empire, writing letters that became part of the Bible."
+  },
+  {
+    "id": 123,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Theodosius",
+    "question": "Who was Theodosius?",
+    "choices": [
+      "A Roman emperor who made Christianity the official religion of the Empire",
+      "A Roman general who defended the Empire against barbarian invasions",
+      "The bishop of Rome who converted the last pagan senators to Christianity",
+      "A Christian missionary who traveled to Britain to convert the Anglo-Saxons"
+    ],
+    "answer": 0,
+    "explanation": "Theodosius I was the Roman emperor who made Christianity the official and only allowed religion of the Empire in 380 AD, ending official support for pagan worship."
+  },
+  {
+    "id": 124,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Pliny the Younger",
+    "question": "Who was Pliny the Younger?",
+    "choices": [
+      "A Roman governor whose letters describe early Christians and Roman life",
+      "A Roman emperor who persecuted Christians in the city of Rome",
+      "A Greek physician who studied diseases and treated Roman soldiers",
+      "A Roman poet who wrote about the gods and the founding of the city"
+    ],
+    "answer": 0,
+    "explanation": "Pliny the Younger was a Roman official and writer. His letters to Emperor Trajan about how to handle Christians provide valuable evidence about early Christianity."
+  },
+  {
+    "id": 125,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Constantine the Great",
+    "question": "Who was Constantine the Great?",
+    "choices": [
+      "A Roman emperor who legalized Christianity and built a new capital city",
+      "The Roman general who conquered Gaul and invaded Britain",
+      "A Roman senator who wrote the laws that protected Christian citizens",
+      "The first pope of the Christian Church in the city of Rome"
+    ],
+    "answer": 0,
+    "explanation": "Constantine was the first Roman emperor to convert to Christianity. He issued the Edict of Milan in 313 AD, making Christianity legal, and founded Constantinople."
+  },
+  {
+    "id": 126,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Cicero (Legacy)",
+    "question": "Which of the following best describes Cicero in the Legacy context?",
+    "choices": [
+      "A Roman writer whose ideas about government influenced later democracies",
+      "A Roman general whose military tactics were studied for centuries",
+      "The Roman emperor who established the legal system of the Empire",
+      "A Roman architect whose building designs shaped medieval cathedrals"
+    ],
+    "answer": 0,
+    "explanation": "Cicero's writings on philosophy, law, and government had lasting influence. His ideas about natural law and republican government shaped later thinkers of the Renaissance."
+  },
+  {
+    "id": 127,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Tacitus (Legacy)",
+    "question": "Which of the following best describes Tacitus in the Legacy context?",
+    "choices": [
+      "A Roman historian whose works preserved knowledge of early imperial Rome",
+      "A Roman general whose campaigns shaped the borders of the Empire",
+      "A Roman philosopher whose ideas about virtue influenced medieval thinkers",
+      "A Roman architect whose designs influenced later public buildings"
+    ],
+    "answer": 0,
+    "explanation": "Tacitus's historical works, especially the Annals and Histories, are crucial sources for understanding the early Roman emperors and the society of imperial Rome."
+  },
+  {
+    "id": 128,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Virgil",
+    "question": "Who was Virgil?",
+    "choices": [
+      "A Roman poet who wrote the Aeneid, Rome's greatest epic poem",
+      "A Roman emperor who ruled during the early days of the Empire",
+      "A Roman general who led the conquest of Gaul under Julius Caesar",
+      "A Roman historian who wrote about the Punic Wars with Carthage"
+    ],
+    "answer": 0,
+    "explanation": "Virgil was Rome's greatest poet. His epic the Aeneid tells the story of Aeneas's journey from Troy to Italy and was meant to celebrate Rome's destiny and greatness."
+  },
+  {
+    "id": 129,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Horace",
+    "question": "Who was Horace?",
+    "choices": [
+      "A Roman poet known for his odes and witty poems about daily life",
+      "A Roman emperor who expanded the Empire to its greatest size",
+      "A Roman historian who wrote about the fall of the Roman Republic",
+      "A Roman general who defended the Empire against barbarian attacks"
+    ],
+    "answer": 0,
+    "explanation": "Horace was a leading Roman lyric poet during Augustus's reign. He wrote odes, satires, and letters that reflected on life, friendship, and the pleasures of a simple life."
+  },
+  {
+    "id": 130,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Ovid",
+    "question": "Who was Ovid?",
+    "choices": [
+      "A Roman poet who wrote about mythology and was exiled by Augustus",
+      "A Roman senator who opposed the emperor and defended the Republic",
+      "A Roman engineer who designed the aqueducts of the city of Rome",
+      "A Roman general who conquered new territories in the eastern Empire"
+    ],
+    "answer": 0,
+    "explanation": "Ovid was a Roman poet famous for Metamorphoses, a collection of myths about transformations. Augustus exiled him to a remote town, possibly because of his controversial poetry."
+  },
+  {
+    "id": 131,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Ptolemy",
+    "question": "Who was Ptolemy?",
+    "choices": [
+      "A Roman-era scholar who mapped the stars and created a model of the solar system",
+      "A Roman general who conquered Egypt and made it a Roman province",
+      "A Greek philosopher who taught the young emperor Marcus Aurelius",
+      "An Egyptian pharaoh who fought against the Roman Empire's expansion"
+    ],
+    "answer": 0,
+    "explanation": "Ptolemy was a scientist in Roman Egypt. His geography and astronomy books, including the idea that Earth was the center of the universe, were used for over 1,400 years."
+  },
+  {
+    "id": 132,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Galen",
+    "question": "Who was Galen?",
+    "choices": [
+      "A Roman-era doctor whose medical writings were used for centuries",
+      "A Roman emperor who built hospitals throughout the Empire",
+      "A Greek philosopher who wrote about ethics and the good life",
+      "A Roman architect who designed the aqueducts and public baths"
+    ],
+    "answer": 0,
+    "explanation": "Galen was a physician in the Roman Empire whose medical theories and writings influenced medicine for over a thousand years. He served as doctor to several Roman emperors."
+  }
+]
