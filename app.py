@@ -62,7 +62,22 @@ def load_all_questions():
     return questions
 
 
-# ─── Supabase ──────────────────────────────────────────────────────────────────
+# ─── Shuffle choices ───────────────────────────────────────────────────────────
+
+def shuffle_choices(question: dict) -> dict:
+    """Return a copy of the question with shuffled choices and updated answer index."""
+    choices = question["choices"][:]
+    correct_text = choices[question["answer"]]
+    random.shuffle(choices)
+    new_answer = choices.index(correct_text)
+    return {
+        **question,
+        "choices": choices,
+        "answer": new_answer,
+    }
+
+
+# ─── Supabase ─────────────────────────────────────────────────────────────────
 
 def get_supabase() -> Client:
     if not SUPABASE_KEY:
@@ -74,23 +89,34 @@ def get_supabase() -> Client:
 
 
 def get_or_create_player(supabase: Client, name: str) -> dict | None:
-    """Get existing player or create new one. Returns player dict with id."""
+    """Get existing player or create new one. Returns player dict with id and streaks."""
     if not supabase or not name.strip():
         return None
     name = name.strip()[:50]
 
     try:
-        # Check if player exists
         result = supabase.table("ancient_civ_players").select("*").eq("name", name).execute()
         if result.data:
             return result.data[0]
 
-        # Create new player
         result = supabase.table("ancient_civ_players").insert({"name": name}).execute()
         return result.data[0] if result.data else None
     except Exception as e:
         st.error(f"Error connecting to database: {e}")
         return None
+
+
+def update_player_streak(supabase: Client, player_id: int, current_streak: int, best_streak: int):
+    """Update player's streaks in the database."""
+    if not supabase:
+        return
+    try:
+        supabase.table("ancient_civ_players").update({
+            "current_streak": current_streak,
+            "best_streak": best_streak,
+        }).eq("id", player_id).execute()
+    except Exception:
+        pass
 
 
 def record_answer(supabase: Client, player_id: int, question_term: str, chapter: str,
@@ -108,7 +134,7 @@ def record_answer(supabase: Client, player_id: int, question_term: str, chapter:
             "streak": streak,
         }).execute()
     except Exception:
-        pass  # Don't break the quiz if DB write fails
+        pass
 
 
 def get_leaderboard(supabase: Client, limit: int = 20) -> list:
@@ -116,31 +142,28 @@ def get_leaderboard(supabase: Client, limit: int = 20) -> list:
     if not supabase:
         return []
     try:
-        result = supabase.table("ancient_civ_scores").select("player_id, correct, streak, ancient_civ_players(name)").execute()
+        # Use the leaderboard view if available, otherwise fall back
+        result = supabase.table("ancient_civ_players").select("id, name, best_streak, current_streak").order("best_streak", desc=True).limit(limit).execute()
         if not result.data:
             return []
 
-        # Aggregate in Python (Supabase doesn't support complex aggregates via REST)
-        players = {}
-        for row in result.data:
-            pid = row["player_id"]
-            if pid not in players:
-                pname = row.get("ancient_civ_players", {})
-                if isinstance(pname, dict):
-                    pname = pname.get("name", "???")
-                players[pid] = {"name": pname, "correct": 0, "total": 0, "best_streak": 0}
+        players = []
+        for p in result.data:
+            # Get score counts
+            scores = supabase.table("ancient_civ_scores").select("correct").eq("player_id", p["id"]).execute()
+            total = len(scores.data) if scores.data else 0
+            correct = sum(1 for s in (scores.data or []) if s.get("correct"))
 
-            players[pid]["total"] += 1
-            if row["correct"]:
-                players[pid]["correct"] += 1
-            players[pid]["best_streak"] = max(players[pid]["best_streak"], row.get("streak", 0))
+            players.append({
+                "name": p["name"],
+                "correct": correct,
+                "total": total,
+                "best_streak": p.get("best_streak", 0),
+                "current_streak": p.get("current_streak", 0),
+            })
 
-        # Sort by best_streak desc, then correct desc
-        sorted_players = sorted(
-            players.values(),
-            key=lambda p: (-p["best_streak"], -p["correct"])
-        )
-        return sorted_players[:limit]
+        players.sort(key=lambda p: (-p["best_streak"], -p["correct"]))
+        return players[:limit]
     except Exception:
         return []
 
@@ -152,14 +175,15 @@ def get_player_stats(supabase: Client, player_id: int) -> dict:
     try:
         result = supabase.table("ancient_civ_scores").select("correct, streak, chapter, category").eq("player_id", player_id).execute()
         if not result.data:
-            return {"total": 0, "correct": 0, "best_streak": 0, "chapters": {}, "categories": {}}
+            return {"total": 0, "correct": 0, "best_streak": 0, "current_streak": 0, "chapters": {}, "categories": {}}
 
-        stats = {"total": 0, "correct": 0, "best_streak": 0, "chapters": {}, "categories": {}}
+        stats = {"total": 0, "correct": 0, "best_streak": 0, "current_streak": 0, "chapters": {}, "categories": {}}
         for row in result.data:
             stats["total"] += 1
             if row["correct"]:
                 stats["correct"] += 1
             stats["best_streak"] = max(stats["best_streak"], row.get("streak", 0))
+            stats["current_streak"] = max(stats["current_streak"], row.get("streak", 0))
 
             ch = row.get("chapter", "Unknown")
             if ch not in stats["chapters"]:
@@ -174,6 +198,12 @@ def get_player_stats(supabase: Client, player_id: int) -> dict:
             stats["categories"][cat]["total"] += 1
             if row["correct"]:
                 stats["categories"][cat]["correct"] += 1
+
+        # Override with player table streaks (authoritative)
+        player = supabase.table("ancient_civ_players").select("current_streak, best_streak").eq("id", player_id).execute()
+        if player.data:
+            stats["current_streak"] = player.data[0].get("current_streak", 0)
+            stats["best_streak"] = player.data[0].get("best_streak", 0)
 
         return stats
     except Exception:
@@ -208,12 +238,23 @@ def init_session_state():
 
 def start_quiz(questions: list, title: str, category_label: str = ""):
     """Initialize a new quiz session."""
-    shuffled = questions[:]
-    random.shuffle(shuffled)
-    st.session_state.current_questions = shuffled
+    # Shuffle question order AND shuffle each question's choices
+    shuffled_qs = [shuffle_choices(q) for q in questions]
+    random.shuffle(shuffled_qs)
+
+    supabase = get_supabase()
+    db_streak = 0
+    db_best = 0
+    if supabase and st.session_state.player_id:
+        player = get_or_create_player(supabase, st.session_state.player_name)
+        if player:
+            db_streak = player.get("current_streak", 0)
+            db_best = player.get("best_streak", 0)
+
+    st.session_state.current_questions = shuffled_qs
     st.session_state.current_index = 0
-    st.session_state.current_streak = 0
-    st.session_state.best_streak = 0
+    st.session_state.current_streak = db_streak  # Resume from database
+    st.session_state.best_streak = db_best
     st.session_state.session_correct = 0
     st.session_state.session_total = 0
     st.session_state.session_missed = []
@@ -256,6 +297,8 @@ def page_login():
                 if player:
                     st.session_state.player_name = name.strip()
                     st.session_state.player_id = player["id"]
+                    st.session_state.current_streak = player.get("current_streak", 0)
+                    st.session_state.best_streak = player.get("best_streak", 0)
                 else:
                     st.session_state.player_name = name.strip()
                     st.session_state.player_id = None
@@ -286,11 +329,13 @@ def page_menu():
         stats = get_player_stats(supabase, st.session_state.player_id)
         if stats and stats.get("total", 0) > 0:
             pct = (stats["correct"] / stats["total"]) * 100 if stats["total"] > 0 else 0
+            streak_emoji = "🔥" if stats.get("current_streak", 0) > 0 else ""
             st.markdown(f"""
             <div style='display: flex; justify-content: center; gap: 2rem; padding: 0.5rem 0;'>
-                <span>📊 <strong>{stats['total']}</strong> questions answered</span>
+                <span>📊 <strong>{stats['total']}</strong> questions</span>
                 <span>✅ <strong>{pct:.0f}%</strong> correct</span>
-                <span>🔥 <strong>{stats['best_streak']}</strong> best streak</span>
+                <span>{streak_emoji} <strong>{stats.get('current_streak', 0)}</strong> active streak</span>
+                <span>🏆 <strong>{stats.get('best_streak', 0)}</strong> best streak</span>
             </div>
             """, unsafe_allow_html=True)
             st.markdown("---")
@@ -327,10 +372,6 @@ def page_menu():
     st.markdown("### 📝 Review by Category")
     cat_cols = st.columns(3)
     for i, cat in enumerate(CATEGORIES):
-        cat_questions = [q for q in all_questions if
-                        any(q.get("term", "") in json.dumps(cq.get("term", "")) for cq in
-                            [q] if os.path.exists(os.path.join(SCRIPT_DIR, cat["file"])))]
-        # Simpler: load from file directly
         cat_path = os.path.join(SCRIPT_DIR, cat["file"])
         if os.path.exists(cat_path):
             with open(cat_path, "r", encoding="utf-8") as f:
@@ -378,9 +419,14 @@ def page_menu():
                 rank_emoji = ["🥇", "🥈", "🥉"][i] if i < 3 else f"#{i+1}"
                 pct = (player["correct"] / player["total"] * 100) if player["total"] > 0 else 0
                 highlight = "font-weight: bold; color: #1f77b4;" if player["name"] == st.session_state.player_name else ""
+                current = player.get("current_streak", 0)
+                best = player.get("best_streak", 0)
+                streak_info = f"🔥 {best} best" if best > 0 else ""
+                if current > 0:
+                    streak_info = f"🔥 {current} active ({best} best)"
                 st.markdown(
                     f"<span style='{highlight}'>{rank_emoji} <strong>{player['name']}</strong> — "
-                    f"🔥 {player['best_streak']} streak • ✅ {player['correct']}/{player['total']} ({pct:.0f}%)</span>",
+                    f"{streak_info} • ✅ {player['correct']}/{player['total']} ({pct:.0f}%)</span>",
                     unsafe_allow_html=True
                 )
         else:
@@ -413,7 +459,7 @@ def page_quiz():
     progress = (idx) / total
     st.progress(progress)
 
-    # Header
+    # Header with streak
     pct = (st.session_state.session_correct / st.session_state.session_total * 100) if st.session_state.session_total > 0 else 0
     streak_display = f"🔥 {st.session_state.current_streak}" if st.session_state.current_streak > 0 else ""
     st.markdown(f"""
@@ -428,6 +474,8 @@ def page_quiz():
         st.markdown(f"🔥 **{st.session_state.current_streak} STREAK! Keep it going!** 🔥")
     if st.session_state.current_streak >= 10:
         st.markdown("⚡ **UNSTOPPABLE! 10+ streak!** ⚡")
+    if st.session_state.current_streak >= 20:
+        st.markdown("🌟 **LEGENDARY! 20+ streak!!** 🌟")
 
     st.markdown("---")
 
@@ -438,7 +486,7 @@ def page_quiz():
     else:
         st.caption(f"📖 {q['chapter']}")
 
-    # Answer choices
+    # Answer choices (already shuffled by shuffle_choices)
     labels = ["A", "B", "C", "D"]
     choices = q["choices"]
 
@@ -467,6 +515,11 @@ def page_quiz():
                         supabase, st.session_state.player_id,
                         q["term"], q["chapter"], st.session_state.category_label,
                         correct, st.session_state.current_streak
+                    )
+                    # Update player's persistent streak
+                    update_player_streak(
+                        supabase, st.session_state.player_id,
+                        st.session_state.current_streak, st.session_state.best_streak
                     )
 
                 st.rerun()
@@ -540,7 +593,14 @@ def page_results():
 
     # Streak display
     if st.session_state.best_streak >= 3:
-        st.markdown(f"<div style='text-align: center;'><p>🔥 Best streak: <strong>{st.session_state.best_streak}</strong> in a row!</p></div>", unsafe_allow_html=True)
+        st.markdown(f"<div style='text-align: center;'><p>🔥 Best streak this session: <strong>{st.session_state.best_streak}</strong> in a row!</p></div>", unsafe_allow_html=True)
+
+    # Overall persistent streak
+    supabase = get_supabase()
+    if supabase and st.session_state.player_id:
+        player = get_or_create_player(supabase, st.session_state.player_name)
+        if player and player.get("current_streak", 0) > 0:
+            st.markdown(f"<div style='text-align: center;'><p>🔥 Active streak across all sessions: <strong>{player['current_streak']}</strong></p></div>", unsafe_allow_html=True)
 
     st.markdown("---")
 

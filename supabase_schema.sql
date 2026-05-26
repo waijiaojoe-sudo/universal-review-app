@@ -6,6 +6,8 @@
 CREATE TABLE IF NOT EXISTS ancient_civ_players (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     name TEXT NOT NULL UNIQUE,
+    current_streak INTEGER NOT NULL DEFAULT 0,
+    best_streak INTEGER NOT NULL DEFAULT 0,
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
 
@@ -38,7 +40,7 @@ CREATE POLICY "Anyone can read scores" ON ancient_civ_scores FOR SELECT USING (t
 CREATE POLICY "Anyone can insert scores" ON ancient_civ_scores FOR INSERT WITH CHECK (true);
 
 -- GRANT table-level permissions to anon role (required even with RLS policies)
-GRANT SELECT, INSERT ON TABLE ancient_civ_players TO anon;
+GRANT SELECT, INSERT, UPDATE ON TABLE ancient_civ_players TO anon;
 GRANT SELECT, INSERT ON TABLE ancient_civ_scores TO anon;
 GRANT SELECT ON TABLE ancient_civ_leaderboard TO anon;
 
