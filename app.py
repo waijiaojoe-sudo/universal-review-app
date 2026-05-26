@@ -236,11 +236,59 @@ def init_session_state():
 
 # ─── Quiz Logic ────────────────────────────────────────────────────────────────
 
+def get_answered_questions(supabase: Client, player_id: int) -> dict:
+    """Get sets of question terms the player has answered correctly and incorrectly."""
+    if not supabase or not player_id:
+        return {"correct": set(), "incorrect": set(), "all": set()}
+    try:
+        result = supabase.table("ancient_civ_scores").select("question_term, correct").eq("player_id", player_id).execute()
+        correct_terms = set()
+        incorrect_terms = set()
+        for row in (result.data or []):
+            if row.get("correct"):
+                correct_terms.add(row["question_term"])
+            else:
+                incorrect_terms.add(row["question_term"])
+        return {"correct": correct_terms, "incorrect": incorrect_terms, "all": correct_terms | incorrect_terms}
+    except Exception:
+        return {"correct": set(), "incorrect": set(), "all": set()}
+
+
+def prioritize_questions(all_questions: list, player_id: int, count: int) -> list:
+    """Prioritize unanswered, then missed, then correct. Returns up to `count` questions."""
+    supabase = get_supabase()
+    if supabase and player_id:
+        answered = get_answered_questions(supabase, player_id)
+
+        untried = [q for q in all_questions if q["term"] not in answered["all"]]
+        missed = [q for q in all_questions if q["term"] in answered["incorrect"] and q["term"] not in answered["correct"]]
+        mastered = [q for q in all_questions if q["term"] in answered["correct"] and q["term"] not in answered["incorrect"]]
+        # Questions that were answered both correctly and incorrectly — prioritize as missed
+        mixed = [q for q in all_questions if q["term"] in answered["correct"] and q["term"] in answered["incorrect"]]
+
+        random.shuffle(untried)
+        random.shuffle(missed)
+        random.shuffle(mixed)
+        random.shuffle(mastered)
+
+        # Priority: untried > missed > mixed > mastered
+        prioritized = untried + missed + mixed + mastered
+    else:
+        # No database — just shuffle
+        prioritized = all_questions[:]
+        random.shuffle(prioritized)
+
+    return prioritized[:count]
+
+
 def start_quiz(questions: list, title: str, category_label: str = ""):
     """Initialize a new quiz session."""
+    # Prioritize untried/missed questions
+    count = len(questions)
+    prioritized = prioritize_questions(questions, st.session_state.player_id, count)
+
     # Shuffle question order AND shuffle each question's choices
-    shuffled_qs = [shuffle_choices(q) for q in questions]
-    random.shuffle(shuffled_qs)
+    shuffled_qs = [shuffle_choices(q) for q in prioritized]
 
     supabase = get_supabase()
     db_streak = 0
@@ -345,12 +393,16 @@ def page_menu():
     col1, col2 = st.columns(2)
     with col1:
         if st.button("🔀 10 Random Questions", use_container_width=True):
-            sample = random.sample(all_questions, min(10, len(all_questions)))
+            sample = prioritize_questions(all_questions, st.session_state.player_id, 10)
+            if len(sample) < 5:  # fallback if too few prioritized
+                sample = random.sample(all_questions, min(10, len(all_questions)))
             start_quiz(sample, "10 Random Questions", "Mixed")
             st.rerun()
     with col2:
         if st.button("🔀 20 Random Questions", use_container_width=True):
-            sample = random.sample(all_questions, min(20, len(all_questions)))
+            sample = prioritize_questions(all_questions, st.session_state.player_id, 20)
+            if len(sample) < 5:
+                sample = random.sample(all_questions, min(20, len(all_questions)))
             start_quiz(sample, "20 Random Questions", "Mixed")
             st.rerun()
 
@@ -361,9 +413,10 @@ def page_menu():
     chapter_cols = st.columns(2)
     for i, chapter in enumerate(CHAPTERS):
         ch_questions = [q for q in all_questions if q["chapter"] == chapter]
+        ch_prioritized = prioritize_questions(ch_questions, st.session_state.player_id, len(ch_questions))
         with chapter_cols[i % 2]:
             if st.button(f"{chapter} ({len(ch_questions)})", key=f"ch_{i}", use_container_width=True):
-                start_quiz(ch_questions, chapter, chapter)
+                start_quiz(ch_prioritized, chapter, chapter)
                 st.rerun()
 
     st.markdown("---")
@@ -380,7 +433,8 @@ def page_menu():
             cat_qs = []
         with cat_cols[i]:
             if st.button(f"{cat['icon']} {cat['name']} ({len(cat_qs)})", key=f"cat_{i}", use_container_width=True):
-                start_quiz(cat_qs, cat["name"], cat["name"])
+                cat_prioritized = prioritize_questions(cat_qs, st.session_state.player_id, len(cat_qs))
+                start_quiz(cat_prioritized, cat["name"], cat["name"])
                 st.rerun()
 
     st.markdown("---")
