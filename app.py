@@ -976,12 +976,35 @@ def page_short_answer():
         if graded.get("feedback"):
             st.info(f"💬 {graded['feedback']}")
 
+        # Re-grade button if grading failed or looks wrong
+        is_error = graded.get("score", 0) == 0 and ("Error" in graded.get("feedback", "") or "error" in graded.get("feedback", "").lower())
+
         st.markdown("---")
-        col1, col2, col3 = st.columns([1, 2, 1])
+        col1, col2, col3 = st.columns([1, 1, 1])
+        with col1:
+            if is_error:
+                if st.button("🔄 Re-grade", use_container_width=True):
+                    with st.spinner("🤔 Re-grading..."):
+                        new_graded = grade_short_answer(q, answer)
+                    st.session_state.sa_graded[q["id"]] = new_graded
+                    old_score = graded.get("score", 0)
+                    new_score = new_graded.get("score", 0)
+                    st.session_state.sa_total_score += (new_score - old_score)
+                    st.rerun()
         with col2:
             if st.button("➡️ Next Question", type="primary", use_container_width=True):
                 st.session_state.sa_index += 1
                 st.rerun()
+        with col3:
+            if not is_error:
+                if st.button("🔄 Re-grade", use_container_width=True):
+                    with st.spinner("🤔 Re-grading..."):
+                        new_graded = grade_short_answer(q, answer)
+                    st.session_state.sa_graded[q["id"]] = new_graded
+                    old_score = graded.get("score", 0)
+                    new_score = new_graded.get("score", 0)
+                    st.session_state.sa_total_score += (new_score - old_score)
+                    st.rerun()
 
 
 # ─── Main ──────────────────────────────────────────────────────────────────────
