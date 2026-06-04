@@ -48,6 +48,11 @@ CATEGORIES = [
     {"name": "Key Events", "file": "ancient_civ_key_events_questions.json", "icon": "⚡"},
 ]
 
+SA_QUESTIONS_FILE = "short_answer_questions.json"
+
+OLLAMA_URL = _get_secret("OLLAMA_URL", "https://navigation-vid-rely-institutes.trycloudflare.com")
+OLLAMA_MODEL = _get_secret("OLLAMA_MODEL", "glm-5.1:cloud")
+
 
 # ─── Load Questions ────────────────────────────────────────────────────────────
 
@@ -228,6 +233,7 @@ def init_session_state():
         "category_label": "",
         "answered_current": False,
         "selected_answer": None,
+        "sa_active": False,
     }
     for key, val in defaults.items():
         if key not in st.session_state:
@@ -459,6 +465,19 @@ def page_menu():
 
     st.markdown("---")
 
+    # Short Answer Practice
+    st.markdown("### ✍️ Short Answer Practice")
+    st.markdown("Practice writing short answers and get instant feedback on your writing!")
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.button("✍️ Start Short Answer Practice", use_container_width=True, type="primary"):
+            st.session_state.sa_active = True
+            st.rerun()
+    with col2:
+        st.caption("6 questions • Real-time AI feedback • 4-point scoring")
+
+    st.markdown("---")
+
     # Missed questions
     st.markdown("### 🔥 Review Missed Questions")
     if supabase and st.session_state.player_id:
@@ -550,6 +569,10 @@ def page_quiz():
         st.markdown("⚡ **UNSTOPPABLE! 10+ streak!** ⚡")
     if st.session_state.current_streak >= 20:
         st.markdown("🌟 **LEGENDARY! 20+ streak!!** 🌟")
+    if st.session_stats.current_streak >= 30:
+        st.markdown("💥 **EPIC! 30+ streak!!**")
+    if st.session_sstats.current_streak >= 50:
+        st.markdown("💫 **GODLY! 50+ streak!!**")
 
     st.markdown("---")
 
@@ -710,6 +733,233 @@ def page_results():
             st.rerun()
 
 
+# ─── Short Answer ──────────────────────────────────────────────────────────────
+
+@st.cache_data
+def load_sa_questions():
+    qpath = os.path.join(SCRIPT_DIR, SA_QUESTIONS_FILE)
+    if os.path.exists(qpath):
+        with open(qpath, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return []
+
+
+def grade_short_answer(question: dict, student_answer: str) -> dict:
+    """Send student answer to Ollama for grading."""
+    prompt = f"""You are a kind but fair middle school history teacher grading a short answer question. You teach 6th graders, many of whom are ESL students learning in English.
+
+Question: {question['question']}
+Key points expected in a full answer: {chr(10).join('- ' + p for p in question['key_points'])}
+Max points: {question['max_points']}
+
+Student's answer: {student_answer}
+
+Grade this answer using these standards:
+- 1 point: Shows some knowledge of the topic, even if partially wrong or incomplete
+- 2 points: Correct but lacks crucial support; or multiple correct facts without correct connections; or only answered one part of a multi-part question
+- 3 points: Correct except for a single missing fact or minor misinterpretation; for multi-part questions, missing a minor part
+- 4 points: Correctly answers the question with correct reason or example. Answers ALL parts of the question.
+
+Important grading notes:
+- Do NOT take points off for grammar unless it makes the answer impossible to understand
+- Be lenient with ESL students — focus on content knowledge, not English perfection
+- If a student shows they understand the concept but use wrong names/dates, give partial credit
+- If a student is on the right track but incomplete, encourage them and tell them what to add
+
+Respond in this exact JSON format:
+{{"score": <number 1-4>, "feedback": "<2-3 sentences of encouraging feedback>", "what_was_good": "<what they got right>", "what_to_add": "<specific points they missed to get full credit>"}}"""
+
+    try:
+        import urllib.request
+        payload = json.dumps({
+            "model": OLLAMA_MODEL,
+            "prompt": prompt,
+            "stream": False,
+            "options": {"temperature": 0.3, "num_predict": 512}
+        }).encode()
+        req = urllib.request.Request(OLLAMA_URL + "/api/generate", data=payload, headers={"Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            result = json.loads(resp.read().decode())
+            text = result.get("response", "").strip()
+        # Parse JSON from response
+        import re
+        text = re.sub(r'^```json\\s*', '', text)
+        text = re.sub(r'^```\\s*', '', text)
+        text = re.sub(r'\\s*```$', '', text)
+        brace_start = text.find('{')
+        brace_end = text.rfind('}')
+        if brace_start != -1 and brace_end != -1:
+            return json.loads(text[brace_start:brace_end+1])
+        return json.loads(text)
+    except Exception as e:
+        return {"score": 0, "feedback": f"Error grading: {e}", "what_was_good": "", "what_to_add": ""}
+
+
+def page_short_answer():
+    """Short answer practice page with LLM grading."""
+    sa_questions = load_sa_questions()
+
+    if not sa_questions:
+        st.error("No short answer questions found!")
+        return
+
+    # Initialize SA session state
+    if "sa_index" not in st.session_state:
+        # Mix real and practice questions, shuffle
+        real = [q for q in sa_questions if q["source"] == "real"]
+        practice = [q for q in sa_questions if q["source"] == "practice"]
+        # Pick 2-3 real + 2-3 practice
+        selected_real = random.sample(real, min(3, len(real)))
+        selected_practice = random.sample(practice, min(3, len(practice)))
+        selected = selected_real + selected_practice
+        random.shuffle(selected)
+        st.session_state.sa_questions = selected
+        st.session_state.sa_index = 0
+        st.session_state.sa_answers = {}
+        st.session_state.sa_graded = {}
+        st.session_state.sa_total_score = 0
+        st.session_state.sa_max_score = sum(q["max_points"] for q in selected)
+
+    questions = st.session_state.sa_questions
+    idx = st.session_state.sa_index
+    total = len(questions)
+
+    if idx >= total:
+        # Show results
+        total_score = st.session_state.sa_total_score
+        max_score = st.session_state.sa_max_score
+        pct = (total_score / max_score * 100) if max_score > 0 else 0
+
+        if pct >= 90:
+            emoji, message = "🏆", "Outstanding! You're ready for the short answer section!"
+        elif pct >= 75:
+            emoji, message = "🎉", "Great job! Almost there — review the points you missed."
+        elif pct >= 50:
+            emoji, message = "💪", "Good effort! Review the feedback and try again."
+        else:
+            emoji, message = "📚", "Keep studying — you'll get there! Review your notes and try again."
+
+        st.markdown(f"""
+        <div style='text-align: center; padding: 2rem 0;'>
+            <h1>{emoji} Short Answer Complete!</h1>
+            <h2>{total_score} / {max_score} points ({pct:.0f}%)</h2>
+            <p style='font-size: 1.1rem; color: #888;'>{message}</p>
+        </div>
+        """, unsafe_allow_html=True)
+
+        st.markdown("---")
+        st.markdown("### 📝 Your Answers & Feedback")
+        for i, q in enumerate(questions):
+            graded = st.session_state.sa_graded.get(q["id"], {})
+            answer = st.session_state.sa_answers.get(q["id"], "")
+            source_tag = "🔴 Real Test Question" if q["source"] == "real" else "🟡 Practice Question"
+            score = graded.get("score", 0)
+            max_pts = q["max_points"]
+
+            score_color = "green" if score >= 3 else ("orange" if score >= 2 else "red")
+            st.markdown(f"""
+            **Q{i+1}.** {q["question"]}  
+            <span style='color: gray; font-size: 0.85rem;'>{source_tag}</span>
+            """, unsafe_allow_html=True)
+            st.markdown(f"Your answer: *{answer}*")
+            st.markdown(f"<span style='color: {score_color}; font-weight: bold;'>Score: {score}/{max_pts}</span>", unsafe_allow_html=True)
+            if graded.get("what_was_good"):
+                st.markdown(f"✅ **What you got right:** {graded['what_was_good']}")
+            if graded.get("what_to_add"):
+                st.markdown(f"📝 **To get full credit, add:** {graded['what_to_add']}")
+            if graded.get("feedback"):
+                st.markdown(f"💬 {graded['feedback']}")
+            st.markdown("")
+
+        st.markdown("---")
+        col1, col2 = st.columns(2)
+        with col1:
+            if st.button("🔄 Try Again (New Questions)", use_container_width=True):
+                del st.session_state.sa_index
+                st.rerun()
+        with col2:
+            if st.button("🏠 Back to Menu", use_container_width=True):
+                st.session_state.sa_active = False
+                del st.session_state.sa_index
+                st.rerun()
+        return
+
+    # Current question
+    q = questions[idx]
+    source_tag = "🔴 Real Test Question" if q["source"] == "real" else "🟡 Practice Question"
+    progress = idx / total
+
+    st.progress(progress)
+    st.markdown(f"""
+    <div style='display: flex; justify-content: space-between; align-items: center;'>
+        <span><strong>Short Answer Practice</strong> • Q{idx+1}/{total}</span>
+        <span>Score: {st.session_state.sa_total_score}/{st.session_state.sa_max_score}</span>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown("---")
+
+    # Question
+    st.markdown(f"### {q['question']}")
+    st.markdown(f"<span style='color: gray; font-size: 0.85rem;'>{source_tag} • {q['chapter']} • {q['max_points']} points</span>", unsafe_allow_html=True)
+
+    # Answer input
+    answer_key = f"sa_answer_{q['id']}"
+    submitted_key = f"sa_submitted_{q['id']}"
+
+    if submitted_key not in st.session_state:
+        st.session_state[submitted_key] = False
+
+    if not st.session_state[submitted_key]:
+        # Show input
+        user_answer = st.text_area(
+            "Write your answer in complete sentences. Answer ALL parts of the question.",
+            key=answer_key,
+            height=120,
+            placeholder=f"Type your answer here... (1-3 sentences)"
+        )
+
+        col1, col2, col3 = st.columns([1, 2, 1])
+        with col2:
+            if st.button("✅ Submit Answer", type="primary", use_container_width=True, disabled=not user_answer.strip()):
+                if user_answer.strip():
+                    st.session_state.sa_answers[q["id"]] = user_answer.strip()
+                    st.session_state[submitted_key] = True
+
+                    # Grade with LLM
+                    with st.spinner("🤔 Grading your answer..."):
+                        graded = grade_short_answer(q, user_answer.strip())
+                    st.session_state.sa_graded[q["id"]] = graded
+                    st.session_state.sa_total_score += graded.get("score", 0)
+
+                    st.rerun()
+    else:
+        # Show feedback
+        graded = st.session_state.sa_graded.get(q["id"], {})
+        answer = st.session_state.sa_answers.get(q["id"], "")
+        score = graded.get("score", 0)
+        max_pts = q["max_points"]
+
+        score_color = "green" if score >= 3 else ("orange" if score >= 2 else "red")
+
+        st.markdown(f"Your answer: *{answer}*")
+        st.markdown(f"<span style='color: {score_color}; font-weight: bold; font-size: 1.2rem;'>Score: {score}/{max_pts} points</span>", unsafe_allow_html=True)
+
+        if graded.get("what_was_good"):
+            st.success(f"✅ **What you got right:** {graded['what_was_good']}")
+        if graded.get("what_to_add"):
+            st.warning(f"📝 **To get full credit, add:** {graded['what_to_add']}")
+        if graded.get("feedback"):
+            st.info(f"💬 {graded['feedback']}")
+
+        st.markdown("---")
+        col1, col2, col3 = st.columns([1, 2, 1])
+        with col2:
+            if st.button("➡️ Next Question", type="primary", use_container_width=True):
+                st.session_state.sa_index += 1
+                st.rerun()
+
+
 # ─── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -737,6 +987,8 @@ def main():
     # Route to correct page
     if not st.session_state.player_name:
         page_login()
+    elif st.session_state.sa_active:
+        page_short_answer()
     elif st.session_state.quiz_active:
         page_quiz()
     else:

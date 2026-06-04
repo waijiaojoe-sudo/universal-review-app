@@ -1,0 +1,166 @@
+[
+  {
+    "id": "sa_real_1",
+    "source": "real",
+    "question": "What three parts made up the Roman tripartite government?",
+    "key_points": [
+      "Consuls (two leaders who commanded the army and directed the government)",
+      "Senate (a body of 300 patrician men who advised the consuls and made laws)",
+      "Assembly (plebeians who could vote on laws and elect officials)"
+    ],
+    "full_credit_answer": "The Roman tripartite government was made up of three parts: the consuls, the senate, and the assembly. The consuls were two leaders who commanded the army and directed the government. The senate was a body of 300 patrician men who advised the consuls and made laws. The assembly was made up of plebeians who could vote on laws and elect officials.",
+    "max_points": 4,
+    "chapter": "Early Romans"
+  },
+  {
+    "id": "sa_practice_1",
+    "source": "practice",
+    "question": "What role did each part of the Roman government play? Name the three parts and briefly describe what each one did.",
+    "key_points": [
+      "Consuls — commanded the army and directed the government",
+      "Senate — advised the consuls and made laws (300 patrician men)",
+      "Assembly — plebeians who voted on laws and elected officials"
+    ],
+    "full_credit_answer": "The three parts of the Roman government were the consuls, the senate, and the assembly. The consuls were two leaders who commanded the army and directed the government. The senate was made up of 300 patrician men who advised the consuls and made laws. The assembly was made up of plebeians who could vote on laws and elect officials.",
+    "max_points": 4,
+    "chapter": "Early Romans"
+  },
+  {
+    "id": "sa_real_2",
+    "source": "real",
+    "question": "How were the Athenian assembly and Roman Senate the same? How were they different?",
+    "key_points": [
+      "Same: both were groups that made decisions about government/laws",
+      "Different: Athenian assembly was open to all male citizens (democratic), Roman Senate was only patricians (aristocratic)",
+      "Different: Athenian assembly voted directly on laws, Roman Senate advised the consuls and proposed laws"
+    ],
+    "full_credit_answer": "The Athenian assembly and the Roman Senate were similar because both were groups of people who made decisions about government and laws. They were different because the Athenian assembly was open to all male citizens, while the Roman Senate was made up of only 300 patricians. Also, the Athenian assembly voted directly on laws, while the Roman Senate mostly advised the consuls and proposed laws.",
+    "max_points": 4,
+    "chapter": "Golden Age of Greece"
+  },
+  {
+    "id": "sa_practice_2",
+    "source": "practice",
+    "question": "How was direct democracy in Athens different from the Roman Republic's government? Give at least one similarity and one difference.",
+    "key_points": [
+      "Similarity: both involved citizens participating in government decisions",
+      "Difference: Athens used direct democracy where all male citizens voted on laws themselves; Rome was a republic where citizens elected representatives (consuls, senators) to make decisions",
+      "Difference: Athens gave more power to common citizens; Rome gave more power to patricians"
+    ],
+    "full_credit_answer": "Both Athens and Rome involved citizens in government decisions. The main difference was that Athens used direct democracy, where all male citizens could vote on laws themselves, while Rome was a republic where citizens elected representatives like consuls and senators. In Athens, common citizens had more power, while in Rome, patricians (wealthy citizens) held most of the power through the Senate.",
+    "max_points": 4,
+    "chapter": "Golden Age of Greece"
+  },
+  {
+    "id": "sa_real_3",
+    "source": "real",
+    "question": "What is one medical advance made by ancient Indian doctors that is still important today?",
+    "key_points": [
+      "Inoculation/vaccination (injecting a small amount of a disease to build immunity)",
+      "Or: surgery techniques (plastic surgery, setting broken bones, removing tumors)",
+      "Or: use of herbs and natural medicines",
+      "Must name a specific advance, not just 'medicine' in general"
+    ],
+    "full_credit_answer": "Ancient Indian doctors developed inoculation, which is the practice of injecting a small amount of a disease into a person so their body can build immunity. This idea is the basis for modern vaccines and is still used today.",
+    "max_points": 4,
+    "chapter": "Ancient India"
+  },
+  {
+    "id": "sa_practice_3",
+    "source": "practice",
+    "question": "How did the caste system affect daily life in ancient India? Give at least two examples.",
+    "key_points": [
+      "People were born into a caste and could not change it",
+      "Each caste had specific jobs they could do (priests, warriors, merchants, servants)",
+      "People could only marry within their own caste",
+      "Higher castes had more power and privilege; lower castes were restricted"
+    ],
+    "full_credit_answer": "The caste system affected daily life because people were born into a caste and could never change it. Each caste had specific jobs — for example, Brahmins were priests and scholars, and Kshatriyas were warriors and rulers. People could only marry within their own caste, and higher castes had more power while lower castes had fewer rights.",
+    "max_points": 4,
+    "chapter": "Ancient India"
+  },
+  {
+    "id": "sa_real_4",
+    "source": "real",
+    "question": "Who was Siddhartha Gautama?",
+    "key_points": [
+      "He was the founder of Buddhism",
+      "He was an Indian prince (or noble/wealthy young man)",
+      "He gave up his wealthy life after seeing suffering",
+      "He became the Buddha (the Enlightened One) after meditating under the Bodhi tree"
+    ],
+    "full_credit_answer": "Siddhartha Gautama was the founder of Buddhism. He was an Indian prince who lived a sheltered, wealthy life. After seeing suffering for the first time, he gave up his comfortable life to search for understanding. After meditating under the Bodhi tree, he reached enlightenment and became known as the Buddha, or the Enlightened One.",
+    "max_points": 4,
+    "chapter": "Ancient India"
+  },
+  {
+    "id": "sa_real_5",
+    "source": "real",
+    "question": "What were two achievements of the Shang Dynasty?",
+    "key_points": [
+      "Any two of: writing system (characters on oracle bones), bronze working (beautiful bronze vessels), silk making, chariots/advanced weapons, oracle bones for divination, well-organized government, calendar system, jade carving",
+      "Must name two specific achievements, not just 'they were advanced'"
+    ],
+    "full_credit_answer": "Two achievements of the Shang Dynasty were their writing system and their bronze working. The Shang created one of the earliest Chinese writing systems, using characters carved on oracle bones. They also developed advanced bronze working, creating beautiful bronze vessels used in ceremonies.",
+    "max_points": 4,
+    "chapter": "Ancient China"
+  },
+  {
+    "id": "sa_practice_4",
+    "source": "practice",
+    "question": "How did Legalism and Confucianism differ in their ideas about government?",
+    "key_points": [
+      "Legalism believed in strict laws and harsh punishments to keep order",
+      "Confucianism believed in leading by moral example and teaching good behavior",
+      "Legalism thought people were naturally selfish and needed to be controlled",
+      "Confucianism thought people would follow good leaders and behave well"
+    ],
+    "full_credit_answer": "Legalism and Confucianism had very different ideas about government. Legalism believed that people were naturally selfish and needed strict laws and harsh punishments to keep order. Confucianism believed that leaders should set a good moral example and teach people good behavior, because people would naturally follow good leaders.",
+    "max_points": 4,
+    "chapter": "Ancient China"
+  },
+  {
+    "id": "sa_real_6",
+    "source": "real",
+    "question": "Who was Pericles, and why was he important?",
+    "key_points": [
+      "Pericles was a leader of Athens during its Golden Age",
+      "He strengthened democracy by paying citizens to serve in government",
+      "He supported the arts and architecture (Parthenon)",
+      "He led Athens during the Peloponnesian War"
+    ],
+    "full_credit_answer": "Pericles was a leader of Athens during the Golden Age of Greece. He was important because he strengthened democracy by paying citizens to serve in government, so even poor citizens could participate. He also supported the arts and architecture, including the building of the Parthenon.",
+    "max_points": 4,
+    "chapter": "Golden Age of Greece"
+  },
+  {
+    "id": "sa_real_7",
+    "source": "real",
+    "question": "How did the Hindu religion justify separating people into castes?",
+    "key_points": [
+      "Hinduism taught that people's caste was determined by karma (actions in past lives)",
+      "Good karma in a past life meant being born into a higher caste",
+      "Bad karma meant being born into a lower caste",
+      "The caste system was seen as part of the natural order (dharma — duty)"
+    ],
+    "full_credit_answer": "The Hindu religion justified the caste system through the ideas of karma and dharma. Hindus believed that a person's caste was determined by their karma — the good and bad things they did in their past life. If a person had good karma, they would be reborn into a higher caste. If they had bad karma, they would be reborn into a lower caste. Each caste had its own dharma, or duty, that people were expected to follow.",
+    "max_points": 4,
+    "chapter": "Ancient India"
+  },
+  {
+    "id": "sa_real_8",
+    "source": "real",
+    "question": "What public works did the Roman government provide for the people?",
+    "key_points": [
+      "Roads (connected all parts of the empire, helped trade and military movement)",
+      "Aqueducts (carried water from mountains to cities)",
+      "Public baths (places to bathe and socialize)",
+      "Amphitheaters/arenas (for entertainment like gladiator games)",
+      "Temples and public buildings",
+      "Must name at least 2-3 specific public works"
+    ],
+    "full_credit_answer": "The Roman government provided many public works for the people. They built roads that connected all parts of the empire, aqueducts that carried fresh water from the mountains to the cities, public baths where people could bathe and socialize, and amphitheaters like the Colosseum for entertainment such as gladiator games.",
+    "max_points": 4,
+    "chapter": "The Roman Empire"
+  }
+]
