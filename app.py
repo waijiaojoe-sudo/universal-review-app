@@ -475,7 +475,7 @@ def page_menu():
             st.session_state.sa_active = True
             st.rerun()
     with col2:
-
+        pass
 
     st.markdown("---")
 
