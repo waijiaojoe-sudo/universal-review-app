@@ -52,6 +52,7 @@ SA_QUESTIONS_FILE = "short_answer_questions.json"
 
 OLLAMA_URL = _get_secret("OLLAMA_URL", "https://navigation-vid-rely-institutes.trycloudflare.com")
 OLLAMA_MODEL = _get_secret("OLLAMA_MODEL", "glm-5.1:cloud")
+OLLAMA_API_KEY = _get_secret("OLLAMA_API_KEY", "")
 
 
 # ─── Load Questions ────────────────────────────────────────────────────────────
@@ -778,18 +779,28 @@ Respond in this exact JSON format:
             "options": {"temperature": 0.3, "num_predict": 512}
         }).encode()
         url = OLLAMA_URL.rstrip("/") + "/api/generate"
-        req = urllib.request.Request(url, data=payload, headers={"Content-Type": "application/json"})
+        headers = {"Content-Type": "application/json"}
+        if OLLAMA_API_KEY:
+            headers["Authorization"] = f"Bearer {OLLAMA_API_KEY}"
+        req = urllib.request.Request(url, data=payload, headers=headers)
+        # Try the request with detailed error reporting
         try:
             with urllib.request.urlopen(req, timeout=60) as resp:
                 body = resp.read().decode()
                 if not body.strip():
-                    return {"score": 0, "feedback": "Error: Empty response from AI grader. The grading server may be temporarily unavailable. Try submitting again.", "what_was_good": "", "what_to_add": ""}
+                    return {"score": 0, "feedback": "Error: AI grader returned empty response. This usually means the grading server is temporarily down. Please try again in a minute.", "what_was_good": "", "what_to_add": ""}
                 result = json.loads(body)
+                # Check for Ollama error response
+                if "error" in result:
+                    return {"score": 0, "feedback": f"Error from AI: {result['error']}", "what_was_good": "", "what_to_add": ""}
                 text = result.get("response", "").strip()
+        except urllib.error.HTTPError as he:
+            err_body = he.read().decode()[:200] if he.fp else "no details"
+            return {"score": 0, "feedback": f"Error: AI grader returned HTTP {he.code}. {err_body}", "what_was_good": "", "what_to_add": ""}
         except urllib.error.URLError as ue:
-            return {"score": 0, "feedback": f"Error: Cannot reach AI grader ({ue.reason}). The grading server may be offline. Try refreshing the page.", "what_was_good": "", "what_to_add": ""}
+            return {"score": 0, "feedback": f"Error: Cannot reach AI grader at {url}. Reason: {ue.reason}. The grading server may be offline or blocked.", "what_was_good": "", "what_to_add": ""}
         except Exception as net_err:
-            return {"score": 0, "feedback": f"Error: Network issue — {net_err}. Try submitting again.", "what_was_good": "", "what_to_add": ""}
+            return {"score": 0, "feedback": f"Error: Network issue — {type(net_err).__name__}: {net_err}. Try submitting again.", "what_was_good": "", "what_to_add": ""}
         # Parse JSON from response
         import re
         text = re.sub(r'^```json\\s*', '', text)
@@ -811,6 +822,27 @@ def page_short_answer():
     if not sa_questions:
         st.error("No short answer questions found!")
         return
+
+    # Connectivity test for AI grader
+    with st.expander("🔧 AI Grader Status"):
+        if st.button("Test Connection"):
+            import urllib.request
+            url = OLLAMA_URL.rstrip("/") + "/api/tags"
+            try:
+                headers = {"Content-Type": "application/json"}
+                if OLLAMA_API_KEY:
+                    headers["Authorization"] = f"Bearer {OLLAMA_API_KEY}"
+                req = urllib.request.Request(url, headers=headers)
+                with urllib.request.urlopen(req, timeout=10) as resp:
+                    data = json.loads(resp.read().decode())
+                    models = [m["name"] for m in data.get("models", [])]
+                    st.success(f"✅ Connected! Available models: {', '.join(models) if models else 'none listed'}")
+            except urllib.error.HTTPError as he:
+                st.error(f"❌ HTTP {he.code}: {he.read().decode()[:200]}")
+            except urllib.error.URLError as ue:
+                st.error(f"❌ Cannot reach {url}\nReason: {ue.reason}")
+            except Exception as e:
+                st.error(f"❌ {type(e).__name__}: {e}")
 
     # Initialize SA session state
     if "sa_index" not in st.session_state:
