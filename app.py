@@ -805,7 +805,7 @@ Respond in this exact JSON format:
                     else:
                         # Try to find any useful answer in thinking
                         text = thinking
-                st.session_state["debug_raw_response"] = f"response={repr(result.get('response','')[:200])} | thinking={repr(result.get('thinking','')[:300])}"
+                # (debug removed)
         except urllib.error.HTTPError as he:
             err_body = he.read().decode()[:200] if he.fp else "no details"
             return {"score": 0, "feedback": f"Error: AI grader returned HTTP {he.code}. {err_body}", "what_was_good": "", "what_to_add": ""}
@@ -835,41 +835,10 @@ def page_short_answer():
         st.error("No short answer questions found!")
         return
 
-    # Connectivity test for AI grader
-    with st.expander("🔧 AI Grader Status"):
-        if st.button("Test Connection"):
-            import urllib.request
-            url = OLLAMA_URL.rstrip("/") + "/api/tags"
-            try:
-                headers = {"Content-Type": "application/json"}
-
-                if OLLAMA_API_KEY:
-                    headers["Authorization"] = f"Bearer {OLLAMA_API_KEY}"
-                req = urllib.request.Request(url, headers=headers)
-                with urllib.request.urlopen(req, timeout=10) as resp:
-                    data = json.loads(resp.read().decode())
-                    models = [m["name"] for m in data.get("models", [])]
-                    st.success(f"✅ Connected! Available models: {', '.join(models) if models else 'none listed'}")
-            except urllib.error.HTTPError as he:
-                st.error(f"❌ HTTP {he.code}: {he.read().decode()[:200]}")
-            except urllib.error.URLError as ue:
-                st.error(f"❌ Cannot reach {url}\nReason: {ue.reason}")
-            except Exception as e:
-                st.error(f"❌ {type(e).__name__}: {e}")
-
-    # Show last raw response for debugging
-    if "debug_raw_response" in st.session_state:
-        st.caption(f"Last AI response (first 500 chars): {st.session_state['debug_raw_response']}")
-
-        # Initialize SA session state
+    # Initialize SA session state
     if "sa_index" not in st.session_state:
-        # Mix real and practice questions, shuffle
-        real = [q for q in sa_questions if q["source"] == "real"]
-        practice = [q for q in sa_questions if q["source"] == "practice"]
-        # Pick 2-3 real + 2-3 practice
-        selected_real = random.sample(real, min(3, len(real)))
-        selected_practice = random.sample(practice, min(3, len(practice)))
-        selected = selected_real + selected_practice
+        # Shuffle all questions and pick 6
+        selected = random.sample(sa_questions, min(6, len(sa_questions)))
         random.shuffle(selected)
         st.session_state.sa_questions = selected
         st.session_state.sa_index = 0
@@ -910,15 +879,13 @@ def page_short_answer():
         for i, q in enumerate(questions):
             graded = st.session_state.sa_graded.get(q["id"], {})
             answer = st.session_state.sa_answers.get(q["id"], "")
-            source_tag = "🔴 Real Test Question" if q["source"] == "real" else "🟡 Practice Question"
             score = graded.get("score", 0)
             max_pts = q["max_points"]
 
             score_color = "green" if score >= 3 else ("orange" if score >= 2 else "red")
             st.markdown(f"""
-            **Q{i+1}.** {q["question"]}  
-            <span style='color: gray; font-size: 0.85rem;'>{source_tag}</span>
-            """, unsafe_allow_html=True)
+            **Q{i+1}.** {q["question"]}
+            """)
             st.markdown(f"Your answer: *{answer}*")
             st.markdown(f"<span style='color: {score_color}; font-weight: bold;'>Score: {score}/{max_pts}</span>", unsafe_allow_html=True)
             if graded.get("what_was_good"):
@@ -944,7 +911,6 @@ def page_short_answer():
 
     # Current question
     q = questions[idx]
-    source_tag = "🔴 Real Test Question" if q["source"] == "real" else "🟡 Practice Question"
     progress = idx / total
 
     st.progress(progress)
@@ -959,7 +925,7 @@ def page_short_answer():
 
     # Question
     st.markdown(f"### {q['question']}")
-    st.markdown(f"<span style='color: gray; font-size: 0.85rem;'>{source_tag} • {q['chapter']} • {q['max_points']} points</span>", unsafe_allow_html=True)
+    st.markdown(f"<span style='color: gray; font-size: 0.85rem;'>{q['chapter']} • {q['max_points']} points</span>", unsafe_allow_html=True)
 
     # Answer input
     answer_key = f"sa_answer_{q['id']}"
@@ -987,9 +953,6 @@ def page_short_answer():
                     # Grade with LLM
                     with st.spinner("🤔 Grading your answer..."):
                         graded = grade_short_answer(q, user_answer.strip())
-                    # Debug: show raw grading result if it errored
-                    if graded.get("score", -1) == 0 and "Error" in graded.get("feedback", ""):
-                        st.warning(f"Debug info: {graded}")
                     st.session_state.sa_graded[q["id"]] = graded
                     st.session_state.sa_total_score += graded.get("score", 0)
 
