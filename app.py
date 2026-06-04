@@ -794,6 +794,7 @@ Respond in this exact JSON format:
                 if "error" in result:
                     return {"score": 0, "feedback": f"Error from AI: {result['error']}", "what_was_good": "", "what_to_add": ""}
                 text = result.get("response", "").strip()
+                st.session_state["debug_raw_response"] = text[:500] if text else "(empty)"
         except urllib.error.HTTPError as he:
             err_body = he.read().decode()[:200] if he.fp else "no details"
             return {"score": 0, "feedback": f"Error: AI grader returned HTTP {he.code}. {err_body}", "what_was_good": "", "what_to_add": ""}
@@ -830,6 +831,7 @@ def page_short_answer():
             url = OLLAMA_URL.rstrip("/") + "/api/tags"
             try:
                 headers = {"Content-Type": "application/json"}
+
                 if OLLAMA_API_KEY:
                     headers["Authorization"] = f"Bearer {OLLAMA_API_KEY}"
                 req = urllib.request.Request(url, headers=headers)
@@ -844,7 +846,11 @@ def page_short_answer():
             except Exception as e:
                 st.error(f"❌ {type(e).__name__}: {e}")
 
-    # Initialize SA session state
+    # Show last raw response for debugging
+    if "debug_raw_response" in st.session_state:
+        st.caption(f"Last AI response (first 500 chars): {st.session_state['debug_raw_response']}")
+
+        # Initialize SA session state
     if "sa_index" not in st.session_state:
         # Mix real and practice questions, shuffle
         real = [q for q in sa_questions if q["source"] == "real"]
@@ -970,6 +976,9 @@ def page_short_answer():
                     # Grade with LLM
                     with st.spinner("🤔 Grading your answer..."):
                         graded = grade_short_answer(q, user_answer.strip())
+                    # Debug: show raw grading result if it errored
+                    if graded.get("score", -1) == 0 and "Error" in graded.get("feedback", ""):
+                        st.warning(f"Debug info: {graded}")
                     st.session_state.sa_graded[q["id"]] = graded
                     st.session_state.sa_total_score += graded.get("score", 0)
 
