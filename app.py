@@ -777,10 +777,19 @@ Respond in this exact JSON format:
             "stream": False,
             "options": {"temperature": 0.3, "num_predict": 512}
         }).encode()
-        req = urllib.request.Request(OLLAMA_URL + "/api/generate", data=payload, headers={"Content-Type": "application/json"})
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            result = json.loads(resp.read().decode())
-            text = result.get("response", "").strip()
+        url = OLLAMA_URL.rstrip("/") + "/api/generate"
+        req = urllib.request.Request(url, data=payload, headers={"Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                body = resp.read().decode()
+                if not body.strip():
+                    return {"score": 0, "feedback": "Error: Empty response from AI grader. The grading server may be temporarily unavailable. Try submitting again.", "what_was_good": "", "what_to_add": ""}
+                result = json.loads(body)
+                text = result.get("response", "").strip()
+        except urllib.error.URLError as ue:
+            return {"score": 0, "feedback": f"Error: Cannot reach AI grader ({ue.reason}). The grading server may be offline. Try refreshing the page.", "what_was_good": "", "what_to_add": ""}
+        except Exception as net_err:
+            return {"score": 0, "feedback": f"Error: Network issue — {net_err}. Try submitting again.", "what_was_good": "", "what_to_add": ""}
         # Parse JSON from response
         import re
         text = re.sub(r'^```json\\s*', '', text)
