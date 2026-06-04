@@ -776,7 +776,7 @@ Respond in this exact JSON format:
             "model": OLLAMA_MODEL,
             "prompt": prompt,
             "stream": False,
-            "options": {"temperature": 0.3, "num_predict": 512}
+            "options": {"temperature": 0.3, "num_predict": 2048}
         }).encode()
         url = OLLAMA_URL.rstrip("/") + "/api/generate"
         headers = {"Content-Type": "application/json"}
@@ -794,7 +794,18 @@ Respond in this exact JSON format:
                 if "error" in result:
                     return {"score": 0, "feedback": f"Error from AI: {result['error']}", "what_was_good": "", "what_to_add": ""}
                 text = result.get("response", "").strip()
-                st.session_state["debug_raw_response"] = text[:500] if text else "(empty)"
+                # GLM-5.1:cloud sometimes puts all output in "thinking" and leaves "response" empty
+                if not text and result.get("thinking", "").strip():
+                    # Extract JSON-like content from thinking
+                    thinking = result["thinking"].strip()
+                    import re as _re
+                    json_match = _re.search(r'\{[^{}]*\}', thinking)
+                    if json_match:
+                        text = json_match.group(0)
+                    else:
+                        # Try to find any useful answer in thinking
+                        text = thinking
+                st.session_state["debug_raw_response"] = f"response={repr(result.get('response','')[:200])} | thinking={repr(result.get('thinking','')[:300])}"
         except urllib.error.HTTPError as he:
             err_body = he.read().decode()[:200] if he.fp else "no details"
             return {"score": 0, "feedback": f"Error: AI grader returned HTTP {he.code}. {err_body}", "what_was_good": "", "what_to_add": ""}
