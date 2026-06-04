@@ -475,7 +475,7 @@ def page_menu():
             st.session_state.sa_active = True
             st.rerun()
     with col2:
-        st.caption("6 questions • Real-time AI feedback • 4-point scoring")
+        st.caption("Random questions • Real-time AI feedback • 4-point scoring")
 
     st.markdown("---")
 
