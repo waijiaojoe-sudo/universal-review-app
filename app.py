@@ -570,9 +570,9 @@ def page_quiz():
         st.markdown("⚡ **UNSTOPPABLE! 10+ streak!** ⚡")
     if st.session_state.current_streak >= 20:
         st.markdown("🌟 **LEGENDARY! 20+ streak!!** 🌟")
-    if st.session_stats.current_streak >= 30:
+    if st.session_state.current_streak >= 30:
         st.markdown("💥 **EPIC! 30+ streak!!**")
-    if st.session_sstats.current_streak >= 50:
+    if st.session_state.current_streak >= 50:
         st.markdown("💫 **GODLY! 50+ streak!!**")
 
     st.markdown("---")
