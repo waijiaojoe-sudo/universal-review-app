@@ -70,8 +70,14 @@ Your web browser will open a page at `http://localhost:8501`. Type your name and
 
 ---
 
-### ⚙️ Behind the Scenes
-- **Saving Progress:** The app creates a file called `progress.db` to remember your streaks and correct answers.
-- **Adding Subjects:** Create a folder in `subjects/` (e.g., `subjects/Math/`) and add your `.json` question files there.
+### 🛠️ Customizing Your Quiz
+Want to add your own subjects or questions? It's easy!
+
+1. **Create a Subject**: Inside the `subjects/` folder, create a new folder for your topic (e.g., `subjects/Science/`).
+2. **Add Questions**: Create a `.json` file inside that folder (e.g., `chapter1.json`).
+3. **Use Templates**: Don't guess the format! Check the `templates/` folder for:
+   - `multiple_choice_template.json` (for 4-option questions)
+   - `short_answer_template.json` (for open-ended questions)
+4. **Pro Tip**: If you use an AI to generate questions, just tell it: *"Use the format from the template.json file to create 10 more questions about [Topic]."*
 
 Happy studying! 🎉
