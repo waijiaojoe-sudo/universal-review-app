@@ -1,7 +1,7 @@
-# Ancient Civilizations — Final Exam Review 🏛️
+# Universal Review App 📚
 
-A fun, interactive quiz about ancient civilizations for students.  
-You can run it **online** (so scores are saved in the cloud) **or** **locally** on your own computer.
+A fun, interactive quiz tool that lets you build study guides for any subject.  
+You can run it **online** (cloud scores) **or** **locally** on your own computer (offline scores).
 
 ---
 
@@ -55,10 +55,10 @@ The easiest way is to put the folder in your **Documents**.
 - **Fast Setup (using Git):**
   ```bash
   cd ~/Documents
-  git clone https://github.com/waijiaojoe-sudo/ancient-civ-review.git
-  cd ancient-civ-review
+  git clone https://github.com/waijiaojoe-sudo/universal-review-app.git
+  cd universal-review-app
   ```
-- **Manual Setup:** Download the project ZIP, unzip it, and move it to `~/Documents/ancient-civ-review`.
+- **Manual Setup:** Download the project ZIP, unzip it, and move it to `~/Documents/universal-review-app`.
 
 **2. Start the App**
 To make it easy, use the **`run_app.sh`** (macOS/Linux) or **`run_app.bat`** (Windows) file.
@@ -72,6 +72,6 @@ Your web browser will open a page at `http://localhost:8501`. Type your name and
 
 ### ⚙️ Behind the Scenes
 - **Saving Progress:** The app creates a file called `progress.db` to remember your streaks and correct answers.
-- **Adding Questions:** Edit the `.json` files in the folder to add new questions.
+- **Adding Subjects:** Create a folder in `subjects/` (e.g., `subjects/Math/`) and add your `.json` question files there.
 
-Enjoy learning about ancient Greece, Rome, Egypt and more! 🎉
+Happy studying! 🎉

@@ -1,7 +1,7 @@
 # Online Version – Quick Start Guide
 
 ## What this is
-A quiz about ancient civilizations that you can run on the internet (like a website). It saves your scores in the cloud, so you can see them from any computer.
+A quiz about any subject that you can run on the internet (like a website). It saves your scores in the cloud, so you can see them from any computer.
 
 ## Files in this folder
 - `app.py` – the program that runs the quiz
@@ -44,4 +44,4 @@ A window will open at `http://localhost:8501`. You can play even without the int
 
 ---
 
-Enjoy learning about ancient Greece, Rome, Egypt and more! 🎉
+Happy studying! 🎉

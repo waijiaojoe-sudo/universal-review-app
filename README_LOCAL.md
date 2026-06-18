@@ -11,35 +11,26 @@ A simple quiz you can run **right on your own computer**. It stores your scores 
 ## How to set up and start the quiz (Step-by-Step)
 
 ### 1. Get the files on your computer
-The easiest way is to download the folder to your **Documents** folder.
+The easiest way is to put the folder in your **Documents**.
 
 **Fast Setup (using Git):**
 If you have Git installed, open your terminal and run these commands:
 ```bash
 cd ~/Documents
-git clone https://github.com/waijiaojoe-sudo/ancient-civ-review.git
-cd ancient-civ-review
+git clone https://github.com/waijiaojoe-sudo/universal-review-app.git
+cd universal-review-app
 ```
 
 **Manual Setup:**
-Download the project ZIP, unzip it, and move the folder to `~/Documents/ancient-civ-review`. Then open your terminal and type:
+Download the project ZIP, unzip it, and move the folder to `~/Documents/universal-review-app`. Then open your terminal and type:
 ```bash
-cd ~/Documents/ancient-civ-review
+cd ~/Documents/universal-review-app
 ```
 
 ### 2. Start the App
-Since this program uses a "virtual environment" (a safe bubble for the code), you can run it with one click using the script provided in this folder.
-
-**On macOS / Linux:**
-1. Right-click the file `run_app.sh` and choose **Open With → Terminal**.
-2. Or run it from the terminal:
-   ```bash
-   chmod +x run_app.sh
-   ./run_app.sh
-   ```
-
-**On Windows:**
-1. Double-click the file `run_app.bat`.
+To make it easy, use the **`run_app.sh`** (macOS/Linux) or **`run_app.bat`** (Windows) file.
+- **macOS/Linux:** Double-click `run_app.sh` or run `./run_app.sh` in the terminal.
+- **Windows:** Double-click `run_app.bat`.
 
 ### 3. Play!
 Your web browser will open a page at `http://localhost:8501`. Click around, type your name, and start answering questions.
@@ -49,8 +40,8 @@ Your web browser will open a page at `http://localhost:8501`. Click around, type
 - You can close the browser or the terminal; the next time you run the app, your scores will still be there.
 
 ## Want more questions?
-All the question files (`ancient_civ_questions.json`, etc.) are in this folder. If you edit those JSON files, the quiz will automatically use the new questions the next time you start it.
+All the question files live in the `subjects/` folder. Just create a new folder for your subject (like `subjects/Science/`) and drop your `.json` question files inside it. The app will automatically find them!
 
 ---
 
-Enjoy learning about ancient Greece, Rome, Egypt and more! 🎉
+Happy studying! 🎉
