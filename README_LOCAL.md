@@ -42,6 +42,7 @@ Your web browser will open a page at `http://localhost:8501`. Click around, type
 ## Want more questions?
 All the question files live in the `subjects/` folder. Just create a new folder for your subject (like `subjects/Science/`) and drop your `.json` question files inside it. The app will automatically find them!
 
----
-
-Happy studying! 🎉
+## 🧹 Cleaning Up (Uninstalling)
+If you want to remove the app from your computer, it's very simple:
+- Just **delete the `universal-review-app` folder**. 
+- Because the app is "portable," everything (including your scores in `progress.db` and the tools in `.venv`) is kept inside that one folder. Deleting the folder removes everything completely.

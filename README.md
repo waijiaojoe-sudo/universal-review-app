@@ -80,4 +80,9 @@ Want to add your own subjects or questions? It's easy!
    - `short_answer_template.json` (for open-ended questions)
 4. **Pro Tip**: If you use an AI to generate questions, just tell it: *"Use the format from the template.json file to create 10 more questions about [Topic]."*
 
+### 🧹 Cleaning Up
+To remove the app, just delete the `universal-review-app` folder. Since it's a portable app, deleting the folder removes all the program files and your saved scores.
+
+---
+
 Happy studying! 🎉
