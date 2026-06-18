@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sa_01",
+    "question": "What is the main point of this concept?",
+    "key_points": [
+      "Crucial point 1 that must be mentioned",
+      "Crucial point 2 that must be mentioned",
+      "Relevant detail that adds depth"
+    ],
+    "full_credit_answer": "A complete, perfect answer that includes all key points and explains the concept clearly.",
+    "max_points": 4,
+    "chapter": "Chapter Name"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "chapter": "Chapter Name",
+    "term": "The Key Word or Concept",
+    "question": "Write your question here?",
+    "choices": [
+      "Incorrect option A",
+      "The correct answer",
+      "Incorrect option B",
+      "Incorrect option C"
+    ],
+    "answer": 1,
+    "explanation": "Explain why the answer is correct and provide a bit of context to help the student learn."
+  }
+]
