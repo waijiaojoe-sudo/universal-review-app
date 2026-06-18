@@ -22,7 +22,7 @@ def _get_secret(key, default=""):
     except (KeyError, AttributeError):
         return os.environ.get(key, default)
 
-SUPABASE_URL = _get_secret("SUPABASE_URL", "https://rfkivouxupijlddrvhjg.supabase.co")
+SUPABASE_URL = _get_secret("SUPABASE_URL", "")
 SUPABASE_KEY = _get_secret("SUPABASE_KEY", "")
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -50,8 +50,8 @@ CATEGORIES = [
 
 SA_QUESTIONS_FILE = "short_answer_questions.json"
 
-OLLAMA_URL = _get_secret("OLLAMA_URL", "https://navigation-vid-rely-institutes.trycloudflare.com")
-OLLAMA_MODEL = _get_secret("OLLAMA_MODEL", "glm-5.1:cloud")
+OLLAMA_URL = _get_secret("OLLAMA_URL", "")
+OLLAMA_MODEL = _get_secret("OLLAMA_MODEL", "")
 OLLAMA_API_KEY = _get_secret("OLLAMA_API_KEY", "")
 
 
