@@ -1,0 +1,1836 @@
+[
+  {
+    "id": 1,
+    "chapter": "Ancient Greece",
+    "term": "Peninsula",
+    "question": "Which of the following best describes a peninsula?",
+    "choices": [
+      "A large landmass that is completely surrounded by mountains",
+      "A stretch of land almost completely surrounded by water",
+      "A narrow waterway that connects two larger bodies of water",
+      "A raised area of high ground that separates two river valleys"
+    ],
+    "answer": 1,
+    "explanation": "In Ancient Greece, the Balkan Peninsula is where Greek civilization developed. Greece's location on a peninsula meant the sea was never far away, which shaped Greek culture as a seafaring people."
+  },
+  {
+    "id": 2,
+    "chapter": "Ancient Greece",
+    "term": "Isthmus",
+    "question": "An isthmus is:",
+    "choices": [
+      "A small strip of land connecting two larger areas of land",
+      "A wide river channel that separates two regions of land",
+      "A raised area in a city used for temples and government buildings",
+      "A sheltered coastal area where ships dock and unload their cargo"
+    ],
+    "answer": 0,
+    "explanation": "In Ancient Greece, the isthmus of Corinth connected the Peloponnesus to mainland Greece. This narrow land bridge was the only land route to Greece's southern peninsula."
+  },
+  {
+    "id": 3,
+    "chapter": "Ancient Greece",
+    "term": "Harbor",
+    "question": "What is a harbor?",
+    "choices": [
+      "A flat area of fertile land near a river used for growing crops",
+      "A sheltered place along a coast with deep water for docking ships",
+      "A narrow route through mountains that merchants travel to move goods",
+      "A large wooden vessel powered by rows of oarsmen in naval warfare"
+    ],
+    "answer": 1,
+    "explanation": "Ancient Greece had many natural harbors along its jagged coastline. These sheltered ports allowed the Greeks to become expert sailors and traders, connecting them with other Mediterranean cultures."
+  },
+  {
+    "id": 4,
+    "chapter": "Ancient Greece",
+    "term": "Peasant",
+    "question": "A peasant is:",
+    "choices": [
+      "A person who owns large estates and controls the local economy",
+      "A member of the noble families who holds political power",
+      "A poor farmer who works the land",
+      "A person appointed by the ruler to manage public affairs and laws"
+    ],
+    "answer": 2,
+    "explanation": "In Mycenaean Greece, peasants were the common farmers who worked the land while warrior kings ruled over them. They were the majority of the population but had little political power."
+  },
+  {
+    "id": 5,
+    "chapter": "Ancient Greece",
+    "term": "Cultural borrowing",
+    "question": "Cultural borrowing refers to:",
+    "choices": [
+      "The complete destruction of one society's traditions by a conquering group",
+      "The process by which a culture adopts ideas from another culture",
+      "The practice of forcing a conquered population to adopt a new set of beliefs",
+      "The organized system of producing and exchanging goods between regions"
+    ],
+    "answer": 1,
+    "explanation": "The Mycenaeans practiced cultural borrowing when they adopted Minoan customs — such as art styles, writing, and religious practices — and made them part of their own culture. This was key to how Greek civilization developed."
+  },
+  {
+    "id": 6,
+    "chapter": "Ancient Greece",
+    "term": "Bard",
+    "question": "A bard is:",
+    "choices": [
+      "A heavily armed warrior who fought in the front lines of a phalanx",
+      "A poet who sings or recites epic stories",
+      "An elected official responsible for keeping records of public decisions",
+      "A temple leader who oversees sacred rituals and offerings to the gods"
+    ],
+    "answer": 1,
+    "explanation": "In Ancient Greece, bards like Homer traveled from place to place reciting epic poems. Before writing was widespread, bards preserved and passed down Greek history and legends through oral storytelling."
+  },
+  {
+    "id": 7,
+    "chapter": "Ancient Greece",
+    "term": "Legend",
+    "question": "A legend is:",
+    "choices": [
+      "A made-up tale with imaginary characters and no connection to real events",
+      "A popular story from the past that may be based on real events but includes exaggerations",
+      "An official written record of laws and decisions passed by a government",
+      "A sacred ritual performed at a temple to honor one of the Greek gods"
+    ],
+    "answer": 1,
+    "explanation": "The Trojan War was a Greek legend — a story passed down through generations that may have been based on a real conflict but included exaggerated details like the Trojan Horse."
+  },
+  {
+    "id": 8,
+    "chapter": "Ancient Greece",
+    "term": "Epic",
+    "question": "An epic is:",
+    "choices": [
+      "A brief poetic work describing ordinary activities and common experiences",
+      "A long narrative poem telling the story of a hero's deeds",
+      "A large stone structure built on a hilltop to serve as a government center",
+      "A sacred collection of prayers and rituals used by priests in worship"
+    ],
+    "answer": 1,
+    "explanation": "Homer's *Iliad* and *Odyssey* are the most famous Greek epics. The *Iliad* tells of the Trojan War, and the *Odyssey* describes Odysseus's long journey home. These epics were central to Greek identity and education."
+  },
+  {
+    "id": 9,
+    "chapter": "Ancient Greece",
+    "term": "Myth",
+    "question": "A myth is:",
+    "choices": [
+      "A logical theory based on observation and evidence about the physical world",
+      "A traditional story that explains a belief about nature or the world",
+      "An official written account of events kept by rulers and their scribes",
+      "A written set of rules and punishments enforced by a governing authority"
+    ],
+    "answer": 1,
+    "explanation": "Ancient Greeks created myths to explain their world. For example, they believed Poseidon controlled the sea and expressed his anger through storms. Myths were a way to understand natural forces before science."
+  },
+  {
+    "id": 10,
+    "chapter": "Ancient Greece",
+    "term": "Mythology",
+    "question": "Mythology is:",
+    "choices": [
+      "The systematic study of structures and architecture from earlier periods",
+      "A collection of myths belonging to a group of people",
+      "The formal process of creating and recording rules for a society to follow",
+      "A system of rule in which a single powerful leader controls all decisions"
+    ],
+    "answer": 1,
+    "explanation": "Greek mythology included hundreds of stories about gods, goddesses, and heroes. These stories — from Zeus on Mount Olympus to Hercules' labors — shaped Greek religion, art, and daily life."
+  },
+  {
+    "id": 11,
+    "chapter": "Ancient Greece",
+    "term": "Polis",
+    "question": "A polis is:",
+    "choices": [
+      "A Greek city-state and the surrounding countryside",
+      "A large stone building dedicated to the worship of a patron deity",
+      "A tightly organized arrangement of soldiers fighting in rows with shields",
+      "A public celebration with athletic contests and ceremonies honoring the gods"
+    ],
+    "answer": 0,
+    "explanation": "The polis was the fundamental political unit of Ancient Greece. Each polis (city-state) had its own government, laws, army, and patron gods. Examples include Athens, Sparta, and Corinth. Mountains kept the city-states separate and independent."
+  },
+  {
+    "id": 12,
+    "chapter": "Ancient Greece",
+    "term": "Acropolis",
+    "question": "An acropolis is:",
+    "choices": [
+      "The central open area of a city used for trade and political gatherings",
+      "A fortified hilltop in a Greek city-state",
+      "A long narrow vessel with rows of oars used in naval battles and warfare",
+      "A sacred building on a hilltop honoring the goddess of wisdom and warfare"
+    ],
+    "answer": 1,
+    "explanation": "The Acropolis in Athens was a fortified hilltop that served as a religious center and place of refuge during attacks. The Parthenon, the famous temple to Athena, stood on the Athenian Acropolis."
+  },
+  {
+    "id": 13,
+    "chapter": "Ancient Greece",
+    "term": "Agora",
+    "question": "An agora is:",
+    "choices": [
+      "A fenced outdoor area where soldiers practiced combat drills and exercises",
+      "An open marketplace and gathering place in a Greek city-state",
+      "A system of rule in which a small group of powerful nobles make all decisions",
+      "A stone building where priests conducted sacred rituals and stored offerings"
+    ],
+    "answer": 1,
+    "explanation": "The agora was the center of daily life in a Greek polis. It was where citizens gathered to trade, discuss politics, hear news, and socialize. It was both the economic and social heart of the city-state."
+  },
+  {
+    "id": 14,
+    "chapter": "Ancient Greece",
+    "term": "Tyrant",
+    "question": "In Ancient Greece, a tyrant was:",
+    "choices": [
+      "A ruler who governs with cruelty and uses fear to control the population",
+      "A leader who seized power by force, not necessarily bad",
+      "A person chosen by citizens through voting to hold public office temporarily",
+      "A spiritual authority who leads religious ceremonies and interprets sacred law"
+    ],
+    "answer": 1,
+    "explanation": "Unlike the modern meaning, a Greek tyrant was simply someone who took power unconstitutionally. Some tyrants were actually popular and made positive reforms. They often emerged during times of social conflict between aristocrats and common people."
+  },
+  {
+    "id": 15,
+    "chapter": "Ancient Greece",
+    "term": "Oligarchy",
+    "question": "An oligarchy is:",
+    "choices": [
+      "A system of government in which a single individual holds all political power",
+      "Rule by a small group of people",
+      "A form of government in which every eligible citizen votes on every decision",
+      "A government led by priests and religious authorities who enforce sacred laws"
+    ],
+    "answer": 1,
+    "explanation": "Sparta was the most famous oligarchy in Ancient Greece, ruled by two kings and a council of elders. In an oligarchy, a small group — usually the wealthy or military elite — controlled the government."
+  },
+  {
+    "id": 16,
+    "chapter": "Ancient Greece",
+    "term": "Monarchy",
+    "question": "A monarchy is:",
+    "choices": [
+      "A system in which a few rich and powerful families control all government offices",
+      "A form of government in which citizens vote to choose their leaders and laws",
+      "Rule by a single leader, usually a king or queen",
+      "A system in which army commanders seize control and govern by military force"
+    ],
+    "answer": 2,
+    "explanation": "Early Greek city-states were often monarchies, ruled by kings. Over time, most Greek city-states moved away from monarchy toward other forms of government like oligarchy or democracy."
+  },
+  {
+    "id": 17,
+    "chapter": "Ancient Greece",
+    "term": "Aristocracy",
+    "question": "An aristocracy is:",
+    "choices": [
+      "Rule by the wealthy, noble class",
+      "A system of government in which generals hold authority through army control",
+      "A form of rule in which all residents regardless of status have equal votes",
+      "A government in which temple officials govern based on sacred texts and rituals"
+    ],
+    "answer": 0,
+    "explanation": "By 750 B.C., aristocrats (the wealthy ruling class) controlled most Greek city-states. They owned the best land and held political power, while common people had little say in government."
+  },
+  {
+    "id": 18,
+    "chapter": "Ancient Greece",
+    "term": "Democracy",
+    "question": "Democracy is:",
+    "choices": [
+      "A system of government in which one person such as a king holds supreme power",
+      "A form of rule in which a few wealthy and privileged families make all laws",
+      "Rule by the people — citizens participate in making decisions",
+      "A government controlled by army officers who use soldiers to enforce their rule"
+    ],
+    "answer": 2,
+    "explanation": "Athens developed the world's first democracy, where citizens could vote directly on laws and policy. This was a revolutionary idea — that ordinary citizens, not just kings or nobles, should have a voice in government."
+  },
+  {
+    "id": 19,
+    "chapter": "Ancient Greece",
+    "term": "Commerce",
+    "question": "Commerce means:",
+    "choices": [
+      "The organized fighting between nations or groups using armed forces",
+      "The practice of honoring gods through sacred rituals and ceremonies at temples",
+      "The buying and selling of goods — trade",
+      "The cultivation of crops and raising of livestock for food and trade"
+    ],
+    "answer": 2,
+    "explanation": "Commerce was vital to Ancient Greece. Because Greece had poor farmland, Greeks relied on trade (commerce) with other Mediterranean cultures to get the goods they needed, such as wheat, in exchange for olive oil, wine, and pottery."
+  },
+  {
+    "id": 20,
+    "chapter": "Ancient Greece",
+    "term": "Colony",
+    "question": "A colony is:",
+    "choices": [
+      "A fortified structure built to protect soldiers and guard a strategic location",
+      "A settlement established by people from another land",
+      "A large stone building dedicated to the worship of a patron deity",
+      "A small rural community where people grow crops and raise animals for food"
+    ],
+    "answer": 1,
+    "explanation": "Ancient Greeks established colonies throughout the Mediterranean — in southern Italy, France, North Africa, and the Black Sea region. Colonies helped relieve overcrowding and provided new trade opportunities for the growing Greek population."
+  },
+  {
+    "id": 21,
+    "chapter": "Ancient Greece",
+    "term": "Helot",
+    "question": "A helot was:",
+    "choices": [
+      "A person who owned large estates in Sparta and controlled the local economy",
+      "A heavily trained warrior who served in the Spartan army from a young age",
+      "A conquered person in Sparta forced to work the land",
+      "A temple leader who oversaw sacred rituals and offerings to the Greek gods"
+    ],
+    "answer": 2,
+    "explanation": "In Sparta, helots were the conquered people (mostly from Messenia) who were forced to farm the land for Spartan citizens. They vastly outnumbered the Spartans, who lived in constant fear of helot rebellions."
+  },
+  {
+    "id": 22,
+    "chapter": "Ancient Greece",
+    "term": "Assembly",
+    "question": "In Ancient Greece, an assembly was:",
+    "choices": [
+      "A council of army commanders who make strategic decisions about warfare",
+      "A gathering of citizens to discuss and vote on laws",
+      "A sacred ritual performed at a temple to honor one of the Greek gods",
+      "A central open area of a city where people trade goods and socialize"
+    ],
+    "answer": 1,
+    "explanation": "The Athenian assembly was where male citizens gathered to debate and vote on laws. It was the heart of Athenian democracy — every citizen had the right to speak and vote on matters affecting the city-state."
+  },
+  {
+    "id": 23,
+    "chapter": "Ancient Greece",
+    "term": "Reform",
+    "question": "A reform is:",
+    "choices": [
+      "The use of force to remove an existing government and replace it with new rule",
+      "A change made to improve a system or institution",
+      "The process of changing one's beliefs to follow a different spiritual faith",
+      "A planned approach used by an army to defeat an enemy in armed conflict"
+    ],
+    "answer": 1,
+    "explanation": "Greek leaders like Solon and Cleisthenes made important reforms to Athenian government. Solon's reforms canceled debts and allowed more citizens to participate. Cleisthenes' reforms reorganized government to give ordinary citizens more power."
+  },
+  {
+    "id": 24,
+    "chapter": "Ancient Greece",
+    "term": "Majority rule",
+    "question": "Majority rule means:",
+    "choices": [
+      "A single ruler holds absolute power and determines all laws for the people",
+      "A limited group of wealthy citizens makes all decisions on behalf of the people",
+      "Decisions are made based on what most people want",
+      "Priests and temple authorities govern society based on sacred texts and rituals"
+    ],
+    "answer": 2,
+    "explanation": "Athenian democracy operated on majority rule — whatever most citizens voted for became law. This principle, that the majority decides, is a foundation of democratic government that continues today."
+  },
+  {
+    "id": 25,
+    "chapter": "Ancient Greece",
+    "term": "Fable",
+    "question": "A fable is:",
+    "choices": [
+      "An extended narrative poem describing heroic deeds and great battles in detail",
+      "A short story that teaches a moral lesson, often with animal characters",
+      "An official written account of important events kept by rulers and their scribes",
+      "A sacred song of praise sung by worshippers during religious ceremonies and rituals"
+    ],
+    "answer": 1,
+    "explanation": "Aesop, a Greek slave, wrote famous fables like \"The Tortoise and the Hare\" and \"The Boy Who Cried Wolf.\" These short stories used animal characters to teach moral lessons about honesty, patience, and wisdom."
+  },
+  {
+    "id": 26,
+    "chapter": "Ancient Greece",
+    "term": "League",
+    "question": "A league is:",
+    "choices": [
+      "A long spear carried by soldiers in the Greek phalanx battle formation",
+      "An alliance of city-states working together",
+      "A public celebration with athletic contests and ceremonies honoring the gods",
+      "A system of rule in which a single powerful leader controls all political power"
+    ],
+    "answer": 1,
+    "explanation": "The Delian League was an alliance of Greek city-states led by Athens, formed after the Persian Wars to defend against future Persian attacks. Over time, Athens used the league to build its own empire, taking tribute from other members."
+  },
+  {
+    "id": 27,
+    "chapter": "Golden Age of Greece",
+    "term": "Direct democracy",
+    "question": "Direct democracy is:",
+    "choices": [
+      "A system where citizens choose officials to govern and pass laws on their behalf",
+      "Citizens vote directly on laws and policies themselves",
+      "A form of government in which a single ruler holds total power over all decisions",
+      "A system where a few wealthy and privileged families control all political power"
+    ],
+    "answer": 1,
+    "explanation": "Ancient Athens practiced direct democracy, where citizens gathered in the assembly to debate and vote on every law themselves. This is different from the representative democracy used in the United States today, where citizens elect officials to make laws."
+  },
+  {
+    "id": 28,
+    "chapter": "Golden Age of Greece",
+    "term": "Veto",
+    "question": "To veto means:",
+    "choices": [
+      "To formally support and sign a new law so it can take effect",
+      "To reject a law or block a decision",
+      "To draft and propose a new rule for the government to consider",
+      "To make sure citizens follow the rules and face consequences if they do not"
+    ],
+    "answer": 1,
+    "explanation": "In the Roman Republic, tribunes had the power to veto — reject — any law unfair to the plebeians. The word \"veto\" comes from Latin meaning \"I say no.\" (Note: this term appears in both Greek and Roman contexts.)"
+  },
+  {
+    "id": 29,
+    "chapter": "Golden Age of Greece",
+    "term": "Representative democracy",
+    "question": "Representative democracy is:",
+    "choices": [
+      "A system where every citizen votes on each proposed law in a public assembly",
+      "Citizens elect leaders to make laws and decisions for them",
+      "A form of government in which one person holds total power over all decisions",
+      "A system in which priests and temple authorities rule society based on sacred law"
+    ],
+    "answer": 1,
+    "explanation": "Unlike Athens' direct democracy, modern democracies like the United States use representative democracy. Citizens elect representatives (senators, congresspeople) to make laws on their behalf. This system works better for large nations where all citizens cannot gather in one place."
+  },
+  {
+    "id": 30,
+    "chapter": "Golden Age of Greece",
+    "term": "Tragedy",
+    "question": "In Ancient Greece, a tragedy was:",
+    "choices": [
+      "An actual occurrence from the past that is documented by historians and witnesses",
+      "A serious play about a hero who struggles against fate and ends in defeat",
+      "A lighthearted dramatic performance that mocks public figures and social customs",
+      "A sacred ritual performed at a temple to honor one of the Greek gods with offerings"
+    ],
+    "answer": 1,
+    "explanation": "Greek tragedies were serious dramatic plays performed in outdoor amphitheaters. Playwrights like Sophocles wrote tragedies such as *Oedipus Rex*, where a noble hero's own flaws lead to his downfall. Tragedies explored themes of fate, justice, and human suffering."
+  },
+  {
+    "id": 31,
+    "chapter": "Golden Age of Greece",
+    "term": "Comedy",
+    "question": "In Ancient Greece, a comedy was:",
+    "choices": [
+      "A serious dramatic performance about a hero destroyed by fate and personal flaws",
+      "A humorous play that often made fun of politicians and society",
+      "An artistic presentation combining singing, instruments, and choreographed dancing",
+      "An organized movement of soldiers in formation displaying discipline and strength"
+    ],
+    "answer": 1,
+    "explanation": "Greek comedies, like those written by Aristophanes, used humor and satire to mock politicians, social customs, and even other playwrights. Comedy was an important part of Athenian culture and was performed at festivals honoring Dionysus."
+  },
+  {
+    "id": 32,
+    "chapter": "Golden Age of Greece",
+    "term": "Philosophy",
+    "question": "Philosophy is:",
+    "choices": [
+      "The academic study of language structure including word forms and sentence patterns",
+      "The search for wisdom, truth, and knowledge about life and the universe",
+      "The planning and execution of armed conflict and tactical maneuvers between armies",
+      "The craft of designing and constructing sacred structures for worship and rituals"
+    ],
+    "answer": 1,
+    "explanation": "Ancient Greece was the birthplace of Western philosophy. Thinkers like Socrates, Plato, and Aristotle asked fundamental questions about truth, justice, knowledge, and the meaning of life. Their ideas still influence how we think today."
+  },
+  {
+    "id": 33,
+    "chapter": "Golden Age of Greece",
+    "term": "Academy",
+    "question": "An academy was:",
+    "choices": [
+      "A facility where young men practiced combat skills and physical endurance for war",
+      "A school of higher learning founded by Plato",
+      "A sacred building on a hilltop honoring the goddess of wisdom and warfare",
+      "A central open area where thinkers gathered to debate and exchange ideas publicly"
+    ],
+    "answer": 1,
+    "explanation": "Plato founded the Academy in Athens — one of the earliest institutions of higher learning in the Western world. Students studied philosophy, mathematics, astronomy, and other subjects. Aristotle was one of its most famous students."
+  },
+  {
+    "id": 34,
+    "chapter": "Golden Age of Greece",
+    "term": "Socratic method",
+    "question": "The Socratic method is:",
+    "choices": [
+      "A technique for constructing large stone structures on elevated hilltop sites",
+      "A teaching method that uses questions and answers to explore ideas",
+      "A system of physical drills and combat exercises used to prepare soldiers for war",
+      "A technique for growing crops on steep hillsides by cutting flat areas into the land"
+    ],
+    "answer": 1,
+    "explanation": "Socrates taught by asking his students questions rather than giving them answers. Through this back-and-forth questioning (the Socratic method), students were forced to think critically and examine their own beliefs. This method is still used in law schools and classrooms today."
+  },
+  {
+    "id": 35,
+    "chapter": "Golden Age of Greece",
+    "term": "Demagogue",
+    "question": "A demagogue is:",
+    "choices": [
+      "A leader chosen by the people who governs with justice and respect for the law",
+      "A leader who gains power by appealing to people's emotions and prejudices",
+      "A thinker who studies and lectures on systems of government and citizen rights",
+      "A spiritual authority who leads ceremonies and interprets sacred texts for followers"
+    ],
+    "answer": 1,
+    "explanation": "In Ancient Greece, demagogues were dangerous leaders who manipulated public opinion to gain power. They appealed to people's fears and emotions rather than reason, often leading Athens to make poor decisions during the Golden Age."
+  },
+  {
+    "id": 36,
+    "chapter": "Golden Age of Greece",
+    "term": "Dictatorship",
+    "question": "A dictatorship is:",
+    "choices": [
+      "A system where a few rich and privileged families control the government and laws",
+      "Rule by one person who has complete power, usually taken by force",
+      "A form of government where citizens choose officials to pass laws on their behalf",
+      "A system in which priests and temple authorities govern based on sacred teachings"
+    ],
+    "answer": 1,
+    "explanation": "While Athens valued democracy, some Greek city-states fell under dictatorships. A dictator held absolute power and was not accountable to the people. This contrasted sharply with the democratic ideals Athens promoted."
+  },
+  {
+    "id": 37,
+    "chapter": "Golden Age of Greece",
+    "term": "Mercenary",
+    "question": "A mercenary is:",
+    "choices": [
+      "A person born in a city who serves in its army out of duty and patriotic loyalty",
+      "A paid soldier who fights for money, not loyalty to a country",
+      "A fighter who believes a divine power has sent them into battle for a sacred cause",
+      "A high-ranking officer who commands entire armies and develops strategy for warfare"
+    ],
+    "answer": 1,
+    "explanation": "During the Hellenistic Age, some Greek rulers hired mercenaries — soldiers who fought for pay rather than loyalty. Later, Rome's reliance on mercenaries contributed to its fall, as these soldiers had no real commitment to defending the empire."
+  },
+  {
+    "id": 38,
+    "chapter": "Golden Age of Greece",
+    "term": "League (Ch. 9 context)",
+    "question": "In the context of the Golden Age, the Delian League was:",
+    "choices": [
+      "An organized series of athletic contests and games held between rival Greek cities",
+      "A military and economic alliance led by Athens after the Persian Wars",
+      "A group of priests and temple officials who coordinated sacred rituals across cities",
+      "A formal treaty between Greek city-states and the Persian Empire to exchange goods"
+    ],
+    "answer": 1,
+    "explanation": "After the Persian Wars, Athens led the Delian League — an alliance of Greek city-states that pooled money for mutual defense. Over time, Athens used the league's treasury to fund its own building projects (like the Parthenon), effectively turning the alliance into an Athenian empire."
+  },
+  {
+    "id": 39,
+    "chapter": "Golden Age of Greece",
+    "term": "Alliance",
+    "question": "An alliance is:",
+    "choices": [
+      "A system of rule in which a single powerful leader controls all political decisions",
+      "An agreement between groups to work together for a common purpose",
+      "A formal agreement between warring parties to stop fighting and lay down their arms",
+      "A physical product such as olive oil or pottery that merchants exchange for profit"
+    ],
+    "answer": 1,
+    "explanation": "Greek city-states formed alliances for mutual defense and trade. The Delian League and the Peloponnesian League (led by Sparta) were rival alliances that eventually fought each other in the Peloponnesian War."
+  },
+  {
+    "id": 40,
+    "chapter": "Golden Age of Greece",
+    "term": "Hellenistic",
+    "question": "Hellenistic means:",
+    "choices": [
+      "Referring exclusively to traditions, beliefs, and customs that are originally from Greece",
+      "Relating to the blend of Greek, Persian, Egyptian, and Indian cultures after Alexander's conquests",
+      "A style of building design featuring tall columns and carved stone decorations on temples",
+      "A set of sacred rituals and ceremonies performed to honor the gods on Mount Olympus"
+    ],
+    "answer": 1,
+    "explanation": "After Alexander the Great conquered vast territories, Greek culture blended with local traditions across his empire. This mixed culture — Greek plus Persian, Egyptian, and Indian influences — is called Hellenistic (\"Greek-like\") culture."
+  },
+  {
+    "id": 41,
+    "chapter": "Golden Age of Greece",
+    "term": "Hellenistic Age",
+    "question": "The Hellenistic Age was:",
+    "choices": [
+      "The era when a powerful seafaring culture built palaces and traded across the Mediterranean",
+      "The period after Alexander the Great's death when Greek culture spread and blended with other cultures",
+      "The era when Athens experienced a flourishing of art, philosophy, and democratic government",
+      "The period when the Persian Empire fought a series of wars against the Greek city-states"
+    ],
+    "answer": 1,
+    "explanation": "The Hellenistic Age (~323–30 B.C.) began after Alexander's death. During this period, Greek language, art, and ideas spread across the eastern Mediterranean and blended with local cultures, creating a rich, multicultural civilization."
+  },
+  {
+    "id": 42,
+    "chapter": "Golden Age of Greece",
+    "term": "Multicultural",
+    "question": "Multicultural means:",
+    "choices": [
+      "A society that practices a single set of traditions without outside influences",
+      "Including or relating to several different cultures",
+      "A belief that traditions from other societies are harmful and should be rejected",
+      "The deliberate erasure of another group's customs, beliefs, and way of life"
+    ],
+    "answer": 1,
+    "explanation": "Alexander the Great's empire was multicultural — it included Greeks, Persians, Egyptians, and Indians living under one government. Alexander encouraged this blending by marrying a Persian woman and adopting some Persian customs."
+  },
+  {
+    "id": 43,
+    "chapter": "Ancient India",
+    "term": "Subcontinent",
+    "question": "A subcontinent is:",
+    "choices": [
+      "A large body of water completely separate from any major continent",
+      "A large landmass that is part of a continent but geographically distinct",
+      "A long narrow chain of volcanic peaks formed by tectonic plates",
+      "A political system where a single ruler governs across territories"
+    ],
+    "answer": 1,
+    "explanation": "India is called a subcontinent because it is a large, distinct landmass — separated by the Himalayas from the rest of Asia — that is part of the Asian continent. Its size and geographic isolation gave it a unique cultural identity."
+  },
+  {
+    "id": 44,
+    "chapter": "Ancient India",
+    "term": "Monsoon",
+    "question": "A monsoon is:",
+    "choices": [
+      "A tall snow-covered peak in the northern mountain ranges of India",
+      "A seasonal wind that brings heavy rain in summer and dry air in winter",
+      "A sacred Hindu place of worship built to honor one or more deities",
+      "A rigid social group in the Indian caste system you are born into"
+    ],
+    "answer": 1,
+    "explanation": "India's climate is shaped by monsoons. The summer monsoon brings heavy rainfall that is essential for farming, while the winter monsoon brings dry air. Ancient Indians depended on the monsoon cycle for their agriculture and survival."
+  },
+  {
+    "id": 45,
+    "chapter": "Ancient India",
+    "term": "Citadel",
+    "question": "A citadel is:",
+    "choices": [
+      "A large religious building where priests conduct daily worship ceremonies",
+      "A fortress built on high ground to protect a city",
+      "A busy commercial area where merchants buy and sell various goods",
+      "A narrow wooden vessel used to transport goods along the river"
+    ],
+    "answer": 1,
+    "explanation": "Harappan cities like Mohenjo-Daro had a citadel — a raised, fortified area that may have served as a government and religious center. The citadel overlooked the lower city where most people lived."
+  },
+  {
+    "id": 46,
+    "chapter": "Ancient India",
+    "term": "Granary",
+    "question": "A granary is:",
+    "choices": [
+      "A building used to store grain",
+      "A sharp bronze tool used by ancient Indian warriors in battle",
+      "A sacred structure where people gathered to pray to their gods",
+      "A large hall where city leaders met to discuss laws and policies"
+    ],
+    "answer": 0,
+    "explanation": "Harappan cities had large granaries for storing surplus grain. These storage buildings show that the Harappan civilization was well-organized and could produce enough food to have reserves for trade or times of shortage."
+  },
+  {
+    "id": 47,
+    "chapter": "Ancient India",
+    "term": "Aryan",
+    "question": "The Aryans were:",
+    "choices": [
+      "A group of people from central Asia who migrated into India around 1500 B.C.",
+      "A group of farmers who built the first cities along the Indus River",
+      "A group of warriors from Greece who conquered the Indian subcontinent",
+      "A group of traders from China who brought silk and spices to India"
+    ],
+    "answer": 0,
+    "explanation": "The Aryans migrated into the Indian subcontinent around 1500 B.C. They brought their Sanskrit language, religious texts (the Vedas), and social system, which became the foundation of Hindu culture and the caste system in India."
+  },
+  {
+    "id": 48,
+    "chapter": "Ancient India",
+    "term": "Sanskrit",
+    "question": "Sanskrit is:",
+    "choices": [
+      "A system of symbols and signs used to record trade in the Indus Valley",
+      "The ancient language of the Aryans and sacred texts of Hinduism",
+      "A form of metal coins used in ancient Indian markets and trade",
+      "A set of written characters developed by scholars in ancient China"
+    ],
+    "answer": 1,
+    "explanation": "Sanskrit was the language of the Aryan people and became the sacred language of Hinduism. The Vedas — Hinduism's holiest texts — were written in Sanskrit. It is one of the oldest written languages in the world."
+  },
+  {
+    "id": 49,
+    "chapter": "Ancient India",
+    "term": "Vedas",
+    "question": "The Vedas are:",
+    "choices": [
+      "A collection of teachings about harmony and balance written by scholars",
+      "The sacred texts of Hinduism, written in Sanskrit",
+      "A set of written laws governing behavior and punishment in ancient empires",
+      "Long narrative stories about heroes and gods passed down by oral poets"
+    ],
+    "answer": 1,
+    "explanation": "The Vedas are the oldest and most sacred texts of Hinduism, composed in Sanskrit by Aryan priests. They contain hymns, prayers, and rituals that formed the foundation of Hindu religious practice and belief."
+  },
+  {
+    "id": 50,
+    "chapter": "Ancient India",
+    "term": "Caste",
+    "question": "A caste is:",
+    "choices": [
+      "A large stone structure where Hindu priests perform daily rituals",
+      "A social group that a person is born into and cannot change",
+      "A political system in which a single leader rules by inherited right",
+      "A traditional garment worn by people of high rank in ancient India"
+    ],
+    "answer": 1,
+    "explanation": "India's caste system divided society into rigid social groups. Your caste determined your job, who you could marry, and your social status. This system, rooted in Hindu belief, was a defining feature of ancient Indian society."
+  },
+  {
+    "id": 51,
+    "chapter": "Ancient India",
+    "term": "Hinduism",
+    "question": "Hinduism is:",
+    "choices": [
+      "A religion based on the belief in exactly one all-powerful god who created the world",
+      "A religion that developed in ancient India, based on the Vedas, with beliefs in karma, dharma, and reincarnation",
+      "A system of teachings about social order, family duty, and respect for elders",
+      "A form of rule in which a council of religious leaders makes all laws"
+    ],
+    "answer": 1,
+    "explanation": "Hinduism, the major religion of ancient India, is based on the Vedas and includes beliefs in many gods, reincarnation (rebirth), karma (actions affecting your next life), and dharma (duty according to your caste). It is one of the world's oldest religions."
+  },
+  {
+    "id": 52,
+    "chapter": "Ancient India",
+    "term": "Reincarnation",
+    "question": "Reincarnation is:",
+    "choices": [
+      "The ancient ritual of transforming a person into a powerful deity forever",
+      "The belief that the soul is reborn in a new body after death",
+      "A practice of quieting the mind and focusing deeply on spiritual thoughts",
+      "A formal religious gathering held inside a place of Hindu worship"
+    ],
+    "answer": 1,
+    "explanation": "In Hinduism (and Buddhism), reincarnation is the belief that after death, a person's soul is reborn into a new body. The form of rebirth depends on karma — good actions lead to a better next life, bad actions lead to a worse one."
+  },
+  {
+    "id": 53,
+    "chapter": "Ancient India",
+    "term": "Dharma",
+    "question": "Dharma is:",
+    "choices": [
+      "A powerful deity in the Hindu pantheon who controls the weather and rain",
+      "The moral duty or obligation that a person must follow according to their caste",
+      "A spiced dish made with rice and vegetables common in Indian households",
+      "A secluded building where monks live and practice their daily religious routines"
+    ],
+    "answer": 1,
+    "explanation": "In Hinduism, dharma is the set of moral and religious duties that each person must follow based on their caste and stage in life. Following your dharma helps build good karma and leads to a better reincarnation."
+  },
+  {
+    "id": 54,
+    "chapter": "Ancient India",
+    "term": "Karma",
+    "question": "Karma is:",
+    "choices": [
+      "A yearly Hindu celebration with music, dancing, and colorful decorations",
+      "The belief that a person's actions in this life determine their fate in the next life",
+      "A spiritual practice of sitting still and calming the mind to find inner peace",
+      "A collection of ancient writings that contain hymns and religious teachings"
+    ],
+    "answer": 1,
+    "explanation": "In both Hinduism and Buddhism, karma is the principle that your actions have consequences. Good actions build good karma, leading to a better rebirth; bad actions lead to suffering in the next life."
+  },
+  {
+    "id": 55,
+    "chapter": "Ancient India",
+    "term": "Buddhism",
+    "question": "Buddhism is:",
+    "choices": [
+      "A religion founded by Siddhartha Gautama (the Buddha) that teaches the Four Noble Truths and the Eightfold Path",
+      "A tall stone structure built to house shrines and serve as a place of Hindu worship",
+      "A system of teachings that emphasizes respect for elders and proper social relationships",
+      "A set of rituals and ceremonies performed by priests to honor Roman household gods"
+    ],
+    "answer": 0,
+    "explanation": "Buddhism was founded by Siddhartha Gautama in India around 500 B.C. After achieving enlightenment, the Buddha taught that suffering comes from desire, and that following the Eightfold Path leads to nirvana (peace and freedom from suffering)."
+  },
+  {
+    "id": 56,
+    "chapter": "Ancient India",
+    "term": "Meditate",
+    "question": "To meditate means:",
+    "choices": [
+      "To engage in armed combat against an enemy on the field of war",
+      "To focus the mind on spiritual thoughts in order to achieve inner peace or enlightenment",
+      "To compose sacred writings and record holy teachings on parchment scrolls",
+      "To construct a large stone structure where people gather to worship the gods"
+    ],
+    "answer": 1,
+    "explanation": "The Buddha achieved enlightenment through deep meditation under the Bodhi tree. Meditation became a central practice in Buddhism — a way to clear the mind, understand truth, and move toward nirvana."
+  },
+  {
+    "id": 57,
+    "chapter": "Ancient India",
+    "term": "Enlightenment",
+    "question": "Enlightenment is:",
+    "choices": [
+      "A system in which a single ruler holds complete authority over all citizens",
+      "A state of wisdom and understanding that frees a person from suffering and the cycle of rebirth",
+      "A successful outcome of a major armed conflict between rival kingdoms",
+      "A formal contract between two nations to exchange goods and resources"
+    ],
+    "answer": 1,
+    "explanation": "Siddhartha Gautama achieved enlightenment after meditating under the Bodhi tree, becoming \"the Buddha\" (the Enlightened One). In Buddhism, enlightenment means understanding the true nature of existence and being freed from suffering."
+  },
+  {
+    "id": 58,
+    "chapter": "Ancient India",
+    "term": "Nirvana",
+    "question": "Nirvana is:",
+    "choices": [
+      "A powerful deity worshiped in Hindu rituals who protects the faithful",
+      "A state of perfect peace and freedom from the cycle of reincarnation",
+      "A sacred building where Buddhist monks gather to pray and study teachings",
+      "A major waterway flowing through northern India used for trade and farming"
+    ],
+    "answer": 1,
+    "explanation": "In Buddhism, nirvana is the ultimate goal — a state of perfect peace and happiness where a person is freed from suffering and the endless cycle of rebirth. The Buddha taught that following the Eightfold Path leads to nirvana."
+  },
+  {
+    "id": 59,
+    "chapter": "Ancient India",
+    "term": "Monk",
+    "question": "A monk is:",
+    "choices": [
+      "A person who dedicates their life to religious practice, often living in a community with other monks",
+      "An appointed leader who manages laws and collects taxes for the kingdom",
+      "A trained warrior who fights in battles to defend territory and expand borders",
+      "A merchant who travels along trade routes to buy and sell valuable goods"
+    ],
+    "answer": 0,
+    "explanation": "In Ancient India, Buddhist monks gave up ordinary life to follow the Buddha's teachings. They lived simply, meditated, and taught Buddhism to others. Monks and monasteries played a key role in spreading Buddhism across Asia."
+  },
+  {
+    "id": 60,
+    "chapter": "Ancient India",
+    "term": "Turning point",
+    "question": "A turning point is:",
+    "choices": [
+      "The exact moment when a military conflict ends and peace is declared",
+      "A moment in history that changes the direction of events",
+      "A long path across land used by merchants to carry goods between cities",
+      "A special celebration held each year to honor a deity with music and feasts"
+    ],
+    "answer": 1,
+    "explanation": "Emperor Ashoka's conversion to Buddhism after the bloody Kalinga War was a turning point in Indian history. He went from a warrior who conquered by force to a ruler who promoted peace, religious tolerance, and the welfare of his people."
+  },
+  {
+    "id": 61,
+    "chapter": "Ancient India",
+    "term": "Missionary",
+    "question": "A missionary is:",
+    "choices": [
+      "A person who travels to spread their religious beliefs to others",
+      "A trained fighter who serves in an army to protect or expand territory",
+      "An official who travels from village to village collecting payments for the ruler",
+      "A person who travels to distant lands to exchange goods for profit"
+    ],
+    "answer": 0,
+    "explanation": "After Ashoka converted to Buddhism, he sent missionaries throughout India and beyond to spread the Buddha's teachings. Buddhist missionaries carried the religion to Sri Lanka, Southeast Asia, Central Asia, and eventually China."
+  },
+  {
+    "id": 62,
+    "chapter": "Ancient India",
+    "term": "Aesthetic",
+    "question": "Aesthetic means:",
+    "choices": [
+      "Related to the planning and execution of armed conflicts and battles",
+      "Related to beauty and the appreciation of art",
+      "Related to growing crops and raising animals for food production",
+      "Related to the system of leaders and laws that control a country or region"
+    ],
+    "answer": 1,
+    "explanation": "The Gupta Golden Age of India was known for its aesthetic achievements — beautiful temple carvings, poetry, and paintings. The art of this period reflected Hindu and Buddhist religious themes and a deep appreciation for beauty."
+  },
+  {
+    "id": 63,
+    "chapter": "Ancient India",
+    "term": "Metallurgy",
+    "question": "Metallurgy is:",
+    "choices": [
+      "The scientific study of celestial bodies and their movements across the sky",
+      "The science and technology of working with metals",
+      "The ancient skill of recording ideas using the sacred script of the Aryans",
+      "A traditional healing practice using herbs and natural remedies from India"
+    ],
+    "answer": 1,
+    "explanation": "Ancient India was advanced in metallurgy. Indian metalworkers created high-quality steel and iron — the iron pillar of Delhi, made in the Gupta period, has resisted rust for over 1,600 years. This technology was traded widely along trade routes."
+  },
+  {
+    "id": 64,
+    "chapter": "Ancient India",
+    "term": "Hindu-Arabic numeral",
+    "question": "Hindu-Arabic numerals are:",
+    "choices": [
+      "A set of bamboo rods used by ancient Chinese scholars to perform calculations",
+      "The number system (0–9) developed in India and later adopted by Arabs and Europeans",
+      "A system of representing numbers using letters such as I, V, X, and C from an empire",
+      "A collection of geometric figures and letters used by ancient Greek mathematicians"
+    ],
+    "answer": 1,
+    "explanation": "During India's Gupta Golden Age, mathematicians developed the number system we use today, including the concept of zero. Arab traders brought this system to Europe, which is why we call them Hindu-Arabic numerals. This is one of India's most important contributions to the world."
+  },
+  {
+    "id": 65,
+    "chapter": "Ancient China",
+    "term": "Loess",
+    "question": "Loess is:",
+    "choices": [
+      "A system of terraced farming used in ancient Chinese river valleys",
+      "Fertile, yellowish soil deposited by wind",
+      "A traditional Chinese philosophy emphasizing harmony with nature",
+      "A type of bronze weapon used by warriors during the Shang Dynasty"
+    ],
+    "answer": 1,
+    "explanation": "The Huang He (Yellow River) gets its name from the loess — yellowish, wind-blown soil — that colors its water. While loess makes the river valley fertile for farming, it also causes the river to flood dangerously, earning the Huang He the nickname \"China's Sorrow.\""
+  },
+  {
+    "id": 66,
+    "chapter": "Ancient China",
+    "term": "Steppe",
+    "question": "A steppe is:",
+    "choices": [
+      "A large area of flat, unforested grassland",
+      "A fortified hilltop settlement built by early Chinese dynasties",
+      "A sacred temple complex used for ancestor worship in ancient China",
+      "A fertile river delta where ancient Chinese civilizations first developed"
+    ],
+    "answer": 0,
+    "explanation": "North of China's river valleys lay the steppes — vast, dry grasslands where nomadic peoples herded animals. These steppe peoples frequently raided Chinese settlements, which is why China built the Great Wall for protection."
+  },
+  {
+    "id": 67,
+    "chapter": "Ancient China",
+    "term": "Terrace farming",
+    "question": "Terrace farming is:",
+    "choices": [
+      "A method of irrigating crops by diverting water from rivers through canals",
+      "Cutting flat areas into hillsides to create level ground for farming",
+      "A technique of rotating crops between different fields each growing season",
+      "A practice of raising livestock on open grasslands during seasonal migrations"
+    ],
+    "answer": 1,
+    "explanation": "Chinese farmers developed terrace farming to grow crops on China's hilly terrain. By cutting step-like flat areas into hillsides, they could farm on land that would otherwise be too steep. This technique is still used in parts of China today."
+  },
+  {
+    "id": 68,
+    "chapter": "Ancient China",
+    "term": "Dialect",
+    "question": "A dialect is:",
+    "choices": [
+      "A set of religious beliefs practiced widely across ancient Chinese society",
+      "A regional form of a language that differs in pronunciation or vocabulary",
+      "A system of written symbols used to record laws and official government orders",
+      "An appointed government position responsible for overseeing trade and taxation"
+    ],
+    "answer": 1,
+    "explanation": "China has many dialects — different forms of the Chinese language. A person from northern China might not understand someone from the south. However, Chinese writing (characters) represents meaning, not sound, so written Chinese could be understood by all literate people regardless of dialect."
+  },
+  {
+    "id": 69,
+    "chapter": "Ancient China",
+    "term": "Heritage",
+    "question": "Heritage means:",
+    "choices": [
+      "A system of bronze coins used as currency during the Zhou Dynasty period",
+      "Traditions, beliefs, and customs passed down from ancestors",
+      "A form of government in which power is divided among regional warlords",
+      "A major trade route connecting Chinese merchants to markets in the west"
+    ],
+    "answer": 1,
+    "explanation": "Ancient Chinese civilization had a rich heritage of traditions, including respect for ancestors, the Mandate of Heaven, and Confucian values. This cultural heritage shaped Chinese society for thousands of years and continues to influence it today."
+  },
+  {
+    "id": 70,
+    "chapter": "Ancient China",
+    "term": "Character (writing)",
+    "question": "In Chinese writing, a character is:",
+    "choices": [
+      "A single letter of the alphabet that represents a specific spoken sound",
+      "A symbol that represents a meaning or idea, not a sound",
+      "A punctuation mark used to separate phrases in ancient Chinese texts",
+      "A numerical symbol used only for record-keeping and counting grain supplies"
+    ],
+    "answer": 1,
+    "explanation": "Unlike English letters (which represent sounds), Chinese characters represent meanings or ideas. There are over 6,000 Chinese characters. This system meant that people who spoke different dialects could still read the same written text, helping unify China culturally."
+  },
+  {
+    "id": 71,
+    "chapter": "Ancient China",
+    "term": "Oracle bone",
+    "question": "An oracle bone was:",
+    "choices": [
+      "A decorative bone carving given as a tribute gift to the Shang emperor",
+      "An animal bone used by Shang priests to predict the future",
+      "A sharpened bone tool used by soldiers as a weapon in close combat",
+      "A polished bone fragment played as a musical instrument during rituals"
+    ],
+    "answer": 1,
+    "explanation": "During the Shang Dynasty, priests carved questions onto animal bones, applied heat, and interpreted the cracks as answers from the gods. Oracle bones are the oldest known examples of Chinese writing and tell us about Shang life, government, and religion."
+  },
+  {
+    "id": 72,
+    "chapter": "Ancient China",
+    "term": "Diviner",
+    "question": "A diviner is:",
+    "choices": [
+      "A person who predicts the future using signs or messages from the gods",
+      "A supreme ruler of ancient China who claimed power through the Mandate of Heaven",
+      "An agricultural worker who cultivated rice and millet along the Yellow River valley",
+      "A high-ranking military commander who led armies during the Warring States Period"
+    ],
+    "answer": 0,
+    "explanation": "In Shang China, diviners were priests who used oracle bones to predict the future. They asked questions about weather, harvests, warfare, and the will of the ancestors, then read the cracks in heated bones for divine answers."
+  },
+  {
+    "id": 73,
+    "chapter": "Ancient China",
+    "term": "Mandate of Heaven",
+    "question": "The Mandate of Heaven was:",
+    "choices": [
+      "A sacred scroll containing prayers and rituals used by Shang dynasty priests",
+      "The belief that the gods gave the emperor the right to rule, and could take it away if he was unjust",
+      "A battle strategy used by Chinese generals to surround and defeat enemy forces",
+      "A commercial treaty between Chinese merchants and neighboring nomadic peoples"
+    ],
+    "answer": 1,
+    "explanation": "The Zhou Dynasty introduced the Mandate of Heaven — the idea that the gods gave emperors the right to rule as long as they were just and virtuous. If an emperor was cruel or incompetent, the gods could withdraw their mandate, justifying rebellion. This idea shaped Chinese political thought for centuries."
+  },
+  {
+    "id": 74,
+    "chapter": "Ancient China",
+    "term": "Virtue",
+    "question": "Virtue means:",
+    "choices": [
+      "The ability to command a large army and conquer neighboring territories by force",
+      "Moral goodness or excellence in character",
+      "A type of bronze coin used as standard currency during the Zhou Dynasty",
+      "A technique for flooding rice paddies by redirecting water from the Yellow River"
+    ],
+    "answer": 1,
+    "explanation": "Confucius taught that rulers should govern through virtue — moral goodness — rather than force. He believed that if leaders set a good example, the people would follow. The Mandate of Heaven also required emperors to rule with virtue to keep their right to govern."
+  },
+  {
+    "id": 75,
+    "chapter": "Ancient China",
+    "term": "Feudalism",
+    "question": "Feudalism is:",
+    "choices": [
+      "A system where kings give land to nobles in exchange for military service and loyalty",
+      "A form of government in which all citizens vote directly on laws and public policies",
+      "A method of writing using symbols that represent entire words rather than sounds",
+      "A spiritual practice of meditating to achieve harmony with the natural world"
+    ],
+    "answer": 0,
+    "explanation": "Under the Zhou Dynasty, China used a feudal system. The king gave land to nobles, who in return provided soldiers and loyalty. Over time, these nobles became powerful and fought each other, leading to the Warring States Period and the fall of the Zhou."
+  },
+  {
+    "id": 76,
+    "chapter": "Ancient China",
+    "term": "Filial piety",
+    "question": "Filial piety is:",
+    "choices": [
+      "Respect and devotion to one's parents and ancestors",
+      "A traditional silk garment worn by government officials during the Han Dynasty",
+      "A rank in the Chinese military hierarchy below a general but above a foot soldier",
+      "A system of government in which the emperor shares power with local councils"
+    ],
+    "answer": 0,
+    "explanation": "Confucius taught that filial piety — deep respect for parents and ancestors — was the most important virtue. Children were expected to obey, care for, and honor their parents throughout their lives. This idea became a cornerstone of Chinese culture and is still valued today."
+  },
+  {
+    "id": 77,
+    "chapter": "Ancient China",
+    "term": "Confucianism",
+    "question": "Confucianism is:",
+    "choices": [
+      "A polytheistic religion worshipping many gods and spirits found in nature and the heavens",
+      "A Chinese philosophy that teaches respect, duty, and the importance of strong family and government relationships",
+      "A style of Chinese painting and sculpture that became popular during the Tang Dynasty",
+      "A strict set of rules governing the behavior and tactics of soldiers in the imperial army"
+    ],
+    "answer": 1,
+    "explanation": "Confucianism, founded by Confucius (~551–479 B.C.), became China's most influential philosophy. It taught that social order comes from proper relationships — ruler to subject, parent to child, husband to wife — and that education and virtue are the foundations of a good society."
+  },
+  {
+    "id": 78,
+    "chapter": "Ancient China",
+    "term": "Pictograph",
+    "question": "A pictograph is:",
+    "choices": [
+      "A written mark that represents a single spoken sound in the Chinese language system",
+      "A picture symbol that represents an object or idea",
+      "A type of bronze dagger-axe used by warriors during the Shang and Zhou dynasties",
+      "A political system in which a single ruler governs with advice from noble families"
+    ],
+    "answer": 1,
+    "explanation": "The earliest Chinese writing used pictographs — simple pictures that represented objects (like a circle for \"sun\"). Over thousands of years, these pictures evolved into more abstract characters that represented ideas, not just objects."
+  },
+  {
+    "id": 79,
+    "chapter": "Ancient China",
+    "term": "Ideograph",
+    "question": "An ideograph is:",
+    "choices": [
+      "A simple drawing that directly resembles the physical object it is meant to represent",
+      "A symbol that represents an idea or concept, not just a physical object",
+      "A system of marks used to record musical melodies on ancient Chinese instruments",
+      "A numerical figure used exclusively by merchants to calculate tax payments"
+    ],
+    "answer": 1,
+    "explanation": "Chinese writing evolved from pictographs (pictures of objects) to ideographs (symbols representing ideas). For example, the character for \"bright\" combines the symbols for \"sun\" and \"moon.\" This system allowed Chinese writing to express complex ideas beyond physical objects."
+  },
+  {
+    "id": 80,
+    "chapter": "Ancient China",
+    "term": "Proverb",
+    "question": "A proverb is:",
+    "choices": [
+      "A large structure built during the Han Dynasty to house government officials",
+      "A short, wise saying that teaches a lesson",
+      "A rectangular arrangement of soldiers used in battles during the Warring States Period",
+      "An official written record used by scribes to document imperial decrees and laws"
+    ],
+    "answer": 1,
+    "explanation": "Confucius's teachings include many proverbs — short, memorable sayings that teach moral lessons. For example: \"Do not do to others what you do not want done to yourself.\" Proverbs made philosophical ideas easy to remember and pass down."
+  },
+  {
+    "id": 81,
+    "chapter": "Ancient China",
+    "term": "Analects",
+    "question": "The Analects are:",
+    "choices": [
+      "A set of strict laws and punishments used by Legalist rulers to control the population",
+      "A collection of Confucius's sayings and teachings recorded by his students",
+      "A form of lyrical Chinese poetry celebrating nature and the changing of seasons",
+      "A series of military strategy manuals written by generals during the Warring States Period"
+    ],
+    "answer": 1,
+    "explanation": "The Analects are the most important text in Confucianism. After Confucius died, his students collected his sayings and teachings into this book. The Analects remain one of the most influential books in Chinese history and are still studied today."
+  },
+  {
+    "id": 82,
+    "chapter": "Ancient China",
+    "term": "Legalism",
+    "question": "Legalism is:",
+    "choices": [
+      "A Chinese philosophy that people are naturally selfish and need strict laws and harsh punishments to behave",
+      "A philosophy that teaches people to live simply and in harmony with the natural world around them",
+      "A system of government in which citizens elect representatives to make laws on their behalf",
+      "A spiritual practice involving meditation and prayer to honor ancestors and household spirits"
+    ],
+    "answer": 0,
+    "explanation": "Legalism, the philosophy behind the Qin Dynasty, believed that people are selfish by nature. Legalists argued that only strict laws, harsh punishments, and a powerful government could maintain order. Shi Huangdi used Legalism to unite China by force."
+  },
+  {
+    "id": 83,
+    "chapter": "Ancient China",
+    "term": "Daoism (Taoism)",
+    "question": "Daoism is:",
+    "choices": [
+      "A philosophy that emphasizes living simply and in harmony with \"the Way\" (the Dao)",
+      "A political philosophy claiming that harsh punishments and strict laws are needed to keep order",
+      "A method of writing using simplified symbols that represent spoken sounds rather than meanings",
+      "A plan of battle involving coordinated attacks by large formations of infantry and cavalry"
+    ],
+    "answer": 0,
+    "explanation": "Daoism, founded by Laozi, teaches that people should live simply and follow \"the Way\" (the Dao) — the natural order of the universe. Unlike Confucianism's focus on duty and order, Daoism encourages people to avoid conflict and live in harmony with nature."
+  },
+  {
+    "id": 84,
+    "chapter": "Ancient China",
+    "term": "Bureaucracy",
+    "question": "A bureaucracy is:",
+    "choices": [
+      "A form of government in which military generals hold all political power and make decisions",
+      "A system of government departments and officials who carry out the work of the government",
+      "A religious organization of priests and monks who perform rituals for the emperor's ancestors",
+      "A network of merchants and traders who exchange goods along routes to distant lands"
+    ],
+    "answer": 1,
+    "explanation": "The Han Dynasty developed a complex bureaucracy — a system of government departments and officials who managed taxes, justice, public works, and other government functions. This organized system helped the Han govern a large empire effectively."
+  },
+  {
+    "id": 85,
+    "chapter": "Ancient China",
+    "term": "Province",
+    "question": "A province is:",
+    "choices": [
+      "A major division of a country or empire, governed by an official",
+      "A type of iron sword carried by soldiers in the Qin imperial army during wartime",
+      "A sacred building where priests performed daily rituals and sacrifices to honor the gods",
+      "A group of related families who share a common ancestor and live in the same village"
+    ],
+    "answer": 0,
+    "explanation": "Shi Huangdi divided China into provinces, each governed by an official appointed by the emperor. This administrative system allowed the Qin and later the Han Dynasty to control a vast empire more effectively."
+  },
+  {
+    "id": 86,
+    "chapter": "Ancient China",
+    "term": "Standardization",
+    "question": "Standardization means:",
+    "choices": [
+      "The practice of encouraging each region to develop its own unique customs and systems",
+      "Making things uniform or the same across a system",
+      "The process of constructing large public buildings and monuments under imperial orders",
+      "The work of copying sacred texts by hand for distribution to temples across the empire"
+    ],
+    "answer": 1,
+    "explanation": "Shi Huangdi enforced standardization across China — making writing, money, weights, and measures the same everywhere. This made trade, communication, and government much easier across the newly unified empire."
+  },
+  {
+    "id": 87,
+    "chapter": "Ancient China",
+    "term": "Weights and measures",
+    "question": "Standardized weights and measures means:",
+    "choices": [
+      "A policy allowing each city and region to choose its own system for trade and taxation",
+      "The same system of measuring weight, length, and volume is used everywhere",
+      "A type of bronze coin minted by the Qin Dynasty to replace older forms of currency",
+      "A religious ritual involving the careful weighing of incense and grain as temple offerings"
+    ],
+    "answer": 1,
+    "explanation": "Shi Huangdi standardized weights and measures across China so that a pound in one province was the same as a pound in another. This removed confusion in trade and tax collection and helped unify the empire economically."
+  },
+  {
+    "id": 88,
+    "chapter": "Ancient China",
+    "term": "Civil service",
+    "question": "Civil service refers to:",
+    "choices": [
+      "The required period of military duty that all able-bodied men had to serve in the imperial army",
+      "Government jobs that involve administrative work rather than military service",
+      "A set of elaborate religious ceremonies performed by priests at the start of each new year",
+      "A system of forced labor requiring peasants to build walls and roads for the government"
+    ],
+    "answer": 1,
+    "explanation": "The Han Dynasty developed a civil service system where government jobs were awarded based on ability, not birth. Officials were expected to be educated and capable administrators. This system helped make Han government more effective and fair."
+  },
+  {
+    "id": 89,
+    "chapter": "Ancient China",
+    "term": "Ambassador",
+    "question": "An ambassador is:",
+    "choices": [
+      "A high-ranking military commander who leads troops into battle against enemy forces",
+      "A representative sent by a government to deal with another country",
+      "A merchant who travels along trade routes buying and selling goods for profit",
+      "A Buddhist monk who leads prayers and teaches the principles of Daoist philosophy"
+    ],
+    "answer": 1,
+    "explanation": "During the Han Dynasty, Emperor Wu Di sent ambassadors to distant lands to form alliances and open trade routes. These diplomatic missions helped establish the Silk Road and brought China into contact with cultures across Asia."
+  },
+  {
+    "id": 90,
+    "chapter": "Ancient China",
+    "term": "Civil service exam",
+    "question": "The civil service exam was:",
+    "choices": [
+      "A physical test of strength and endurance required for all soldiers joining the imperial army",
+      "A test of knowledge used to select qualified people for government jobs",
+      "A spiritual initiation ceremony for young men entering the priesthood at a local temple",
+      "A practical test given to merchants before they are allowed to trade goods in the market"
+    ],
+    "answer": 1,
+    "explanation": "The Han Dynasty introduced civil service exams — tests on Confucian classics and other subjects used to hire the most qualified candidates for government positions. This meant that even a person from a humble background could become a government official if they studied hard and passed the exam."
+  },
+  {
+    "id": 91,
+    "chapter": "Ancient China",
+    "term": "Silk Road",
+    "question": "The Silk Road was:",
+    "choices": [
+      "A single paved road constructed by Qin engineers to connect the capital to the western border",
+      "A network of trade routes connecting China to the Mediterranean, stretching about 4,000 miles",
+      "A system of wide highways built during the Han Dynasty for fast military travel across the empire",
+      "A major river in southern China used by merchants to transport silk and other valuable goods"
+    ],
+    "answer": 1,
+    "explanation": "The Silk Road was not one road but a vast network of trade routes connecting China to the Mediterranean world. Named for China's most valuable export (silk), it carried ideas, religions, and technology as well as goods. Emperor Wu Di opened the Silk Road during the Han Dynasty."
+  },
+  {
+    "id": 92,
+    "chapter": "Early Romans",
+    "term": "Arable",
+    "question": "Arable land is:",
+    "choices": [
+      "Land too rocky or dry to farm at all",
+      "Land that is suitable for growing crops",
+      "Land set aside by the ruler for military use",
+      "Land covered in dense forest, hard to farm"
+    ],
+    "answer": 1,
+    "explanation": "Unlike Greece, where only about 20% of the land was arable, the Italian Peninsula had more fertile farmland. This allowed Rome to support a larger population and develop a strong agricultural economy, which contributed to its growth."
+  },
+  {
+    "id": 93,
+    "chapter": "Early Romans",
+    "term": "Forum",
+    "question": "The Roman Forum was:",
+    "choices": [
+      "A private estate owned by the wealthiest patrician families for hosting banquets",
+      "The public center of Rome — a large open space for government, business, and social life",
+      "A fortified military outpost built along the borders of the Roman Empire for defense",
+      "A network of underground tunnels used by Roman soldiers to move across the city"
+    ],
+    "answer": 1,
+    "explanation": "The Forum was the heart of Rome — a public square where citizens gathered for political speeches, trials, markets, and religious ceremonies. It was the Roman equivalent of the Greek agora, but even more central to daily life and government."
+  },
+  {
+    "id": 94,
+    "chapter": "Early Romans",
+    "term": "Confederation",
+    "question": "A confederation is:",
+    "choices": [
+      "A centralized empire ruled by a single powerful king who controls all member territories",
+      "A loose alliance of independent groups that work together for common purposes",
+      "A hereditary monarchy where power passes from one ruling family to the next generation",
+      "A tightly organized military formation used by Roman legions during battle"
+    ],
+    "answer": 1,
+    "explanation": "Early Rome formed a confederation with neighboring Latin cities — an alliance for mutual defense and trade while each city kept its own independence. As Rome grew stronger, it gradually took control of its allies, turning the confederation into an empire."
+  },
+  {
+    "id": 95,
+    "chapter": "Early Romans",
+    "term": "Republic",
+    "question": "A republic is:",
+    "choices": [
+      "A system of government in which a single monarch inherits total authority over the state",
+      "A government in which citizens elect leaders to represent them and make laws",
+      "A government controlled by military generals who seized power through armed conquest",
+      "A theocracy in which religious priests interpret sacred texts and govern all citizens"
+    ],
+    "answer": 1,
+    "explanation": "After overthrowing their king in 509 B.C., Romans established a republic — a form of government where citizens elected leaders (consuls, senators) to govern on their behalf. This system of representative government influenced modern democracies, including the United States."
+  },
+  {
+    "id": 96,
+    "chapter": "Early Romans",
+    "term": "Tripartite",
+    "question": "Tripartite means:",
+    "choices": [
+      "Having one unified part",
+      "Having three parts",
+      "Having many parts",
+      "Having no parts at all"
+    ],
+    "answer": 1,
+    "explanation": "The Roman Republic had a tripartite (three-part) government: consuls (executive leaders), the Senate (advisory body), and assemblies (citizen voting bodies). This division of power prevented any one group from becoming too powerful — a model that influenced the U.S. system of checks and balances."
+  },
+  {
+    "id": 97,
+    "chapter": "Early Romans",
+    "term": "Consul",
+    "question": "A consul was:",
+    "choices": [
+      "A high-ranking religious priest who interpreted the will of the gods and led sacred ceremonies",
+      "One of two elected leaders of the Roman Republic who commanded the army and directed the government",
+      "A decorated Roman soldier who commanded a legion of five thousand troops in foreign campaigns",
+      "A senior judge who presided over criminal trials and settled disputes between patrician families"
+    ],
+    "answer": 1,
+    "explanation": "Rome elected two consuls each year to lead the government and command the army. Having two consuls meant no single person could seize total power, since each consul could veto the other's decisions."
+  },
+  {
+    "id": 98,
+    "chapter": "Early Romans",
+    "term": "Senate",
+    "question": "The Roman Senate was:",
+    "choices": [
+      "A council of military generals who directed war strategy for Rome",
+      "A body of about 300 patrician men who served for life and advised the consuls",
+      "A council of priests who supervised Roman religious rituals and temples",
+      "An elected assembly of plebeians who advocated for common citizens' rights"
+    ],
+    "answer": 1,
+    "explanation": "The Senate was the most powerful body in the Roman Republic. Its 300 members, drawn from patrician families, served for life and controlled foreign policy, finances, and other key decisions. The Senate's influence lasted for centuries."
+  },
+  {
+    "id": 99,
+    "chapter": "Early Romans",
+    "term": "Dictator",
+    "question": "In the Roman Republic, a dictator was:",
+    "choices": [
+      "A cruel and oppressive ruler who seized power by force and governed with no legal constraints",
+      "A leader given absolute power for a limited time (usually 6 months) during an emergency",
+      "The chief religious official of Rome responsible for overseeing all sacrifices and sacred festivals",
+      "A career military general who commanded multiple legions and governed conquered provinces"
+    ],
+    "answer": 1,
+    "explanation": "Unlike today's meaning, a Roman dictator was temporarily given total power to handle emergencies like wars. After the crisis ended (or after 6 months), the dictator was expected to give up power. Julius Caesar broke this tradition by making himself dictator for life."
+  },
+  {
+    "id": 100,
+    "chapter": "Early Romans",
+    "term": "Assembly",
+    "question": "In Rome, an assembly was:",
+    "choices": [
+      "A trained unit of Roman soldiers who fought in tight formation on the battlefield",
+      "A gathering of Roman citizens who voted on laws and elected officials",
+      "A religious ceremony led by priests to seek the favor of the gods before battle",
+      "A private meeting of merchants who negotiated trade deals across the Mediterranean"
+    ],
+    "answer": 1,
+    "explanation": "Roman assemblies were groups of citizens who voted on laws, elected magistrates, and made decisions about war and peace. Unlike the Senate, which was restricted to patricians, assemblies included plebeians and gave common citizens a voice in government."
+  },
+  {
+    "id": 101,
+    "chapter": "Early Romans",
+    "term": "Patrician",
+    "question": "A patrician was:",
+    "choices": [
+      "A common citizen of Rome who worked as a farmer, trader, or craftworker for modest wages",
+      "A member of Rome's wealthy, upper-class families who held most political power",
+      "An enslaved person captured in war who was forced to work in mines or on large estates",
+      "A foreign merchant from a neighboring territory who traded goods in Roman markets"
+    ],
+    "answer": 1,
+    "explanation": "Patricians were Rome's ruling elite — wealthy landowning families who controlled the Senate and most government positions. Only patricians could hold the highest offices in the early Republic, creating tension with the plebeians."
+  },
+  {
+    "id": 102,
+    "chapter": "Early Romans",
+    "term": "Plebeian",
+    "question": "A plebeian was:",
+    "choices": [
+      "A member of Rome's common people — farmers, traders, and craftworkers",
+      "A wealthy noble who served in the Senate and held most political offices",
+      "A military commander who led Roman legions in campaigns across the empire",
+      "A foreign diplomat sent to negotiate treaties and alliances with Rome"
+    ],
+    "answer": 0,
+    "explanation": "Plebeians were the majority of Rome's population — ordinary citizens who were excluded from political power in the early Republic. Over time, plebeians fought for and won rights, including tribunes, written laws, and the ability to hold office."
+  },
+  {
+    "id": 103,
+    "chapter": "Early Romans",
+    "term": "Tribune",
+    "question": "A tribune was:",
+    "choices": [
+      "A disciplined military formation used by Roman legions to surround and defeat enemy armies",
+      "An elected official who represented the plebeians and could veto laws unfair to them",
+      "A large public building in Rome where merchants stored goods and conducted business deals",
+      "A senior religious leader who performed sacrifices and interpreted signs from the Roman gods"
+    ],
+    "answer": 1,
+    "explanation": "Tribunes were plebeian representatives elected to protect common citizens from unfair treatment by patrician officials. Their power to veto (\"I say no\") unfair laws was a crucial check on patrician power in the Roman Republic."
+  },
+  {
+    "id": 104,
+    "chapter": "Early Romans",
+    "term": "Romanize",
+    "question": "To Romanize means:",
+    "choices": [
+      "To force conquered people to give up all their own traditions",
+      "To adopt Roman customs, language, and way of life",
+      "To rebel against Roman rule and fight for independence",
+      "To trade only with Rome while keeping local traditions"
+    ],
+    "answer": 1,
+    "explanation": "As Rome conquered neighboring peoples, it Romanized them — encouraging (and sometimes forcing) them to adopt Roman law, language (Latin), architecture, and customs. Romanization helped unify the empire and reduce rebellions by giving conquered peoples a shared identity."
+  },
+  {
+    "id": 105,
+    "chapter": "Early Romans",
+    "term": "Triumvirate",
+    "question": "A triumvirate is:",
+    "choices": [
+      "A group of three leaders who share power",
+      "A formation of three Roman legions in battle",
+      "A temple dedicated to three Roman gods",
+      "A panel of three judges in criminal courts"
+    ],
+    "answer": 0,
+    "explanation": "Rome was ruled by the First Triumvirate (Julius Caesar, Pompey, and Crassus) and later the Second Triumvirate (Octavian, Mark Antony, and Lepidus). These three-man alliances concentrated power and eventually led to the end of the Republic."
+  },
+  {
+    "id": 106,
+    "chapter": "Early Romans",
+    "term": "Assassinate",
+    "question": "To assassinate means:",
+    "choices": [
+      "To formally elect a leader through a citizen vote",
+      "To murder a public figure for political reasons",
+      "To force a leader into exile far from Roman lands",
+      "To charge an official with misconduct and remove them"
+    ],
+    "answer": 1,
+    "explanation": "Julius Caesar was assassinated (murdered) by a group of senators on the Ides of March (March 15, 44 B.C.) because they feared he had become too powerful as dictator for life. His assassination led to civil war and the end of the Roman Republic."
+  },
+  {
+    "id": 107,
+    "chapter": "The Roman Empire",
+    "term": "Heir",
+    "question": "An heir is:",
+    "choices": [
+      "A high-ranking military commander who seizes political power through armed conquest",
+      "A person who inherits or is entitled to inherit the position or property of another",
+      "A religious figure chosen by Roman priests to lead ceremonies in the temple",
+      "A Roman official appointed by the Senate to manage the empire's treasury funds"
+    ],
+    "answer": 1,
+    "explanation": "Augustus (Octavian) was Caesar's adopted son and heir — the person who inherited Caesar's power and wealth. In the Roman Empire, the emperor often chose his heir to succeed him, though this sometimes led to conflict when different people claimed the right to rule."
+  },
+  {
+    "id": 108,
+    "chapter": "The Roman Empire",
+    "term": "Legion",
+    "question": "A legion was:",
+    "choices": [
+      "A governing body of Roman citizens who voted on laws and elected magistrates",
+      "A unit of the Roman army, consisting of about 5,000 heavily armed soldiers",
+      "A large stone structure in Rome used for public speeches and legal proceedings",
+      "A council of wealthy Roman senators who advised the emperor on foreign policy"
+    ],
+    "answer": 1,
+    "explanation": "The Roman legion was the backbone of Rome's military power. Each legion had about 5,000 citizen-soldiers who were highly disciplined and well-trained. Roman legions conquered and maintained an empire stretching from Britain to Mesopotamia."
+  },
+  {
+    "id": 109,
+    "chapter": "The Roman Empire",
+    "term": "Currency",
+    "question": "Currency is:",
+    "choices": [
+      "A system of Roman weapons for soldiers",
+      "A system of money used in a country",
+      "A Roman code of laws about trade",
+      "A network of routes to distant provinces"
+    ],
+    "answer": 1,
+    "explanation": "Augustus created a standard Roman currency — a system of coins with consistent value throughout the empire. This made trade easier across vast distances and helped unify the empire economically. Standard currency was a key factor in the Pax Romana's prosperity."
+  },
+  {
+    "id": 110,
+    "chapter": "The Roman Empire",
+    "term": "Census",
+    "question": "A census is:",
+    "choices": [
+      "A count of temples by Roman priests",
+      "An official count of the population",
+      "A tax on citizens based on property",
+      "A list of men for military service"
+    ],
+    "answer": 1,
+    "explanation": "Augustus ordered regular censuses — official counts of Rome's population and property. This helped the government track how many citizens there were, assess taxes, and determine military needs. The census was essential for managing a large empire."
+  },
+  {
+    "id": 111,
+    "chapter": "The Roman Empire",
+    "term": "Aqueduct",
+    "question": "An aqueduct is:",
+    "choices": [
+      "A paved highway built by Roman engineers to connect provinces to Rome",
+      "A structure built to carry water from distant sources to cities",
+      "A large Roman temple dedicated to Neptune and other gods of the sea",
+      "A fortified wall built around a Roman city to protect it from enemy attacks"
+    ],
+    "answer": 1,
+    "explanation": "Roman aqueducts were engineering marvels — arched structures that carried fresh water from mountain springs to cities, sometimes over distances of 50+ miles. Aqueducts supplied public baths, fountains, and private homes, and were a symbol of Roman engineering excellence."
+  },
+  {
+    "id": 112,
+    "chapter": "The Roman Empire",
+    "term": "Gladiator",
+    "question": "A gladiator was:",
+    "choices": [
+      "A powerful Roman politician who debated laws in the Senate and won public favor",
+      "A trained fighter who battled other fighters or animals for public entertainment",
+      "A highly disciplined soldier in the Roman legion trained to fight in formation",
+      "A respected religious priest who conducted sacrifices and ceremonies for the gods"
+    ],
+    "answer": 1,
+    "explanation": "Gladiators were trained fighters who competed in the Colosseum and other arenas for public entertainment. Some were slaves or prisoners; others volunteered for fame and money. Gladiatorial games were a major part of Roman culture and a way for emperors to gain public favor."
+  },
+  {
+    "id": 113,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Mystery religion",
+    "question": "A mystery religion was:",
+    "choices": [
+      "A belief system based on solving riddles and logical puzzles to achieve enlightenment",
+      "A religion that involved secret rituals and beliefs known only to initiated members",
+      "A philosophy that rejected all gods and focused entirely on human reason and logic",
+      "An eastern tradition from China that taught balance between opposing forces in nature"
+    ],
+    "answer": 1,
+    "explanation": "In the Roman Empire, mystery religions like the cult of Mithras involved secret ceremonies and beliefs that were only revealed to members who underwent initiation. These religions offered personal spiritual experiences that traditional Roman religion did not."
+  },
+  {
+    "id": 114,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Sect",
+    "question": "A sect is:",
+    "choices": [
+      "A stone building in Rome used for public meetings",
+      "A division or subgroup of a larger religious group",
+      "A unit of Roman soldiers trained to fight in formation",
+      "A branch of Roman government that collected taxes"
+    ],
+    "answer": 1,
+    "explanation": "Christianity began as a sect — a subgroup — of Judaism. Early Christians were Jews who followed Jesus's teachings. Over time, Christianity grew into a separate religion, especially after the destruction of Jerusalem in A.D. 70."
+  },
+  {
+    "id": 115,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Disciple",
+    "question": "A disciple is:",
+    "choices": [
+      "A soldier in the Roman army serving under a centurion",
+      "A follower or student of a teacher, especially a religious one",
+      "A Roman official who enforced laws and collected taxes",
+      "A wealthy Roman citizen with special voting rights"
+    ],
+    "answer": 1,
+    "explanation": "Jesus had twelve disciples (also called apostles) who were his closest followers and students. They learned from his teachings, witnessed his miracles, and after his death, spread his message throughout the Roman Empire."
+  },
+  {
+    "id": 116,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Parable",
+    "question": "A parable is:",
+    "choices": [
+      "A legal document used in Roman courts to record evidence",
+      "A short story that teaches a moral or spiritual lesson",
+      "A public building in Rome where merchants gathered to trade",
+      "A military strategy used by generals to surround the enemy"
+    ],
+    "answer": 1,
+    "explanation": "Jesus frequently taught using parables — short stories with deeper spiritual meanings. The Parable of the Good Samaritan and the Parable of the Prodigal Son are famous examples. Parables made complex religious ideas accessible to ordinary people."
+  },
+  {
+    "id": 117,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Messiah",
+    "question": "A messiah is:",
+    "choices": [
+      "A Roman emperor ruling with absolute authority",
+      "A leader who is expected to save or deliver a people",
+      "A Greek philosopher teaching ethics and logic",
+      "A senior priest performing daily sacrifices"
+    ],
+    "answer": 1,
+    "explanation": "In Jewish tradition, the Messiah was a promised deliverer sent by God. Christians believe Jesus was the Messiah — the savior prophesied in Jewish scripture. This belief was central to the conflict between early Christians and Jewish and Roman authorities."
+  },
+  {
+    "id": 118,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Resurrection",
+    "question": "Resurrection is:",
+    "choices": [
+      "A ceremony using water to join the faith",
+      "The return to life after death",
+      "A military formation for group defense",
+      "A ritual prayer recited by priests"
+    ],
+    "answer": 1,
+    "explanation": "Christianity is based on the belief in Jesus's resurrection — that he returned to life three days after being crucified. This event is celebrated as Easter and is the foundation of Christian faith, offering the promise of life after death."
+  },
+  {
+    "id": 119,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Apostle",
+    "question": "An apostle is:",
+    "choices": [
+      "A Roman government official who oversaw tax collection in the provinces of the empire",
+      "One of the early followers of Jesus who traveled and taught about his life and message",
+      "A Greek philosopher who studied and wrote about the nature of truth and morality",
+      "A specialized soldier in the Roman army who carried messages between military camps"
+    ],
+    "answer": 1,
+    "explanation": "After Jesus's death, his apostles (especially Peter and Paul) traveled across the Roman Empire preaching about Jesus. Paul's missionary journeys were particularly important in spreading Christianity to non-Jewish (Gentile) communities throughout the Mediterranean."
+  },
+  {
+    "id": 120,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Persecution",
+    "question": "Persecution is:",
+    "choices": [
+      "A Roman festival honoring the gods and celebrating military victories",
+      "Unfair or violent treatment of a group because of their beliefs",
+      "A system of government where a single ruler holds absolute power",
+      "A formal agreement between empires governing trade and commerce"
+    ],
+    "answer": 1,
+    "explanation": "Early Christians faced persecution from Roman authorities who saw them as a threat to Roman religious and political order. Emperors like Nero blamed Christians for disasters and had them executed. Despite persecution, Christianity continued to grow."
+  },
+  {
+    "id": 121,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Martyr",
+    "question": "A martyr is:",
+    "choices": [
+      "A highly decorated Roman general who achieved fame through important military victories",
+      "A person who is killed or suffers because of their religious or political beliefs",
+      "A grand public building in Rome where citizens gathered for meetings and trials",
+      "A Roman government official appointed to oversee the administration of a province"
+    ],
+    "answer": 1,
+    "explanation": "Many early Christians became martyrs — they were willing to die rather than give up their faith. Their courage and conviction actually helped spread Christianity, as others were inspired by their willingness to die for their beliefs."
+  },
+  {
+    "id": 122,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Salvation",
+    "question": "Salvation is:",
+    "choices": [
+      "A decisive military victory in which Roman forces defeated a major enemy",
+      "The belief in being saved from sin and its consequences, often through faith",
+      "A form of silver currency minted and used throughout the Roman Empire",
+      "A government program set up by the Senate to distribute grain to citizens"
+    ],
+    "answer": 1,
+    "explanation": "Christianity taught that Jesus's death and resurrection made salvation possible — the forgiveness of sins and the promise of eternal life. This idea of personal salvation was deeply appealing in the Roman world and helped attract converts."
+  },
+  {
+    "id": 123,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Trinity",
+    "question": "The Trinity refers to:",
+    "choices": [
+      "A political system where three Roman emperors shared equal ruling power",
+      "The Christian belief in one God in three persons: Father, Son, and Holy Spirit",
+      "A group of three powerful Roman gods — Jupiter, Mars, and Neptune",
+      "A government divided into three branches that each held different powers"
+    ],
+    "answer": 1,
+    "explanation": "The Trinity is the Christian doctrine that God exists as three persons — God the Father, God the Son (Jesus), and God the Holy Spirit — while remaining one God. This concept became a central belief of Christianity and distinguished it from Judaism and other monotheistic religions."
+  },
+  {
+    "id": 124,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Baptize",
+    "question": "To baptize means:",
+    "choices": [
+      "To carry out a formal execution ordered by a Roman court",
+      "To perform a Christian ceremony of initiation using water",
+      "To crown a new Roman emperor in a sacred ceremony",
+      "To compose a sacred text for use in Christian worship"
+    ],
+    "answer": 1,
+    "explanation": "Baptism is a Christian ritual in which a person is immersed in or sprinkled with water as a symbol of cleansing from sin and entry into the Christian community. John the Baptist baptized Jesus, and the practice became a central sacrament in Christianity."
+  },
+  {
+    "id": 125,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Pope",
+    "question": "The pope is:",
+    "choices": [
+      "A Roman emperor with absolute power over government and military",
+      "The bishop of Rome and supreme leader of the Roman Catholic Church",
+      "A Greek philosopher known for teaching about ethics and reason",
+      "A Roman general who commanded legions and conquered territories"
+    ],
+    "answer": 1,
+    "explanation": "Over time, the bishop of Rome became known as the pope and claimed authority over all other bishops. This created a hierarchy within the Christian Church. The pope's authority was eventually challenged, leading to the split between the Catholic Church (West) and the Eastern Orthodox Church (East)."
+  },
+  {
+    "id": 126,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Catholic Church",
+    "question": "\"Catholic\" means:",
+    "choices": [
+      "Relating to the Roman Empire and its laws",
+      "Universal — including all people everywhere",
+      "Ruled by strict laws that punish those who disobey",
+      "Kept hidden from people who are not members"
+    ],
+    "answer": 1,
+    "explanation": "The word \"catholic\" means universal. As Christianity spread throughout the Roman Empire, the Catholic (universal) Church organized itself with a hierarchy of bishops under the pope in Rome. This structure helped maintain unified beliefs and practices across a vast, diverse empire."
+  },
+  {
+    "id": 127,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Frontier",
+    "question": "A frontier is:",
+    "choices": [
+      "The richest and most prosperous district within a major Roman city or town",
+      "The farthest limit of settled or developed territory; a border region",
+      "A paved highway built by Roman engineers to connect distant provinces to Rome",
+      "A busy marketplace in the center of a Roman town where goods were traded daily"
+    ],
+    "answer": 1,
+    "explanation": "Rome's frontiers — its border regions — stretched from Britain to Mesopotamia. Defending these long frontiers required enormous military resources. As barbarian tribes pressed against the frontiers, Rome struggled to protect its vast borders, contributing to the empire's decline."
+  },
+  {
+    "id": 128,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Barbarian",
+    "question": "To the Romans, a \"barbarian\" was:",
+    "choices": [
+      "A Roman citizen who broke the law and was punished by the courts and Senate",
+      "A person from outside the empire who the Romans considered uncivilized",
+      "A Roman priest who performed sacred rituals and interpreted the gods' will",
+      "A heavily armed soldier known for loyalty and disciplined service"
+    ],
+    "answer": 1,
+    "explanation": "Romans called Germanic tribes and other peoples outside the empire \"barbarians,\" meaning foreigners or uncivilized people. These included the Visigoths, Vandals, and Huns, who eventually invaded and helped bring down the Western Roman Empire."
+  },
+  {
+    "id": 129,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Inflation",
+    "question": "Inflation is:",
+    "choices": [
+      "A steady decrease in prices of goods across the economy",
+      "A rapid increase in prices that reduces the value of money",
+      "A tax imposed by emperors on merchants trading in provinces",
+      "A strategy of gradually expanding territory through force"
+    ],
+    "answer": 1,
+    "explanation": "Rome suffered from inflation as emperors debased the currency — putting less silver in coins to make more of them. This made money worth less, causing prices to rise. Inflation weakened Rome's economy and made it harder to pay soldiers and officials."
+  },
+  {
+    "id": 130,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Vandal",
+    "question": "The Vandals were:",
+    "choices": [
+      "A group of Roman senators who opposed the emperor in political debates",
+      "A Germanic tribe that invaded Rome and looted the city in A.D. 455",
+      "A large Roman public building used for government meetings",
+      "A religious group that practiced secret ceremonies in temples"
+    ],
+    "answer": 1,
+    "explanation": "The Vandals were a Germanic tribe that crossed into Roman territory, invaded North Africa, and sacked Rome in A.D. 455. Their destruction was so thorough that the word \"vandalism\" — meaning willful destruction — comes from their name."
+  },
+  {
+    "id": 131,
+    "chapter": "Christianity & Legacies of Rome",
+    "term": "Convert",
+    "question": "To convert means:",
+    "choices": [
+      "To trade one type of good for another in a marketplace",
+      "To change one's religious beliefs to a different religion",
+      "To construct a new temple dedicated to a Roman god",
+      "To formally agree to a peace treaty with a neighboring kingdom"
+    ],
+    "answer": 1,
+    "explanation": "When Emperor Constantine converted to Christianity (A.D. 312), it transformed the Roman Empire. His conversion led to the Edict of Milan (A.D. 313), which made Christianity legal, and eventually to Christianity becoming the official religion of Rome under Theodosius."
+  }
+]
